@@ -1,0 +1,52 @@
+// Semantics and the registry (ARCHITECTURE.md clause 4.5).
+
+class Register {
+  definition {
+    A register under ISO 19135 governance roles, federated with other
+    registers; subregisters are owned by communities.
+  }
+  +item: RegisterItem [0..*] { definition { The items of the register. } }
+}
+
+class RegisterItem {
+  definition {
+    A registered item under the ISO 19135 lifecycle. Items are
+    immutable per version.
+  }
+  +status: RegisterItemStatus [1] { definition { The lifecycle status of this version. } }
+}
+
+enum RegisterItemStatus {
+  definition { The ISO 19135 item lifecycle. }
+  proposal { definition { Submitted, under review. } }
+  valid { definition { In force. } }
+  superseded { definition { Replaced; still resolvable for old verifications. } }
+  retired { definition { Withdrawn from use. } }
+}
+
+class DataElement {
+  definition {
+    A semantic element defined once in the federated register;
+    profiles constrain and never redefine.
+  }
+  +unit: Unit [0..1] { definition { The canonical unit, registered under ISO 80000 and UnitsDB. } }
+}
+
+class MappingItem {
+  definition {
+    A registered correspondence between registers, under the
+    three-tier discipline.
+  }
+  +tier: MappingTier [1] { definition { The tier of the correspondence. } }
+}
+
+enum MappingTier {
+  definition { The three tiers of cross-register correspondence. }
+  deterministic { definition { Deterministic mapping; composes associatively. } }
+  withResidual { definition { Correspondence with declared scope and residual; composes with residual accumulation. } }
+  noneAsserted { definition { No mapping asserted; the concepts are incommensurable. } }
+}
+
+class Unit {
+  definition { A canonical unit of the ISO 80000 series as registered in UnitsDB. }
+}

@@ -1,0 +1,5 @@
+diagram ProjectionCalculus {
+  title 'Projection, segments, the descriptor and the frozen view'
+  caption 'ARCHITECTURE.md clauses 4.3 and 4.4'
+  include ../models/projection.lutaml
+}

@@ -1,0 +1,5 @@
+.bundle/
+images/
+html_documentation/
+Gemfile.lock
+.DS_Store

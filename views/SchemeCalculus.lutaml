@@ -1,0 +1,5 @@
+diagram SchemeCalculus {
+  title 'Schemes, declarations, the layer vector and routes'
+  caption 'ARCHITECTURE.md clause 5.2'
+  include ../models/scheme.lutaml
+}

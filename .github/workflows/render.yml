@@ -1,0 +1,16 @@
+name: render
+on: [push, pull_request]
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+      - run: make
+      - uses: actions/upload-artifact@v4
+        with:
+          name: model-diagrams
+          path: images/

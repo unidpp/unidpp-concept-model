@@ -1,0 +1,138 @@
+// Projection, the projection calculus and the frozen view
+// (ARCHITECTURE.md clauses 4.3 and 4.4).
+
+class Passport {
+  definition {
+    A signed projection of the twin under one or more profiles, at
+    type, batch or instance granularity.
+  }
+  +profile: Profile [1..*] {
+    definition { The profiles under which the passport projects. }
+  }
+  +descriptor: ProjectionDescriptor [1] {
+    definition { The five-axis descriptor of the projection. }
+  }
+}
+
+class Profile {
+  definition {
+    A registered, versioned, signed set of requirements,
+    transformations, trust bindings and trigger predicates. The
+    issuer class determines the authority semantics of the profile.
+  }
+  +issuerClass: IssuerClass [1] {
+    definition { The class of the issuer, which caps the verification grade. }
+  }
+  +dataPoint: RegisterItem [0..*] {
+    definition { The data points as registry references. }
+  }
+  +transform: Transform [0..*] {
+    definition { The transforms the profile binds. }
+  }
+}
+
+enum IssuerClass {
+  definition { The profile-issuer typology; verification grades follow the class under I9. }
+  law { definition { Jurisdiction profile, mandatory within the territory. } }
+  treaty { definition { International body, recognized across borders. } }
+  consensus { definition { Sector body, required by market practice. } }
+  declaration { definition { Manufacturer, self-asserted. } }
+  attestation { definition { Certification body, third-party conformity over the claims of another. } }
+}
+
+class Segment {
+  definition {
+    A parallel, policy-defined partition of a device DPP. The type
+    carries a commitment and no plaintext.
+  }
+  +policy: PolicyObject [1] {
+    definition { The governing policy, pinned at a version. }
+  }
+  +stateCommitment: Commitment [1] {
+    definition { The commitment over the sealed state. }
+  }
+  +sequence: Number [1] {
+    definition { Monotone sequence; each commitment extends the previous. }
+  }
+}
+
+class PolicyObject {
+  definition {
+    The constitution of a segment and the unit of cross-system
+    negotiation.
+  }
+  +reveal: RevealClass [1] {
+    definition { The reveal rule of the segment. }
+  }
+  +window: Interval [1] {
+    definition { The effective window of the policy version. }
+  }
+}
+
+enum RevealClass {
+  definition { Reveal rules; enforcement rests on manufacture-time policy, cryptography and attestability. }
+  open { definition { Readable by the custodian. } }
+  pairingGated { definition { Readable under pairing. } }
+  originSealed { definition { Sealed to origin keys; commitments only. } }
+  escrowed { definition { Disclosed only by ceremony under a threshold trustee. } }
+}
+
+class ProjectionDescriptor {
+  definition {
+    The machine-readable, five-axis characterization of a projection.
+  }
+  +temporal: TemporalMode [1] { definition { The temporal axis. } }
+  +contentClass: ContentClass [1..*] { definition { The content-class axis, per element. } }
+  +derivation: DerivationKind [1] { definition { The derivation axis. } }
+  +exchangeEncoding: ExchangeEncoding [1] { definition { The exchange-encoding axis. } }
+  +granularity: Granularity [1] { definition { The granularity axis. } }
+}
+
+enum TemporalMode {
+  definition { The temporal axis. The freeze operation converts continuous into point-in-time with a verification bundle. }
+  pointInTime { definition { State at T, immutable once notarized, replayable from the log. } }
+  continuous { definition { State at the present moment under a freshness contract. } }
+}
+
+enum ContentClass {
+  definition { The content-class axis. }
+  staticValue { definition { Type-declared facts. } }
+  dynamicValue { definition { Instance-measured facts. } }
+}
+
+enum DerivationKind {
+  definition { The derivation axis. }
+  direct { definition { Selection only. } }
+  derived { definition { Computed, with transform references and uncertainty. } }
+}
+
+enum ExchangeEncoding {
+  definition { The exchange-encoding axis. }
+  native { definition { Structures of its own scheme. } }
+  translated { definition { Structures of a foreign scheme through registered mapping items. } }
+}
+
+enum Granularity {
+  definition { The granularity axis. }
+  typeValue { definition { Facts of the model. } }
+  instanceValue { definition { Facts of one subject. } }
+  composite { definition { Roll-up over a committed traversal set. } }
+  genealogy { definition { Provenance-chain view. } }
+}
+
+class FrozenView {
+  definition {
+    A self-describing, portable projection: any scheme or an offline
+    verifier ingests, re-executes and verifies it without the issuer
+    being reachable. The unit of exchange in all transport modes.
+  }
+  +descriptor: ProjectionDescriptor [1] {
+    definition { The descriptor of the wrapped projection. }
+  }
+  +verificationBundle: Signature [1..*] {
+    definition { Signatures, anchors and inclusion proofs. }
+  }
+  +pinnedArtifact: Digest [1..*] {
+    definition { Content digests of every referenced artifact: transform packages, profiles, mapping items, trust-list snapshots. Re-execution verifies each digest before it runs. }
+  }
+}

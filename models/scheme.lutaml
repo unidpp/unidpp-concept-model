@@ -1,0 +1,90 @@
+// The scheme calculus (ARCHITECTURE.md clause 5.2).
+
+class Scheme {
+  definition {
+    A vertically integrated DPP system with an owner whose willingness
+    to interoperate spans willing, conditional and unwilling.
+  }
+  +owner: Party [1] { definition { The owner of the scheme. } }
+  +declaration: InteropDeclaration [0..*] { definition { The published declarations of the scheme. } }
+}
+
+class InteropDeclaration {
+  definition {
+    A signed, versioned, registry-published statement of the
+    interoperation posture of a scheme, per counterpart and per data
+    class. Consulted by protocol evaluation and by hub policy checks.
+  }
+  +counterpart: Scheme [1] { definition { The counterpart of the relationship. } }
+  +harmonizationLevel: HarmonizationLevel [1] { definition { The offered level, per data class. } }
+  +recognitionMode: RecognitionMode [1] { definition { The recognition mode per object class. } }
+  +transport: TransportMode [1..*] { definition { The transport modes offered. } }
+}
+
+enum HarmonizationLevel {
+  definition { The harmonization ladder; a level applies per pair and per data class. }
+  l0Coexistence { definition { No interoperation; unilateral document verification may function. } }
+  l1DocumentRecognition { definition { Frozen views accepted as evidence; no connection. } }
+  l2ProtocolInteroperation { definition { The inter-scheme protocol is operated; structures translate at the boundary. } }
+  l3StructuralMapping { definition { Registered mapping items translate structures; falls back to L1 where no mapping is asserted. } }
+  l4SharedProfile { definition { Both schemes adopt the same registered profile. } }
+  l5CommonCore { definition { Both schemes implement the core model natively. } }
+}
+
+enum TransportMode {
+  definition { Transport modes; willingness is a precondition of all three. }
+  connectedProtocol { definition { Both schemes operate the inter-scheme protocol S13. } }
+  translationHub { definition { A stateless signed relay between willing schemes divided by protocols. } }
+  documentExchange { definition { No connection; rests on what the publisher chose to publish. } }
+}
+
+enum RecognitionMode {
+  definition { The recognition lattice, per object class. Withdrawal lowers a relationship to what remains; unilateral pinning persists. }
+  unilateral { definition { The verifier pins foreign anchors under a declared acceptance policy. } }
+  bilateral { definition { Pairwise anchor exchange. } }
+  club { definition { A shared recognition umbrella. } }
+  mesh { definition { The multi-witnessed master list under M-of-K. } }
+}
+
+class LayerVector {
+  definition {
+    The technical state of a relationship as a vector over six
+    layers, carried in the service descriptors of the discovery
+    registry.
+  }
+  +layer: Layer [1..6] { definition { The layers of the vector. } }
+  +state: LayerState [1..*] { definition { The state per layer: same, bridged by a named mechanism, or gap. } }
+}
+
+enum Layer {
+  definition { The six layers of the stack along which sameness or bridging is assessed. }
+  transportValue { definition { Transport. } }
+  protocolValue { definition { Protocol. } }
+  structure { definition { Data structure. } }
+  semantics { definition { Semantics. } }
+  identity { definition { Identity. } }
+  trust { definition { Trust. } }
+}
+
+enum LayerState {
+  definition { Per-layer states of a relationship. }
+  same { definition { The layer is identical. } }
+  bridged { definition { The layer is bridged by a registered mechanism. } }
+  gap { definition { The layer is a gap and caps the relationship. } }
+}
+
+class TranslationHub {
+  definition {
+    A registered, listing-gated, contestable operator that relays
+    between willing schemes divided by protocols; a stateless signed
+    relay that retains no data and refuses a policy-refusing scheme.
+  }
+}
+
+class VerificationRoute {
+  definition {
+    The computed plan of a verifier: resolution, transport, documents,
+    mappings at declared loci, substitutions. Execution is
+    deterministic and the coverage report is its replayable trace.
+  }
+}

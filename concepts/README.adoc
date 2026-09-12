@@ -1,0 +1,19 @@
+= Terminological concept set
+
+This directory holds the glossarist concept dataset of the DPP
+vocabulary (ISO 93333): concepts with their designations, definitions
+and concept-system relations under the glossarist model, that is,
+generic, partitive and associative relations.
+
+The set is the machine-managed terminological counterpart of the
+Metanorma draft in the cc-dpp-vocabulary repository. The population
+task takes every term of ISO 93333 clause 3 into this set, records
+its relations (for example: the generic chain from passport to type,
+batch and instance passport; the partitive chain from grid to segment
+to policy object; the associative links between profile and trust
+list), and keeps the two synchronized.
+
+An annotated example of the intended entry shape follows in
+_passport.yaml.example_; the entry shape is aligned with the
+glossarist dataset schema during population, and validation runs in
+continuous integration once the set is populated.

@@ -1,0 +1,5 @@
+diagram ProductAlgebra {
+  title 'The product algebra: typed edges, transformations, productness'
+  caption 'ARCHITECTURE.md clause 5'
+  include ../models/algebra.lutaml
+}

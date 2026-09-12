@@ -1,0 +1,32 @@
+= UniDPP concept and structure models
+
+This repository holds the model sets of the UniDPP framework. It
+comprises two sets, which are maintained separately because they
+answer different questions.
+
+== Set 1: the structural model set (models/)
+
+LutaML class models of the referent architecture of ARCHITECTURE.md:
+identity and the identity lattice; the record and the twin;
+projection, the projection calculus and the frozen view; trust and
+the party model; semantics and the registry; the scheme calculus; and
+the product algebra. Each model states its classes, attributes,
+enumerations and definitions. Diagram views in views/ render the
+models; `make` regenerates the images.
+
+== Set 2: the terminological concept set (concepts/)
+
+A glossarist concept dataset for the DPP vocabulary (ISO 93333):
+concepts with their designations, definitions and concept-system
+relations, that is, generic, partitive and associative relations. This
+set is the machine-managed source for the vocabulary work and is kept
+synchronized with the Metanorma draft of ISO 93333.
+
+== Relation to the framework documents
+
+PLAN.md carries strategy; ARCHITECTURE.md states the referent model
+in prose; REQUIREMENTS.md states the system requirements; this
+repository states the same referent model as formal, renderable
+models, one file per concern. When a model changes, ARCHITECTURE.md
+changes with it, and the drift check of the specification family
+applies.

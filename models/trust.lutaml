@@ -1,0 +1,88 @@
+// Trust and the party model (ARCHITECTURE.md clauses 3 and 5.1).
+
+abstract class Party {
+  definition {
+    A participant class with its own authority semantics and signer
+    class.
+  }
+}
+
+class GovernmentRegulator {
+  definition { Party class G: signs jurisdiction profiles, trust lists, revocations and sovereign attestations. }
+}
+class IntergovernmentalBody {
+  definition { Party class I: treaty-tier recognition; signs vertical profiles and certified hierarchies. }
+}
+class AccreditationBody {
+  definition { Party class A: peer-evaluated; accredits the certification bodies, which makes third-party signatures meaningful. }
+}
+class CertificationBody {
+  definition { Party class C: third-party attestation; signs conformity stamps, test reports, calibrations and type approvals. }
+}
+class IndustryPolicyBody {
+  definition { Party class P: consensus; signs sector profiles, sector trust lists and scheme keys. }
+}
+class VoluntaryScheme {
+  definition { Party class V: voluntary attestation; signs characteristic and voluntary-value profiles, marks and grading attestations. }
+}
+class EconomicOperator {
+  definition { Party class B: declaration; signs manufacturer profiles, events, passports and segment data. }
+}
+class InfrastructureOperator {
+  definition { Party class O: registered operational duty; signs receipts, service descriptors and listings. }
+}
+class ConsumerMachine {
+  definition { Party class U: relying party; signs inspection stamps and verification demands. }
+}
+
+class TrustList {
+  definition { A jurisdictional list of anchors. }
+  +anchor: Anchor [1..*] { definition { The anchors of the list. } }
+}
+
+class MasterList {
+  definition {
+    A globally multi-witnessed list under M-of-K; no single party
+    holds the apex.
+  }
+  +witness: InfrastructureOperator [1..*] { definition { The witnesses of the list. } }
+  +threshold: Number [1] { definition { The quorum threshold M of K. } }
+}
+
+class SignatureSlot {
+  definition { One slot per signer and per suite; co-signatures stand side by side. }
+  +suite: CryptoSuite [1] { definition { The cryptographic suite of the slot. } }
+}
+
+enum CryptoSuite {
+  definition { Registered suites; jurisdictional suites are profile content. }
+  ecdsaP256 { definition { ECDSA over P-256. } }
+  sm2 { definition { SM2, published as ISO/IEC 14888-3 mechanism. } }
+  ed25519 { definition { Ed25519. } }
+  mlDsa { definition { ML-DSA, FIPS 204. } }
+}
+
+class Revocation {
+  definition {
+    A revocation whose retroactivity is determined by its reason and
+    whose window bounds the effect. Retroactive distrust of an
+    authority requires a quorum attestation.
+  }
+  +reason: RevocationReason [1] { definition { The reason, which determines retroactivity. } }
+  +window: Interval [1] { definition { The distrust window. } }
+}
+
+enum RevocationReason {
+  definition { The reason taxonomy; the first four are prospective and the last three retroactive. }
+  keyCompromise { definition { Prospective, after a time. } }
+  cessation { definition { Prospective. } }
+  supersession { definition { Prospective, by another authority. } }
+  affiliationChange { definition { Prospective. } }
+  misissuance { definition { Retroactive: void ab initio inside the window. } }
+  fraudulentIssuance { definition { Retroactive. } }
+  authorityCompromised { definition { Retroactive, over a window. } }
+}
+
+class Quorum {
+  definition { A threshold group for roots, logs, master lists and escrow disclosure. }
+}

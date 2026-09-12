@@ -1,0 +1,143 @@
+// Identity and the identity lattice (ARCHITECTURE.md clause 4.1).
+
+class Thing {
+  definition {
+    The physical subject of a digital product passport. A thing has
+    exactly one identity for its life, which is never minted again.
+  }
+  +identifier: Identifier [1..*] {
+    definition { The identifiers of the thing, one per scheme in which it is known. }
+  }
+  +carrier: Carrier [0..*] {
+    definition { The physical carriers bound to the thing. }
+  }
+  +deviceCredential: DeviceCredential [0..1] {
+    definition { The certificate and keys of the device, where the thing is a cryptographic principal. }
+  }
+}
+
+class Identifier {
+  definition {
+    A unique identifier of the thing within an identification scheme,
+    dormant until adopted.
+  }
+  +scheme: IdentifierScheme [1] {
+    definition { The scheme that allocates the identifier. }
+  }
+  +value: String [1] {
+    definition { The identifier value within its scheme. }
+  }
+  +dormant: Boolean [1] {
+    definition { Whether the identifier is recorded but not yet adopted by a passport regime. }
+  }
+}
+
+enum IdentifierScheme {
+  definition { Registered identification schemes; no scheme is the substrate. }
+  gs1 { definition { GS1 keys. } }
+  handle { definition { Handle identifiers of the industrial internet identification system. } }
+  ecode { definition { Ecode national identifiers. } }
+  ma { definition { MA identifiers. } }
+  nationalMarking { definition { National marking codes, including the CN and RU systems. } }
+}
+
+class Carrier {
+  definition {
+    The physical code or chip bound to a thing, which crosses borders
+    with the product.
+  }
+  +kind: CarrierKind [1] {
+    definition { The carrier technology. }
+  }
+  +tierAPayload: TierAPayload [0..1] {
+    definition { The offline minimum embedded in the carrier. }
+  }
+}
+
+enum CarrierKind {
+  definition { Carrier technologies. }
+  qr { definition { ISO/IEC 18004 QR code. }
+  }
+  nfc { definition { Near-field communication chip. }
+  }
+  rfid { definition { Radio-frequency identification tag. }
+  }
+  iec61406Link { definition { IEC 61406 identity link. }
+  }
+}
+
+class TypeDefinition {
+  definition {
+    A registered type: the model-level definition that carries type
+    facts, the option vector and the bill-of-materials template.
+  }
+  +version: TypeVersion [1..*] {
+    definition { The versions of the type, each exact. }
+  }
+}
+
+class TypeVersion {
+  definition {
+    An exact version of a type definition; an instance references the
+    version, so hardware revisions are visible.
+  }
+  +supersedes: TypeVersion [0..1] {
+    definition { The version this one supersedes. }
+  }
+}
+
+class ConfigurationVector {
+  definition {
+    The set of registered component models selected in a
+    build-to-order composition.
+  }
+  +component: TypeDefinition [1..*] {
+    definition { The component models of the vector. }
+  }
+}
+
+class Instance {
+  definition {
+    One individual thing, which references its exact type version and
+    its configuration vector, and overrides with instance-measured
+    facts per the precedence rules.
+  }
+  +typeVersion: TypeVersion [1] {
+    definition { The exact type version of the instance. }
+  }
+  +configurationVector: ConfigurationVector [0..1] {
+    definition { The configuration vector, where the instance is built to order. }
+  }
+}
+
+class DeviceCredential {
+  definition {
+    The certificate and keys of the device. The certificate issued at
+    manufacture signs the static segment; per-segment slot keys sign
+    the dynamic data.
+  }
+  +manufactureCertificate: Certificate [1] {
+    definition { The certificate issued at manufacture. }
+  }
+  +slotKey: SlotKey [0..*] {
+    definition { One operational slot key per segment. }
+  }
+}
+
+class SlotKey {
+  definition {
+    The device key of one segment, certified by the authority of that
+    segment. The certification path is the channel through which
+    sovereignty is exercised.
+  }
+  +segment: Segment [1] {
+    definition { The segment this key signs. }
+  }
+  +certificationPath: Certificate [1..*] {
+    definition { The chain to the segment authority. }
+  }
+}
+
+class Certificate {
+  definition { An X.509-class certificate binding a key to an authority. }
+}

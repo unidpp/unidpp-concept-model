@@ -1,0 +1,5 @@
+diagram PartyModel {
+  title 'The party model and the trust objects'
+  caption 'ARCHITECTURE.md clauses 3 and 5.1'
+  include ../models/trust.lutaml
+}

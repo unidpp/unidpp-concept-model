@@ -1,0 +1,96 @@
+// The product algebra (ARCHITECTURE.md clause 5, flow 4).
+
+abstract class PassportLink {
+  definition {
+    A typed edge between passports. The algebra is grammar: it
+    resides in the core so that it crosses schemes.
+  }
+}
+
+class Association {
+  definition { R1: navigational only; compatibility, supply, same-maker. }
+}
+class Derivation {
+  definition { R2: input to output via a transformation event; historical and directional. }
+}
+class Installation {
+  definition {
+    R3: structural, parent-child and temporal. An installed component
+    is a different legal object from the standalone one.
+  }
+  +method: String [1] { definition { The installation method. } }
+  +slot: String [0..1] { definition { The parent-scoped slot identity. } }
+  +pairing: PairingKind [0..1] { definition { The pairing of the binding. } }
+  +recoverability: RecoverabilityKind [1] { definition { The recoverability class, which determines identity continuity. } }
+  +visibility: VisibilityKind [1] { definition { The visibility class of the edge. } }
+}
+class TypeLineage {
+  definition { R4: type versioning, derived types and configuration vectors. }
+}
+class Custody {
+  definition { R6: social and control edges, orthogonal to structure. }
+}
+class Membership {
+  definition { R7: temporal membership in group nodes; groups carry passports only when placed on market. }
+}
+
+enum PairingKind {
+  definition { Pairing classes of an installation binding. }
+  none { definition { No pairing. } }
+  firmware { definition { Firmware pairing. } }
+  key { definition { Key pairing. } }
+  module { definition { Module pairing. } }
+}
+
+enum RecoverabilityKind {
+  definition {
+    The recoverability spectrum, which determines identity
+    continuity: disassembly that restores a marketable object is R3;
+    dissolution of identity is R2.
+  }
+  restorable { definition { The child resumes standalone life. } }
+  harvestable { definition { Recovered but altered; continues with parent history. } }
+  destructive { definition { The child ceases; flows to a material passport. } }
+  absorbing { definition { Identity dissolves; regime-temporal, not permanent. } }
+}
+
+enum VisibilityKind {
+  definition { Edge visibility classes; a child-to-parent edge reveals where a thing is. }
+  public { definition { Traversable by the public. } }
+  restricted { definition { Role-qualified traversal. } }
+  blind { definition { Proof of binding without knowledge of parent. } }
+  escrowed { definition { Disclosure by ceremony under a trustee. } }
+}
+
+class TransformationEvent {
+  definition {
+    A typed event of the transformation algebra: split one to N, or
+    combine N to one. Inputs are consumed yet remain verifiable.
+  }
+  +inputReference: Passport [1..*] { definition { The input passports with quantity and as-of state hash. } }
+  +output: Passport [1..*] { definition { The output passports. } }
+  +carveOut: QuantityCarveOut [0..*] { definition { The quantity carve-outs of a split. } }
+}
+
+class QuantityCarveOut {
+  definition { The quantity of an input allotted to an output of a split. }
+  +quantity: Number [1] { definition { The allotted quantity in canonical units. } }
+}
+
+class MassBalance {
+  definition {
+    The auditable arithmetic of a transformation: in minus out
+    equals loss. Mass balance carries taint.
+  }
+}
+
+class Productness {
+  definition {
+    A dated, per-regime predicate on a thing, and not an attribute of
+    identity. Re-entry on the same identity toggles the predicate;
+    re-entry with a derived identity issues a new passport under R2.
+  }
+  +regime: Profile [1] { definition { The regime under which the predicate is evaluated. } }
+  +from: Time [1] { definition { The start of the predicate window. } }
+  +to: Time [0..1] { definition { The end of the predicate window, where bounded. } }
+}

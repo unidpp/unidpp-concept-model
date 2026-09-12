@@ -1,0 +1,6 @@
+diagram RecordAndSemantics {
+  title 'Events, twin, commitments and the registry'
+  caption 'ARCHITECTURE.md clauses 4.2 and 4.5'
+  include ../models/record.lutaml
+  include ../models/semantics.lutaml
+}

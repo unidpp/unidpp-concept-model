@@ -1,0 +1,24 @@
+# Annotated example of one entry of the terminological concept set.
+# The final entry shape is the glossarist dataset schema; this file
+# records the intended content, not yet the validated encoding.
+term: digital product passport
+definition: >-
+  Legal materialized view of a governed digital twin, computed under
+  a profile from the testimonial record, issued where the legal duty
+  attaches.
+grammar_info:
+  - {"graphic": "n", "preposition": "", "participle": ""}
+domain_scoped: false          # structural term: definable globally
+relations:
+  - type: broader             # generic relation (hypernym)
+    target: projection
+  - type: has_part            # partitive relation
+    target: profile
+  - type: associative
+    target: digital twin
+    note: the passport projects the twin; the twin never projects the passport
+sources:
+  - ISO 93333 clause 3
+notes:
+  - Carried on the carrier as a Tier-A payload or served as a view;
+    never a static document.

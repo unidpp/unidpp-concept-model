@@ -1,0 +1,79 @@
+// Record and twin (ARCHITECTURE.md clause 4.2).
+
+class Event {
+  definition {
+    A typed, append-only, actor-attributed state change. Corrections
+    append and never rewrite.
+  }
+  +eventType: EventType [1] {
+    definition { The type of the event under taxonomy E1 to E23. }
+  }
+  +actor: Party [1] {
+    definition { The party that appended the event. }
+  }
+  +at: Time [1] {
+    definition { The time of the event. }
+  }
+}
+
+enum EventType {
+  definition { The post-first-sale event taxonomy E1 to E23. }
+  custodyTransfer { definition { E1: resale, lease, inheritance, liquidation. } }
+  partReplace { definition { E2: like-for-like or different child swap. } }
+  repair { definition { E3: repair with consumed parts. } }
+  modify { definition { E4: modification, remap, conversion, derestriction. } }
+  softwareUpdate { definition { E5: firmware or software update, feature unlock. } }
+  upgradeInstall { definition { E6: installation of an added component. } }
+  refurbish { definition { E7: refurbishment or remanufacture. } }
+  recallCampaign { definition { E9: predicate-based recall campaign. } }
+  correction { definition { E10: administrative correction, prior value preserved. } }
+  statusChange { definition { E11: state-machine transition under authority check. } }
+  securityFlag { definition { E12: theft or loss flag. } }
+  decompose { definition { E13: end-of-life inverse transformation. } }
+  inspectionStamp { definition { E14: lens-scoped attestation by a verifier. } }
+  milestoneRecord { definition { E15: edge state commitment. } }
+}
+
+class EventSegment {
+  definition {
+    The shard of the distributed log that one custodian holds. An
+    edge segment commits first and reveals later.
+  }
+  +custodian: Party [1] {
+    definition { The custodian of the segment. }
+  }
+  +commitment: Commitment [0..*] {
+    definition { The signed commitments over local log prefixes. }
+  }
+}
+
+class Twin {
+  definition {
+    The union of testimonial and sensorial event segments of one
+    thing; the authoritative record is distributed and log-anchored.
+  }
+  +segment: EventSegment [1..*] {
+    definition { The segments of the twin. }
+  }
+}
+
+class Commitment {
+  definition {
+    A signed hash over the state of a segment or log. Commitments
+    prove properties without disclosing content.
+  }
+}
+
+class Receipt {
+  definition {
+    A transparency-log inclusion proof, which decouples verification
+    from the availability of the origin.
+  }
+}
+
+class Snapshot {
+  definition {
+    A notarized as-of state. The live view and the as-of snapshot are
+    both first-class queries.
+  }
+}

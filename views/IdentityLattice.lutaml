@@ -1,0 +1,5 @@
+diagram IdentityLattice {
+  title 'Identity, carriers and the identity lattice'
+  caption 'ARCHITECTURE.md clause 4.1'
+  include ../models/identity.lutaml
+}
