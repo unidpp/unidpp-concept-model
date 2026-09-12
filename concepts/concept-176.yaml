@@ -1,0 +1,19 @@
+---
+term: "data exchange"
+termid: 176
+eng:
+  id: 176
+  term: "data exchange"
+  definition: "storing, accessing, transferring, and archiving of data"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "ISO15531, EN18216"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-6"
+  domain_scoped: false

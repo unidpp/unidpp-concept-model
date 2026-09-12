@@ -1,0 +1,19 @@
+---
+term: "listing gate"
+termid: 75
+eng:
+  id: 75
+  term: "listing gate"
+  definition: "registered predicate evaluated by a marketplace over passport status and standing without holding passport data, admitting or refusing listings"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-16"
+  domain_scoped: false
+related:
+- type: narrower_part
+  target: 71

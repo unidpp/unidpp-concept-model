@@ -1,0 +1,19 @@
+---
+term: "restitution flag"
+termid: 31
+eng:
+  id: 31
+  term: "restitution flag"
+  definition: "authority-attached marker on a passport recording a claim over title, such as looting, dispossession or colonial taking, propagated as a graph event without rewriting history"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-12"
+  domain_scoped: false
+related:
+- type: associative
+  target: 29

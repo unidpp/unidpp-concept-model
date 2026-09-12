@@ -1,0 +1,21 @@
+---
+term: "harvested part"
+termid: 54
+eng:
+  id: 54
+  term: "harvested part"
+  definition: "component recovered from an installation (concept dpp-0142) in the harvestable state of the recoverability spectrum (concept dpp-0143), which continues to carry its own identity, harvested status and the parent history accumulated during installation"
+  language_code: eng
+  notes:
+  - "Installation history is value-relevant provenance: a harvested battery sold standalone carries its service interval and removal reason, and the used-parts market runs on this."
+  - "A harvested part is second-hand-once-removed: no longer sellable as new, with warranty scope and service economics that rode the parent during installation."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-14"
+  domain_scoped: false
+related:
+- type: associative
+  target: 46

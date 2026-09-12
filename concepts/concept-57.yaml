@@ -1,0 +1,22 @@
+---
+term: "blind edge"
+termid: 57
+eng:
+  id: 57
+  term: "blind edge"
+  definition: "edge on a typed passport relationship whose existence and endpoints are concealed from all observers, so that a child-to-parent reference does not reveal where a thing is, such as a household or a site"
+  language_code: eng
+  notes:
+  - "Edge visibility classes, namely public, restricted (role-qualified), blind and escrowed, are declared on every relationship; the installation schema (concept dpp-0142) carries visibility as an edge class with escrow arrangement (concept dpp-0137) and audiences."
+  - "Blind is the default for consumer installations, because even the object-to-household linkage is personal data requiring a GDPR or PIPL legal basis per profile."
+  - "Rationale: a traversable graph with entitled upstream observers is surveillance infrastructure; post-sale visibility into instance state is owner-push or authority-based, never maker-pull."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-15"
+  domain_scoped: false
+related:
+- type: associative
+  target: 46

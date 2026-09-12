@@ -1,0 +1,22 @@
+---
+term: "stamp"
+termid: 14
+eng:
+  id: 14
+  term: "stamp"
+  definition: "lens-scoped attestation consisting of an attester signature over the subject, the subject state commitment, the lens identity and version, the mode (live or snapshot), a verdict with coverage report, and log-anchored time"
+  language_code: eng
+  notes:
+  - "Stamps accrete append-only and are valid under the stamper's lens regardless of the issuer's."
+  - "Jurisdiction stamps on a foreign-issued passport correspond to visas; entry and exit stamps correspond to verifier custody events."
+  - "Stamps may carry quantity context, inherited by downstream transformations."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-11"
+  domain_scoped: false
+related:
+- type: narrower_part
+  target: 15

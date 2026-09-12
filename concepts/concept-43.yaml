@@ -1,0 +1,20 @@
+---
+term: "state of health"
+termid: 43
+eng:
+  id: 43
+  term: "state of health"
+  definition: "derived verdict on the condition of a subject, computed by a stated model from measured variables"
+  language_code: eng
+  notes:
+  - "The provenance of the computing model is itself governed information; health status is not a raw fact."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-13"
+  domain_scoped: false
+related:
+- type: associative
+  target: 44

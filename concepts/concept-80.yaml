@@ -1,0 +1,19 @@
+---
+term: "trust federation"
+termid: 80
+eng:
+  id: 80
+  term: "trust federation"
+  definition: "federation tier in which trust authorities join the master list by threshold admission and jurisdictional profiles cross-recognize one another"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-16"
+  domain_scoped: false
+related:
+- type: associative
+  target: 71

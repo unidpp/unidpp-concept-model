@@ -1,0 +1,22 @@
+---
+term: "lens-scoped attestation"
+termid: 15
+eng:
+  id: 15
+  term: "lens-scoped attestation"
+  definition: "attestation whose validity is defined by, and only by, the profile under which it was issued"
+  language_code: eng
+  notes:
+  - "A stamp is the signed form of a lens-scoped attestation."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-11"
+  domain_scoped: false
+related:
+- type: has_part
+  target: 14
+- type: broader
+  target: 23

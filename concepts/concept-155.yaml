@@ -1,0 +1,19 @@
+---
+term: "system resilience"
+termid: 155
+eng:
+  id: 155
+  term: "system resilience"
+  definition: "ability to recover from security compromises or attacks"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "ISOIEC29180, EN18239"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-5"
+  domain_scoped: false

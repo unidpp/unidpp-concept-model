@@ -1,0 +1,22 @@
+---
+term: "sustainability management platform"
+termid: 134
+eng:
+  id: 134
+  term: "sustainability management platform"
+  definition: "platform dedicated to sustainability data collection, management and reporting"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "CWA18291"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-3"
+  domain_scoped: false
+related:
+- type: associative
+  target: 148

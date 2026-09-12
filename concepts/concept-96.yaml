@@ -1,0 +1,19 @@
+---
+term: "unique registration identifier"
+termid: 96
+eng:
+  id: 96
+  term: "unique registration identifier"
+  definition: "identifier returned after uploading the unique identifiers and any other data required to the DPP registry [example] -- Unique identifiers can be unique product identifier, unique facility identifier, unique operator identifier of the economic operator etc. --"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "EN18222"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-2"
+  domain_scoped: false

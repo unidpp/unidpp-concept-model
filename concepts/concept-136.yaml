@@ -1,0 +1,19 @@
+---
+term: "product"
+termid: 136
+eng:
+  id: 136
+  term: "product"
+  definition: "any physical good that is placed on the market ({{placed on the market}}) or put into service ({{put into service}})"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "EN18220, EN18219"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-4"
+  domain_scoped: false

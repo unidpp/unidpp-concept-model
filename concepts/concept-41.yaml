@@ -1,0 +1,19 @@
+---
+term: "self-testimony"
+termid: 41
+eng:
+  id: 41
+  term: "self-testimony"
+  definition: "testimony class consisting of events asserted by the subject's own device under device-bound keys"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-13"
+  domain_scoped: false
+related:
+- type: associative
+  target: 38

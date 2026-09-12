@@ -1,0 +1,19 @@
+---
+term: "logged-contact subject"
+termid: 35
+eng:
+  id: 35
+  term: "logged-contact subject"
+  definition: "subject that records events locally and discloses them on physical contact, without communications capability"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-13"
+  domain_scoped: false
+related:
+- type: narrower_part
+  target: 32

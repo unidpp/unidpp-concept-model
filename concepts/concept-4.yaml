@@ -1,0 +1,17 @@
+---
+term: "precedence rule"
+termid: 4
+eng:
+  id: 4
+  term: "precedence rule"
+  definition: "rule declared by a profile stating which provenance class prevails when facts about the same subject disagree"
+  language_code: eng
+  notes:
+  - "The default precedence is instance-measured over type-declared; a genuine same-class contradiction is an integrity incident, never a silent merge."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-10"
+  domain_scoped: false

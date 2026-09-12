@@ -1,0 +1,19 @@
+---
+term: "semantic interoperability"
+termid: 169
+eng:
+  id: 169
+  term: "semantic interoperability"
+  definition: "ability for data shared by systems to be understood at the level of fully defined domain concepts"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "ISO18308, EN18223"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-6"
+  domain_scoped: false

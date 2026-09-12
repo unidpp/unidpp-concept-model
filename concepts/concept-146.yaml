@@ -1,0 +1,19 @@
+---
+term: "traceable asset"
+termid: 146
+eng:
+  id: 146
+  term: "traceable asset"
+  definition: "traceable asset is any product or material (individually, in batches, or in trade units) that needs to be tracked along a value chain"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "UNECE46, CWA18291"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-4"
+  domain_scoped: false

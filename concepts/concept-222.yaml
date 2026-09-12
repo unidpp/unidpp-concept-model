@@ -1,0 +1,16 @@
+---
+term: "Tier-B payload"
+termid: 222
+eng:
+  id: 222
+  term: "Tier-B payload"
+  definition: "full passport content, served through resolution and hosting services in accordance with the applicable profile"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-9"
+  domain_scoped: false

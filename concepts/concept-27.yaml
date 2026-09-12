@@ -1,0 +1,16 @@
+---
+term: "qualified attestor"
+termid: 27
+eng:
+  id: 27
+  term: "qualified attestor"
+  definition: "actor accredited under a profile's trust list to commission identities or to attest attributes of orphan objects, such as an auction house, authentication board or registrar"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-12"
+  domain_scoped: false

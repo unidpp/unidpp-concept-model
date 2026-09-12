@@ -1,0 +1,20 @@
+---
+term: "provenance gap"
+termid: 29
+eng:
+  id: 29
+  term: "provenance gap"
+  definition: "explicitly recorded interval in a subject's custody or provenance chain for which no evidence exists"
+  language_code: eng
+  notes:
+  - "A provenance gap is data, not an error; it is honestly representable in the event-sourced record."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-12"
+  domain_scoped: false
+related:
+- type: associative
+  target: 28

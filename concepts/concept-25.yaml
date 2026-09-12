@@ -1,0 +1,22 @@
+---
+term: "trigger predicate"
+termid: 25
+eng:
+  id: 25
+  term: "trigger predicate"
+  definition: "declared component of a profile stating the conditions under which the profile applies, evaluated against the facts of the digital twin rather than against who declares them"
+  language_code: eng
+  notes:
+  - "Characteristic profiles attach by predicate on twin facts, namely age, material content, heritage status, market status, rather than by law-of-place or industry."
+  - "Predicate triggers include time predicates: an object becoming older than a given age is a clock-fired applicability event, handled by the dated-binding machinery so that applicability attaches without human declaration."
+  - "The expression \"characteristic profile trigger\" denotes this predicate as used by a characteristic profile and is folded into this concept rather than recorded separately."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-12"
+  domain_scoped: false
+related:
+- type: narrower_part
+  target: 24

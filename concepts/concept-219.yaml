@@ -1,0 +1,20 @@
+---
+term: "offline minimum"
+termid: 219
+eng:
+  id: 219
+  term: "offline minimum"
+  definition: "subset of passport data and verification material specified as sufficient for offline verification of identity and status from the data carrier alone"
+  language_code: eng
+  notes:
+  - "The Tier-A payload is the carrier-embedded realization of the offline minimum."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-9"
+  domain_scoped: false
+related:
+- type: narrower_part
+  target: 221

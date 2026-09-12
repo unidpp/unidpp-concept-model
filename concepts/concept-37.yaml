@@ -1,0 +1,21 @@
+---
+term: "passive twin"
+termid: 37
+eng:
+  id: 37
+  term: "passive twin"
+  definition: "digital twin reconstructed from point-in-time attestations about the object, sampled when the object visits an attestor, in which truth is episodic and staleness between attestations is unbounded and undetectable"
+  language_code: eng
+  notes:
+  - "Corresponds to capability classes S0 (silent, testimony-only) and S1 (passive authentication)."
+  - "Trust rides entirely on attestor authority; the twin is testimonial by default and sensorial by exception."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-13"
+  domain_scoped: false
+related:
+- type: narrower_part
+  target: 187

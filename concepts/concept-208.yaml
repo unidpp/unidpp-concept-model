@@ -1,0 +1,20 @@
+---
+term: "jurisdiction profile"
+termid: 208
+eng:
+  id: 208
+  term: "jurisdiction profile"
+  definition: "profile that binds the data points, transforms, cryptographic suites, trust requirements, access rules, presentation and carrier requirements enacted by the law of a given jurisdiction"
+  language_code: eng
+  notes:
+  - "Conflicting regional rules are registered as distinct data elements harmonized to a common concept; they are not merged."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-8"
+  domain_scoped: false
+related:
+- type: narrower
+  target: 205

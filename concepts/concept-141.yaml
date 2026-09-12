@@ -1,0 +1,23 @@
+---
+term: "end-of-life"
+termid: 141
+eng:
+  id: 141
+  term: "end-of-life"
+  definition: "point in time during the life cycle at which a product or resource is taken out of use and is disposed"
+  language_code: eng
+  notes:
+  - "Disposal could be in the form of incineration, deposit to landfill, or composting."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "ISO59004, CWA18291"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-4"
+  domain_scoped: false
+related:
+- type: part_of
+  target: 135

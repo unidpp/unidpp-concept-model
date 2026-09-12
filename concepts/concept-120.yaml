@@ -1,0 +1,22 @@
+---
+term: "exporter"
+termid: 120
+eng:
+  id: 120
+  term: "exporter"
+  definition: "name and address of the person who makes, or on whose behalf the \"export declaration\" is made, and who is the owner of the goods or has similar right of disposal over them at the time when the declaration is accepted"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "ISOTS24533, CWA18291"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-3"
+  domain_scoped: false
+related:
+- type: broader
+  target: 114

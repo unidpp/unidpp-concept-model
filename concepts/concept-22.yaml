@@ -1,0 +1,19 @@
+---
+term: "blind provenance"
+termid: 22
+eng:
+  id: 22
+  term: "blind provenance"
+  definition: "attestation of input provenance issued by a notified or accredited body that withholds the raw input identities behind its own attestation, used where commercial confidentiality demands it"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-11"
+  domain_scoped: false
+related:
+- type: associative
+  target: 57

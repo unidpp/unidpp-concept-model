@@ -1,0 +1,19 @@
+---
+term: "absorbed component"
+termid: 52
+eng:
+  id: 52
+  term: "absorbed component"
+  definition: "input whose identity dissolves into its parent and is therefore modelled as a transformation input rather than a live child, recorded at the finest available granularity as dormant identifiers"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-14"
+  domain_scoped: false
+related:
+- type: narrower_part
+  target: 184

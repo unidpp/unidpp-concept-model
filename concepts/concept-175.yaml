@@ -1,0 +1,19 @@
+---
+term: "result"
+termid: 175
+eng:
+  id: 175
+  term: "result"
+  definition: "return value after the execution of a method ({{method}}) [example] -- the DPP --"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "EN18222"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-6"
+  domain_scoped: false

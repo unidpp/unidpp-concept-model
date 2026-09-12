@@ -1,0 +1,20 @@
+---
+term: "inputReference"
+termid: 18
+eng:
+  id: 18
+  term: "inputReference"
+  definition: "record in the issuance event of a derived passport naming an input passport, the quantity consumed and the as-of state hash under which it was taken"
+  language_code: eng
+  notes:
+  - "The new passport hash-links its sources, so that the provenance graph is reconstructable without trusting the issuing actor alone."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-11"
+  domain_scoped: false
+related:
+- type: narrower_part
+  target: 17

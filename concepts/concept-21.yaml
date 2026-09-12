@@ -1,0 +1,19 @@
+---
+term: "consumed passport"
+termid: 21
+eng:
+  id: 21
+  term: "consumed passport"
+  definition: "input passport that has reached the consumed or transformed state in a transformation event, retaining historical verifiability for as-of queries"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-11"
+  domain_scoped: false
+related:
+- type: associative
+  target: 17

@@ -1,0 +1,19 @@
+---
+term: "roll-up attestation"
+termid: 5
+eng:
+  id: 5
+  term: "roll-up attestation"
+  definition: "signed attestation giving an aggregate over a committed traversal set of child passports, verifiable without fetching every member of the set"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-10"
+  domain_scoped: false
+related:
+- type: associative
+  target: 6

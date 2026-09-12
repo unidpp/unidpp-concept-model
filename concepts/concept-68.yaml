@@ -1,0 +1,20 @@
+---
+term: "three verification readings"
+termid: 68
+eng:
+  id: 68
+  term: "three verification readings"
+  definition: "three legally distinct readings of a verification result, namely evidentiary, current-state and cryptographic, each of which a verdict states explicitly"
+  language_code: eng
+  notes:
+  - "The evidentiary reading asks what a diligent verifier could know at the time; the current-state reading voids fraud from the beginning; the cryptographic reading covers signature and chain validity alone."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-16"
+  domain_scoped: false
+related:
+- type: associative
+  target: 167

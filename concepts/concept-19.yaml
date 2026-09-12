@@ -1,0 +1,19 @@
+---
+term: "quantity carve-out"
+termid: 19
+eng:
+  id: 19
+  term: "quantity carve-out"
+  definition: "recorded allocation of input quantity to an output of a split transformation, such that the sum of the child quantities does not exceed the parent"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-11"
+  domain_scoped: false
+related:
+- type: narrower_part
+  target: 17

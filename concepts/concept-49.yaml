@@ -1,0 +1,19 @@
+---
+term: "binding strength"
+termid: 49
+eng:
+  id: 49
+  term: "binding strength"
+  definition: "declared permanence of an installation binding, ranging from reversible fastening to destructive integration"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-14"
+  domain_scoped: false
+related:
+- type: part_of
+  target: 46

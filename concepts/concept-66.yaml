@@ -1,0 +1,19 @@
+---
+term: "master list"
+termid: 66
+eng:
+  id: 66
+  term: "master list"
+  definition: "globally multi-witnessed list of trust lists, co-signed by a quorum of independent logs, by which verifiers cross-recognize jurisdictional trust authorities"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-16"
+  domain_scoped: false
+related:
+- type: broader
+  target: 212

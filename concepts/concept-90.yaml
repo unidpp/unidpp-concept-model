@@ -1,0 +1,22 @@
+---
+term: "persistence"
+termid: 90
+eng:
+  id: 90
+  term: "persistence"
+  definition: "process to keep a unique identifier associated with an identified object throughout its life cycle"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "EN18219, EN18220"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-2"
+  domain_scoped: false
+related:
+- type: associative
+  target: 84

@@ -1,0 +1,19 @@
+---
+term: "containment event"
+termid: 216
+eng:
+  id: 216
+  term: "containment event"
+  definition: "typed event recording that one passport is physically or structurally contained in another, retained for genealogy and recall traversal and never transferring authority"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-9"
+  domain_scoped: false
+related:
+- type: associative
+  target: 46

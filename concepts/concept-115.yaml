@@ -1,0 +1,22 @@
+---
+term: "notified actor"
+termid: 115
+eng:
+  id: 115
+  term: "notified actor"
+  definition: "organization or individual entitled by an authorized accrediting body or authority, that fulfils a role in the DPP lifecycle"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "EN18239"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-3"
+  domain_scoped: false
+related:
+- type: broader
+  target: 114

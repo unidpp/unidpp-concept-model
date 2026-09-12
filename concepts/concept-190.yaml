@@ -1,0 +1,22 @@
+---
+term: "instance asset"
+termid: 190
+eng:
+  id: 190
+  term: "instance asset"
+  definition: "specific asset that is uniquely identifiable [example] -- Examples of instance assets are material, a product, a part, a device, a machine, software, a control system, or a production system. --"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "IEC63278, IDTA01001"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-6"
+  domain_scoped: false
+related:
+- type: broader
+  target: 178

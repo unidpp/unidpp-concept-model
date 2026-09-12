@@ -1,0 +1,20 @@
+---
+term: "dormant-to-live adoption"
+termid: 13
+eng:
+  id: 13
+  term: "dormant-to-live adoption"
+  definition: "act of a future passport regime of issuing passports by adopting the identifiers already recorded as dormant for the object class, rather than minting new ones"
+  language_code: eng
+  notes:
+  - "Adoption connects the installed base retroactively through its build records; minting fresh identifiers would orphan it."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-10"
+  domain_scoped: false
+related:
+- type: associative
+  target: 12

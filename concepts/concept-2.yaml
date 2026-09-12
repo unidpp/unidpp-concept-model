@@ -1,0 +1,22 @@
+---
+term: "digital product passport id"
+termid: 2
+eng:
+  id: 2
+  term: "digital product passport id"
+  definition: "unique identifier of an instance of the digital product passport"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "EN18223"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-1"
+  domain_scoped: false
+related:
+- type: part_of
+  target: 1

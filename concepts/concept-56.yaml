@@ -1,0 +1,19 @@
+---
+term: "custodian"
+termid: 56
+eng:
+  id: 56
+  term: "custodian"
+  definition: "actor that currently holds the live event segment of a subject's record and is authorized to append custody-relevant events to it"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-14"
+  domain_scoped: false
+related:
+- type: broader
+  target: 114

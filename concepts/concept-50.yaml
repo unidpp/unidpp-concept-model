@@ -1,0 +1,19 @@
+---
+term: "slot identity"
+termid: 50
+eng:
+  id: 50
+  term: "slot identity"
+  definition: "parent-scoped identifier of an installation position by which an installed child is re-identified within its parent"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-14"
+  domain_scoped: false
+related:
+- type: part_of
+  target: 46

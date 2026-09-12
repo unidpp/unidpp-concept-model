@@ -1,0 +1,21 @@
+---
+term: "membership"
+termid: 47
+eng:
+  id: 47
+  term: "membership"
+  definition: "temporal relationship between a passport and a group node, such as a shipment, consignment, kit, fleet or recall set"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-14"
+  domain_scoped: false
+related:
+- type: associative
+  target: 46
+- type: associative
+  target: 48

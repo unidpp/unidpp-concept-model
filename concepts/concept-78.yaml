@@ -1,0 +1,19 @@
+---
+term: "read federation"
+termid: 78
+eng:
+  id: 78
+  term: "read federation"
+  definition: "federation tier in which any party consumes the registry and trust bundles without an admission ceremony"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-16"
+  domain_scoped: false
+related:
+- type: associative
+  target: 71

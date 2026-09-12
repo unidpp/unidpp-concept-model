@@ -1,0 +1,23 @@
+---
+term: "controlled DPP data"
+termid: 151
+eng:
+  id: 151
+  term: "controlled DPP data"
+  definition: "information on digital product passport whose access is controlled based on the user's access rights"
+  language_code: eng
+  notes:
+  - "User in the sense of a person who interacts with a system, product or service."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "EN18239, EN18216"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-5"
+  domain_scoped: false
+related:
+- type: part_of
+  target: 1

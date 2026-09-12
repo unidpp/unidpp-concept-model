@@ -1,0 +1,19 @@
+---
+term: "preservation"
+termid: 91
+eng:
+  id: 91
+  term: "preservation"
+  definition: "activity of ensuring that a unique identifier and its denotation remain stable, valid, and retrievable for as long as required"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "EN18219"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-2"
+  domain_scoped: false

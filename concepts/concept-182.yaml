@@ -1,0 +1,25 @@
+---
+term: "capability"
+termid: 182
+eng:
+  id: 182
+  term: "capability"
+  definition: "implementation-independent potential of a component to achieve an effect within a domain"
+  language_code: eng
+  notes:
+  - "Capabilities can be orchestrated and structured hierarchically."
+  - "Capabilities can be made executable via services."
+  - "The impact manifests itself in a measurable effect within the physical world."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "I40GLOSS, IDTA01001"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-6"
+  domain_scoped: false
+related:
+- type: narrower_part
+  target: 196

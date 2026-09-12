@@ -1,0 +1,16 @@
+---
+term: "traversal set"
+termid: 6
+eng:
+  id: 6
+  term: "traversal set"
+  definition: "committed, hash-identified set of passport versions over which a roll-up attestation or a graph traversal is computed"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-10"
+  domain_scoped: false

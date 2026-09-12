@@ -1,0 +1,22 @@
+---
+term: "subcontractor"
+termid: 122
+eng:
+  id: 122
+  term: "subcontractor"
+  definition: "company or company function that performs activities as a sub-contractor (for example cutting/sewing operations but also dyeing)"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "CWA18291"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-3"
+  domain_scoped: false
+related:
+- type: broader
+  target: 114

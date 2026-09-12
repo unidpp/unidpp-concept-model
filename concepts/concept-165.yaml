@@ -1,0 +1,22 @@
+---
+term: "electronically signed data construct"
+termid: 165
+eng:
+  id: 165
+  term: "electronically signed data construct"
+  definition: "structured data set containing the header, payload, signature and optional data fields"
+  language_code: eng
+  notes:
+  - "The payload type and issuer identity are included in the header."
+  - "An ESDC is a machine-readable code."
+  - "An ESDC can contain non-signed data elements."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "EN18246, ISOIEC20248"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-5"
+  domain_scoped: false

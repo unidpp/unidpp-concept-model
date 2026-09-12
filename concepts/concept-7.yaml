@@ -1,0 +1,17 @@
+---
+term: "edge segment"
+termid: 7
+eng:
+  id: 7
+  term: "edge segment"
+  definition: "part of the event-sourced record of a subject that originates on the subject's own device and is published through device commitments"
+  language_code: eng
+  notes:
+  - "The device is a tier of the passport system, not a client; it commits now and reveals later, but never contradicts."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-10"
+  domain_scoped: false

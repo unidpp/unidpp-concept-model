@@ -1,0 +1,22 @@
+---
+term: "back-up digital product passport service provider"
+termid: 112
+eng:
+  id: 112
+  term: "back-up digital product passport service provider"
+  definition: "digital product passport service provider ({{digital product passport service provider}}) that is hosting the back-up copy of the digital product passport ({{digital product passport}})"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "EN18221"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-3"
+  domain_scoped: false
+related:
+- type: narrower_part
+  target: 110

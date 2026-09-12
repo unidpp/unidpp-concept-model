@@ -1,0 +1,22 @@
+---
+term: "identification scheme"
+termid: 87
+eng:
+  id: 87
+  term: "identification scheme"
+  definition: "system for allocating identifiers to objects"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "ISOIEC6523, EN18219"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-2"
+  domain_scoped: false
+related:
+- type: associative
+  target: 88

@@ -1,0 +1,19 @@
+---
+term: "authentication"
+termid: 152
+eng:
+  id: 152
+  term: "authentication"
+  definition: "verification that a claimed identity is correct"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "IEEE8802-1AR, EN18216"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-5"
+  domain_scoped: false

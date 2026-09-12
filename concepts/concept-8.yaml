@@ -1,0 +1,19 @@
+---
+term: "device commitment"
+termid: 8
+eng:
+  id: 8
+  term: "device commitment"
+  definition: "signature by a device-bound key over the hash of a prefix of the device's local append-only event log, published so that later disclosures are inclusion-consistent with past commitments"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-10"
+  domain_scoped: false
+related:
+- type: associative
+  target: 7

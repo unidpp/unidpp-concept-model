@@ -1,0 +1,23 @@
+---
+term: "digital twin"
+termid: 187
+eng:
+  id: 187
+  term: "digital twin"
+  definition: "digital representation, sufficient to meet the requirements of a set of use cases"
+  language_code: eng
+  notes:
+  - "In this context, the entity in the definition of digital representation is typically an asset."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "IDTA01001"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-6"
+  domain_scoped: false
+related:
+- type: broader
+  target: 186

@@ -1,0 +1,19 @@
+---
+term: "connected subject"
+termid: 36
+eng:
+  id: 36
+  term: "connected subject"
+  definition: "subject that self-reports under device keys and participates with full edge segments"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-13"
+  domain_scoped: false
+related:
+- type: narrower_part
+  target: 32

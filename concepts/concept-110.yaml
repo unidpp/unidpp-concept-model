@@ -1,0 +1,22 @@
+---
+term: "digital product passport service provider"
+termid: 110
+eng:
+  id: 110
+  term: "digital product passport service provider"
+  definition: "natural or legal person that is an independent third party authorized by the economic operator ({{economic operator}}) that places the product on the market or puts it into service and that processes the digital product passport data for that product for the purpose of making such data available to economic operators and other relevant actors with a right to access those data"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "EN18221"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-3"
+  domain_scoped: false
+related:
+- type: broader
+  target: 114

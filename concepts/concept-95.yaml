@@ -1,0 +1,19 @@
+---
+term: "unique facility identifier"
+termid: 95
+eng:
+  id: 95
+  term: "unique facility identifier"
+  definition: "unique string of characters for the identification of location or building involved in a product's value chain or used by actors involved in a product's value chain"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "EN18219"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-2"
+  domain_scoped: false

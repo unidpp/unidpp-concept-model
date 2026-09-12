@@ -1,0 +1,19 @@
+---
+term: "method"
+termid: 173
+eng:
+  id: 173
+  term: "method"
+  definition: "particular way used to perform a specific action on a resource [example] -- read a DPP --"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "EN18222"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-6"
+  domain_scoped: false

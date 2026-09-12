@@ -1,0 +1,20 @@
+---
+term: "owner-push disclosure"
+termid: 62
+eng:
+  id: 62
+  term: "owner-push disclosure"
+  definition: "disclosure of instance state initiated by the owner, such as a warranty registration, as the default manufacturer-visibility channel"
+  language_code: eng
+  notes:
+  - "A manufacturer-initiated pull of instance state is not a channel of the framework; authority-based compulsion of traversal is a separate, legal-basis-governed mechanism."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-15"
+  domain_scoped: false
+related:
+- type: associative
+  target: 57

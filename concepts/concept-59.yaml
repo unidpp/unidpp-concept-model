@@ -1,0 +1,21 @@
+---
+term: "proof of binding"
+termid: 59
+eng:
+  id: 59
+  term: "proof of binding"
+  definition: "salted cryptographic commitment to the parent, recorded in the child's event log, by which a child satisfies the bidirectional parent-knowledge requirement without disclosing the identity of the parent"
+  language_code: eng
+  notes:
+  - "Proof of binding is distinct from knowledge of parent: verifiable modes establish that the child is validly installed in some parent under a given profile (warranty, compliance) without revealing which parent; full disclosure occurs only by ceremony."
+  - "An optional escrow envelope under a threshold trustee (concept dpp-0137) accompanies the commitment where future disclosure must remain possible."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-15"
+  domain_scoped: false
+related:
+- type: associative
+  target: 57

@@ -1,0 +1,19 @@
+---
+term: "interoperability"
+termid: 168
+eng:
+  id: 168
+  term: "interoperability"
+  definition: "ability of two or more systems or applications to exchange information and to mutually use the information that has been exchanged"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "ISOIEC22123, EN18223, ISO18435, EN18219"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-6"
+  domain_scoped: false

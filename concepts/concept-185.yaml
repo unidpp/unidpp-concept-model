@@ -1,0 +1,19 @@
+---
+term: "concept"
+termid: 185
+eng:
+  id: 185
+  term: "concept"
+  definition: "unit of knowledge created by a unique combination of characteristics"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "IEC63278, IDTA01001"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-6"
+  domain_scoped: false

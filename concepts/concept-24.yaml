@@ -1,0 +1,23 @@
+---
+term: "characteristic profile"
+termid: 24
+eng:
+  id: 24
+  term: "characteristic profile"
+  definition: "profile that attaches by predicate on digital twin facts, such as age, material content, heritage status or market status, rather than by law-of-place or industry"
+  language_code: eng
+  notes:
+  - "Characteristic profiles split into regulatory-triggered profiles (for example CITES species content, cultural-goods import controls, art-market due diligence, conflict-minerals origin) and voluntary value profiles (for example provenance and grading for antiques and collectibles)."
+  - "Predicate triggers include time predicates: an object becoming older than a given age is a clock-fired applicability event handled by the dated-binding machinery."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-12"
+  domain_scoped: false
+related:
+- type: narrower
+  target: 205
+- type: has_part
+  target: 25

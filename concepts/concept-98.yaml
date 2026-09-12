@@ -1,0 +1,20 @@
+---
+term: "additional software"
+termid: 98
+eng:
+  id: 98
+  term: "additional software"
+  definition: "additional application, program, or tool that a user will install or access separately from the default setup of most smartphones or similar devices to interact with the digital product passport [example] -- Proprietary applications, plugins or extensions, dedicated apps, specialized middleware, or customized software readers. --"
+  language_code: eng
+  notes:
+  - "Standard functionalities, such as web browsers, camera-based QR readers, and universal communication protocols (e.g. DNS, HTTP, HTTPS), are not considered as additional software."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "EN18220"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-2"
+  domain_scoped: false

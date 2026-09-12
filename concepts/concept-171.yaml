@@ -1,0 +1,19 @@
+---
+term: "application programming interface"
+termid: 171
+eng:
+  id: 171
+  term: "application programming interface"
+  definition: "set of methods ({{method}}) provided by an application component for use by other application components"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "EN18222"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-6"
+  domain_scoped: false

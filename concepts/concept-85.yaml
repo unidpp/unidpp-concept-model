@@ -1,0 +1,19 @@
+---
+term: "digital identifier"
+termid: 85
+eng:
+  id: 85
+  term: "digital identifier"
+  definition: "sequence of characters associated with digital, non-digital, or abstract entities, such as books, images, reports, metadata records or events"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "ISO24619, EN18216"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-2"
+  domain_scoped: false

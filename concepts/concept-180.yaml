@@ -1,0 +1,23 @@
+---
+term: "Asset Administration Shell"
+termid: 180
+eng:
+  id: 180
+  term: "Asset Administration Shell"
+  definition: "standardized digital representation of an asset"
+  language_code: eng
+  notes:
+  - "Asset Administration Shell and Administration Shell are used synonymously."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "IEC63278, IDTA01001"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-6"
+  domain_scoped: false
+related:
+- type: has_part
+  target: 195

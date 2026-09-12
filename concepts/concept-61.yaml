@@ -1,0 +1,21 @@
+---
+term: "predicate-based recall"
+termid: 61
+eng:
+  id: 61
+  term: "predicate-based recall"
+  definition: "recall scheme in which the recall set is never enumerated centrally: the recall predicate is published, and each custodian evaluates it locally against their own holdings, including dark and defence holdings under national procedure, and acts"
+  language_code: eng
+  notes:
+  - "The manufacturer receives aggregates or nothing; there is no traversal-push enumeration of the installed base."
+  - "One of the mechanisms by which enumeration resistance (concept dpp-0139) is maintained: recall propagation still notifies custodians transitively, but through local predicate evaluation rather than central construction of the recall set."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-15"
+  domain_scoped: false
+related:
+- type: associative
+  target: 6

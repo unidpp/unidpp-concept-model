@@ -1,0 +1,19 @@
+---
+term: "recovery point objective"
+termid: 158
+eng:
+  id: 158
+  term: "recovery point objective"
+  definition: "point in time to which data must be recovered after a disruption has occurred"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "ISOIEC27031, EN18239"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-5"
+  domain_scoped: false

@@ -1,0 +1,19 @@
+---
+term: "data carrier"
+termid: 97
+eng:
+  id: 97
+  term: "data carrier"
+  definition: "device or medium used to store data as a relay mechanism in an automatic identification and data capture system"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "EN18220"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-2"
+  domain_scoped: false

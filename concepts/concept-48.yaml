@@ -1,0 +1,19 @@
+---
+term: "group node"
+termid: 48
+eng:
+  id: 48
+  term: "group node"
+  definition: "queryable grouping of passports that receives a passport of its own only when the group is itself placed on the market"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-14"
+  domain_scoped: false
+related:
+- type: has_part
+  target: 47

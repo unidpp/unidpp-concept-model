@@ -1,0 +1,24 @@
+---
+term: "degradation ladder"
+termid: 220
+eng:
+  id: 220
+  term: "degradation ladder"
+  definition: "ordered set of service tiers by which availability and verification degrade explicitly, from the served full passport through the carrier-embedded minimum to the archival record"
+  language_code: eng
+  notes:
+  - "Stale or offline data is always marked as such, never silently passed as current."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-9"
+  domain_scoped: false
+related:
+- type: has_part
+  target: 221
+- type: has_part
+  target: 222
+- type: has_part
+  target: 223

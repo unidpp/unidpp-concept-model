@@ -1,0 +1,19 @@
+---
+term: "representational state transfer application programming interface"
+termid: 172
+eng:
+  id: 172
+  term: "representational state transfer application programming interface"
+  definition: "service that allows for interaction with resources via a stateless, client-server architecture, typically using standard HTTP calls like GET, POST, PUT, and DELETE to perform methods ({{method}}) by an application component on these resources"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "EN18222"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-6"
+  domain_scoped: false

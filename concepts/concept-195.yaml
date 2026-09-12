@@ -1,0 +1,24 @@
+---
+term: "Submodel"
+termid: 195
+eng:
+  id: 195
+  term: "Submodel"
+  definition: "representation of an aspect of an asset"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "IEC63278, IDTA01001"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-6"
+  domain_scoped: false
+related:
+- type: has_part
+  target: 196
+- type: narrower_part
+  target: 180

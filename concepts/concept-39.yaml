@@ -1,0 +1,22 @@
+---
+term: "truth mode"
+termid: 39
+eng:
+  id: 39
+  term: "truth mode"
+  definition: "declared per-data-element attribute of a profile stating which truth source the element requires, namely attest-sampled, self-committed, or both with a precedence rule"
+  language_code: eng
+  notes:
+  - "The passive twin (concept dpp-0132) supplies attest-sampled truth and the active twin (concept dpp-0133) supplies self-committed truth; both paradigms coexist permanently in the framework."
+  - "Precedence between a calibrated device measurement and an attestor observation is itself a metrological hierarchy question."
+  - "Freshness and verification requirements must be satisfiable by the subject's capability class: demanding live freshness from an S0 (silent) product is an unsatisfiable profile."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-13"
+  domain_scoped: false
+related:
+- type: associative
+  target: 38

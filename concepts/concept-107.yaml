@@ -1,0 +1,19 @@
+---
+term: "model"
+termid: 107
+eng:
+  id: 107
+  term: "model"
+  definition: "version of a product of which all units share the same technical characteristics and the same model identifier"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "EN18219, EN18220"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-2"
+  domain_scoped: false

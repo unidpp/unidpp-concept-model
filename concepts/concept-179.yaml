@@ -1,0 +1,19 @@
+---
+term: "attribute"
+termid: 179
+eng:
+  id: 179
+  term: "attribute"
+  definition: "data element of a property, a relation, or a class in information technology"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "IEC63278, IDTA01001"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-6"
+  domain_scoped: false

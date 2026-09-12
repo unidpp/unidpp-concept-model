@@ -1,0 +1,21 @@
+---
+term: "dormant identifier"
+termid: 12
+eng:
+  id: 12
+  term: "dormant identifier"
+  definition: "identifier recorded at the finest available granularity for an object class for which no passport regime yet exists, held as issuance evidence for adoption by a future regime"
+  language_code: eng
+  notes:
+  - "When a future regime issues passports for the object class it adopts the recorded dormant identifiers rather than minting new ones, so that the installed base connects retroactively through its build records."
+  - "Inputs are recorded even when no passport exists behind them yet; minting fresh identifiers would orphan the installed base."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-10"
+  domain_scoped: false
+related:
+- type: narrower
+  target: 84

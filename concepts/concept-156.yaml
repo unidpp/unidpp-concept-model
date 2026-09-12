@@ -1,0 +1,19 @@
+---
+term: "system availability"
+termid: 156
+eng:
+  id: 156
+  term: "system availability"
+  definition: "property of being accessible and usable on demand by an authorized entity"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "ISOIEC27000, EN18239"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-5"
+  domain_scoped: false

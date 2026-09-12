@@ -1,0 +1,24 @@
+---
+term: "operation"
+termid: 191
+eng:
+  id: 191
+  term: "operation"
+  definition: "executable realization of a function"
+  language_code: eng
+  notes:
+  - "The term method is synonymous to operation."
+  - "An operation has a name and a list of parameters [ISO 19119:2005, 4.1.3]."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "I40GLOSS, IDTA01001"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-6"
+  domain_scoped: false
+related:
+- type: narrower_part
+  target: 196

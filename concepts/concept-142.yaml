@@ -1,0 +1,22 @@
+---
+term: "collection"
+termid: 142
+eng:
+  id: 142
+  term: "collection"
+  definition: "process of gathering and transporting used textile products or waste materials to a sorting facility for further processing such as reuse, repair, remanufacturing, or recycling"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "ISO5157, CWA18291"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-4"
+  domain_scoped: false
+related:
+- type: associative
+  target: 148

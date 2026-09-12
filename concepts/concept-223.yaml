@@ -1,0 +1,16 @@
+---
+term: "Tier-C archive"
+termid: 223
+eng:
+  id: 223
+  term: "Tier-C archive"
+  definition: "notarized archival form of the passport record, retained for persistence beyond the operational lifetime of any single provider"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-9"
+  domain_scoped: false

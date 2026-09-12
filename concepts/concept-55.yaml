@@ -1,0 +1,20 @@
+---
+term: "custody transfer"
+termid: 55
+eng:
+  id: 55
+  term: "custody transfer"
+  definition: "signed ceremony recording the transfer of responsibility for an object between custodians, appended to the event chain by the custodian and the counterparty, which extends and never overwrites the trail across successive owners"
+  language_code: eng
+  notes:
+  - "Custody links are social and control edges, orthogonal to structural composition: ownership changes while composition stays fixed."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-14"
+  domain_scoped: false
+related:
+- type: associative
+  target: 56

@@ -1,0 +1,19 @@
+---
+term: "resolution"
+termid: 92
+eng:
+  id: 92
+  term: "resolution"
+  definition: "process in which an identifier is translated or mapped to another identifier, associated information or metadata about the object it represents"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "EN18219, ISOIEC18975"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-2"
+  domain_scoped: false

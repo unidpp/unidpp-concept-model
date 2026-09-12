@@ -1,0 +1,22 @@
+---
+term: "buyer"
+termid: 123
+eng:
+  id: 123
+  term: "buyer"
+  definition: "individual or entity purchasing goods or services"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "ISO24533-2, CWA18291"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-3"
+  domain_scoped: false
+related:
+- type: broader
+  target: 114

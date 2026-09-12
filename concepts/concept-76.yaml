@@ -1,0 +1,20 @@
+---
+term: "operator credential"
+termid: 76
+eng:
+  id: 76
+  term: "operator credential"
+  definition: "scoped, threshold-issued credential by which an operator signs registry items and service attestations"
+  language_code: eng
+  notes:
+  - "Appends claiming a role outside the credential's scope degrade the trust marker; they do not pass silently."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-16"
+  domain_scoped: false
+related:
+- type: associative
+  target: 72

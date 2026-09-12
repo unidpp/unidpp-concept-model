@@ -1,0 +1,19 @@
+---
+term: "service-center model"
+termid: 40
+eng:
+  id: 40
+  term: "service-center model"
+  definition: "arrangement in which a subject's state is sampled and attested only when the subject visits an attestor, yielding episodic truth and unbounded, undetectable staleness between attestations"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-13"
+  domain_scoped: false
+related:
+- type: associative
+  target: 37

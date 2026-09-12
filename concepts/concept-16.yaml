@@ -1,0 +1,23 @@
+---
+term: "derived passport"
+termid: 16
+eng:
+  id: 16
+  term: "derived passport"
+  definition: "passport issued as the output of a transformation event by an actor accredited for the regulated claims it contains, hash-linking its input passports"
+  language_code: eng
+  notes:
+  - "Only accredited actors may issue derived passports for regulated claims."
+  - "Children of a split carry a derived-from reference and quantity carve-outs, with the sum of children not exceeding the parent (remainder semantics)."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-11"
+  domain_scoped: false
+related:
+- type: broader
+  target: 1
+- type: associative
+  target: 17

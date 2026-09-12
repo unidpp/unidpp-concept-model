@@ -1,0 +1,19 @@
+---
+term: "protocol binding"
+termid: 73
+eng:
+  id: 73
+  term: "protocol binding"
+  definition: "registered specification of a wire grammar, media types, version and conformance suite by which an interaction with a service or a device is conducted"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-16"
+  domain_scoped: false
+related:
+- type: narrower_part
+  target: 72

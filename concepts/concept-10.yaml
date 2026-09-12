@@ -1,0 +1,16 @@
+---
+term: "type version"
+termid: 10
+eng:
+  id: 10
+  term: "type version"
+  definition: "versioned state of a type passport capturing hardware revisions and type-declared facts, referenced exactly by the instance passports derived from it"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-10"
+  domain_scoped: false

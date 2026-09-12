@@ -1,0 +1,19 @@
+---
+term: "two-dimensional symbol"
+termid: 103
+eng:
+  id: 103
+  term: "two-dimensional symbol"
+  definition: "code representing data in machine-readable form by a collection of polygonal or circular cells in a regular pattern which are read optically by scanning"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "EN18220"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-2"
+  domain_scoped: false

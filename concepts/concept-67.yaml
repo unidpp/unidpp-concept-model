@@ -1,0 +1,20 @@
+---
+term: "revocation window"
+termid: 67
+eng:
+  id: 67
+  term: "revocation window"
+  definition: "explicit start and end interval carried by a distrust declaration, within which affected credentials are void and outside which they are re-validated"
+  language_code: eng
+  notes:
+  - "The reason for revocation determines retroactivity: prospective reasons preserve earlier as-of verifications; misissuance voids validity from the beginning."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-16"
+  domain_scoped: false
+related:
+- type: associative
+  target: 65

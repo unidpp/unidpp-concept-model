@@ -1,0 +1,19 @@
+---
+term: "placed on the market"
+termid: 137
+eng:
+  id: 137
+  term: "placed on the market"
+  definition: "first making available of a product"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "EN18219"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-4"
+  domain_scoped: true

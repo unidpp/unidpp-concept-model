@@ -1,0 +1,19 @@
+---
+term: "silent subject"
+termid: 33
+eng:
+  id: 33
+  term: "silent subject"
+  definition: "subject with no connectivity, keys or self-reporting, whose record is reconstructed entirely from testimonies about it"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-13"
+  domain_scoped: false
+related:
+- type: narrower_part
+  target: 32

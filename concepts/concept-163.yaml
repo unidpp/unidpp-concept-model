@@ -1,0 +1,19 @@
+---
+term: "state-of-the-art"
+termid: 163
+eng:
+  id: 163
+  term: "state-of-the-art"
+  definition: "developed stage of technical capability at a given time as regards products, processes and services, based on the relevant consolidated findings of science, technology and experience"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "ISOIECGuide2, EN18219"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-5"
+  domain_scoped: true

@@ -1,0 +1,19 @@
+---
+term: "attribution"
+termid: 28
+eng:
+  id: 28
+  term: "attribution"
+  definition: "expert statement assigning an object to a creator, workshop or period, recorded as a competing fact with provenance rather than merged with other attributions"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-12"
+  domain_scoped: false
+related:
+- type: associative
+  target: 27

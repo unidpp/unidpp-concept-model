@@ -1,0 +1,19 @@
+---
+term: "digital product passport lifetime"
+termid: 139
+eng:
+  id: 139
+  term: "digital product passport lifetime"
+  definition: "period during which the digital product passport ({{digital product passport}}) is required by regulation to be available to any operator or natural or legal person with a right to access its data"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "EN18221"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-4"
+  domain_scoped: false

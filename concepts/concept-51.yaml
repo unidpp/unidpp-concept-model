@@ -1,0 +1,19 @@
+---
+term: "pairing"
+termid: 51
+eng:
+  id: 51
+  term: "pairing"
+  definition: "recorded binding of a child to its parent context, by firmware, key or module, that is re-established when a component is replaced"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-14"
+  domain_scoped: false
+related:
+- type: part_of
+  target: 46

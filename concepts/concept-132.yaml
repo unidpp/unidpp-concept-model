@@ -1,0 +1,22 @@
+---
+term: "eService platform"
+termid: 132
+eng:
+  id: 132
+  term: "eService platform"
+  definition: "platform for eBusiness centralized services"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "CWA18291"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-3"
+  domain_scoped: false
+related:
+- type: associative
+  target: 114

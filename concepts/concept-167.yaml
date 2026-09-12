@@ -1,0 +1,23 @@
+---
+term: "verification"
+termid: 167
+eng:
+  id: 167
+  term: "verification"
+  definition: "confirmation of the truthfulness through the provision of objective evidence that specified requirements have been fulfilled"
+  language_code: eng
+  notes:
+  - "Compared with the source: numbers referencing to related sections and the accompanying note have been removed from the definition."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "AWI25534, ISOIEC17000"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-5"
+  domain_scoped: false
+related:
+- type: associative
+  target: 166

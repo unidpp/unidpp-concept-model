@@ -1,0 +1,22 @@
+---
+term: "identification"
+termid: 86
+eng:
+  id: 86
+  term: "identification"
+  definition: "process of recognizing an object in a particular domain as distinct from other objects"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "ISOIEC24760, EN18216"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-2"
+  domain_scoped: false
+related:
+- type: associative
+  target: 87

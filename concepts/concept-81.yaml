@@ -1,0 +1,19 @@
+---
+term: "seed bundle"
+termid: 81
+eng:
+  id: 81
+  term: "seed bundle"
+  definition: "bootstrap set of registry endpoints and trust anchors with which a conforming client first initializes, resolving the circular dependence between registry discovery and trust"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-16"
+  domain_scoped: false
+related:
+- type: associative
+  target: 77

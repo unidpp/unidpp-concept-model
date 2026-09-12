@@ -1,0 +1,22 @@
+---
+term: "reviewer"
+termid: 119
+eng:
+  id: 119
+  term: "reviewer"
+  definition: "expert in charge of reviewing a study"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "CWA18291"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-3"
+  domain_scoped: false
+related:
+- type: broader
+  target: 114

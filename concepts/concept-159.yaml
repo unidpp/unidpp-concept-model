@@ -1,0 +1,19 @@
+---
+term: "recovery time objective"
+termid: 159
+eng:
+  id: 159
+  term: "recovery time objective"
+  definition: "period of time within which minimum levels of services and/or products and the supporting systems, applications, or functions must be recovered after a disruption has occurred"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "ISOIEC27031, EN18239"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-5"
+  domain_scoped: false

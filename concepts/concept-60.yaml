@@ -1,0 +1,21 @@
+---
+term: "enumeration resistance"
+termid: 60
+eng:
+  id: 60
+  term: "enumeration resistance"
+  definition: "system property by which the passport system is verifiable without being browsable: resolution is by identity only, traversal requires per-edge rights, and no party, including any registry, resolver network or log operator, can enumerate the installed base of anything"
+  language_code: eng
+  notes:
+  - "Transparency logs anchor commitments (hashes), never facts, so log operators cannot correlate edges; accumulator and blind-membership proofs give valid-standing checks without revealing which or where."
+  - "Stated as design invariant I12, together with blind edges by default where households or sites are revealed (concept dpp-0136), proof of binding distinct from knowledge of parent (concept dpp-0138), and predicate-based recall (concept dpp-0140)."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-15"
+  domain_scoped: false
+related:
+- type: associative
+  target: 57

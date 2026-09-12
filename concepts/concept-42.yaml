@@ -1,0 +1,19 @@
+---
+term: "continuous conformity monitoring"
+termid: 42
+eng:
+  id: 42
+  term: "continuous conformity monitoring"
+  definition: "conformity mode in which requirements are re-judged against the live state of the twin, rather than only at point-in-time inspection"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-13"
+  domain_scoped: false
+related:
+- type: associative
+  target: 43

@@ -1,0 +1,16 @@
+---
+term: "derived type"
+termid: 11
+eng:
+  id: 11
+  term: "derived type"
+  definition: "new type resulting from a regulated modification of an existing type, recorded as a derivation event in the identity lattice"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-10"
+  domain_scoped: false

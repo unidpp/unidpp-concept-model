@@ -1,0 +1,22 @@
+---
+term: "product circularity"
+termid: 149
+eng:
+  id: 149
+  term: "product circularity"
+  definition: "refers to repairing, reusing and remanufacturing equipment, and harvesting and recycling metals indefinitely through product design and collection processes"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "AWI25534, UNEPToledano2023"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-4"
+  domain_scoped: true
+related:
+- type: narrower
+  target: 148

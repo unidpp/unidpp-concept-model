@@ -1,0 +1,22 @@
+---
+term: "recoverability"
+termid: 53
+eng:
+  id: 53
+  term: "recoverability"
+  definition: "declared property of an installation binding (concept dpp-0142) stating whether and how the installed child can resume an independent existence, taking one of the values restorable, harvestable, destructive or absorbing"
+  language_code: eng
+  notes:
+  - "Restorable: the child resumes standalone life; harvestable: recovered but altered, continuing with harvested status and parent history (concept dpp-0144); destructive: the child ceases and flows to a material passport through a transformation event (concept dpp-0129); absorbing: identity dissolves into the parent."
+  - "Absorption is regime-temporal rather than permanent: absorbed inputs are recorded at the finest available granularity as dormant identifiers (concept dpp-0135), issuable by adoption when a future regime requires passports for the object class."
+  - "Carried in the EXPRESS core as part of the PassportLink binding (method, recoverability)."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-14"
+  domain_scoped: false
+related:
+- type: part_of
+  target: 46

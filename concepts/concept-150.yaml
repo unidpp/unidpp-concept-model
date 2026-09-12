@@ -1,0 +1,23 @@
+---
+term: "value chain"
+termid: 150
+eng:
+  id: 150
+  term: "value chain"
+  definition: "all activities and stakeholders that provide or receive value from designing, developing, making, distributing, retailing, and consuming a product (or providing the service that a product renders), including the extraction and supply of raw materials, as well as activities involving the product after its useful service life has ended"
+  language_code: eng
+  notes:
+  - "Compared with the source: the source is framed for the textile sector; the AWI draft reformulates the term in a sector-neutral form."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "AWI25534, UNEPDTI2532"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-4"
+  domain_scoped: false
+related:
+- type: associative
+  target: 135

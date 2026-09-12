@@ -1,0 +1,22 @@
+---
+term: "issuing agency"
+termid: 113
+eng:
+  id: 113
+  term: "issuing agency"
+  definition: "organisation entrusted by a Registration Authority (RA) to manage unique identification schemes"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "EN18219"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-3"
+  domain_scoped: false
+related:
+- type: broader
+  target: 114

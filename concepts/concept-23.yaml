@@ -1,0 +1,20 @@
+---
+term: "jurisdiction stamp"
+termid: 23
+eng:
+  id: 23
+  term: "jurisdiction stamp"
+  definition: "stamp issued under a jurisdiction profile on a passport issued under another jurisdiction, recording that the stamping jurisdiction's requirements were assessed"
+  language_code: eng
+  notes:
+  - "The colloquial designation of a jurisdiction stamp on a foreign-issued passport is \"visa\"; entry and exit stamps are the verifier's custody events."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-11"
+  domain_scoped: false
+related:
+- type: narrower_part
+  target: 15

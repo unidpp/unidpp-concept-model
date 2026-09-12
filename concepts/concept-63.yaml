@@ -1,0 +1,19 @@
+---
+term: "dark identity"
+termid: 63
+eng:
+  id: 63
+  term: "dark identity"
+  definition: "identity that is resolvable only within a restricted resolution domain, such as a national domain, and never enters the global resolver"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-15"
+  domain_scoped: false
+related:
+- type: narrower_part
+  target: 84

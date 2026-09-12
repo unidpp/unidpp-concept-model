@@ -1,0 +1,19 @@
+---
+term: "commissioning"
+termid: 26
+eng:
+  id: 26
+  term: "commissioning"
+  definition: "issuance act by which a qualified attestor or registrar establishes the identity of an object that predates or lies outside a manufacturer-issued regime, recording the first sighting in the event log"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-12"
+  domain_scoped: false
+related:
+- type: associative
+  target: 27

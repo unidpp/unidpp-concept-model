@@ -1,0 +1,22 @@
+---
+term: "self-issuing system"
+termid: 89
+eng:
+  id: 89
+  term: "self-issuing system"
+  definition: "system or mechanism that an organization uses to generate and assign unique identifiers to its objects without the intervention or oversight of an external authority"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "EN18219"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-2"
+  domain_scoped: false
+related:
+- type: associative
+  target: 113

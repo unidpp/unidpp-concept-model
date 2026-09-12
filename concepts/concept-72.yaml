@@ -1,0 +1,23 @@
+---
+term: "service descriptor"
+termid: 72
+eng:
+  id: 72
+  term: "service descriptor"
+  definition: "signed registry item describing a service by operator identity and credential, service class, endpoints, protocol binding, jurisdiction, residency class, status and succession pointer"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-16"
+  domain_scoped: false
+related:
+- type: narrower_part
+  target: 71
+- type: has_part
+  target: 73
+- type: has_part
+  target: 74

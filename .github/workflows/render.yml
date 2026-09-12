@@ -14,3 +14,9 @@ jobs:
         with:
           name: model-diagrams
           path: images/
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python3 scripts/check-concepts.py
+        if: hashFiles('concepts/concept-1.yaml') != ''
+      - run: python3 scripts/build-site.py

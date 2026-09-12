@@ -1,0 +1,22 @@
+---
+term: "traceability system"
+termid: 145
+eng:
+  id: 145
+  term: "traceability system"
+  definition: "practical system of processes, procedures and information exchanges that implements traceability"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "UNECE46, CWA18291"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-4"
+  domain_scoped: false
+related:
+- type: has_part
+  target: 146

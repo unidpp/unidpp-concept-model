@@ -1,0 +1,22 @@
+---
+term: "unique identifier"
+termid: 84
+eng:
+  id: 84
+  term: "unique identifier"
+  definition: "identifier which is guaranteed to be unique among all identifiers used for those objects and for a specific purpose"
+  language_code: eng
+  notes:
+  - "A unique identifier refers to unique product identifier ({{unique product identifier}}), unique economic operator identifier ({{unique economic operator identifier}}), and unique facility identifier ({{unique facility identifier}})."
+  - "For more information, see ISO/IEC 15459-1."
+  - "Recorded variance: EN 18219:2026 modification: Note 1 to entry removed and a new Note 1 to entry added. EN 18220:2026 modification: “identifier” replaced by “string of characters”, Note 1 to entry removed and a new Note 1 to entry added."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "ISO29404, EN18219, EN18220, CWA18291, ISOIEC15459-1"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-2"
+  domain_scoped: false

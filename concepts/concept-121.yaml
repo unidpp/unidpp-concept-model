@@ -1,0 +1,22 @@
+---
+term: "seller"
+termid: 121
+eng:
+  id: 121
+  term: "seller"
+  definition: "company or company function that sells a product"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "CWA18291"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-3"
+  domain_scoped: false
+related:
+- type: broader
+  target: 114

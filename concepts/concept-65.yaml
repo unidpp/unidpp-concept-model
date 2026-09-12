@@ -1,0 +1,20 @@
+---
+term: "trust marker"
+termid: 65
+eng:
+  id: 65
+  term: "trust marker"
+  definition: "graded indicator attached to every element or event stating its trust provenance: unsigned, self-declared, third-party attested, multi-signed or log-anchored"
+  language_code: eng
+  notes:
+  - "Trust is graded, not mandated; profiles set minimum signing per data class."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-16"
+  domain_scoped: false
+related:
+- type: associative
+  target: 212

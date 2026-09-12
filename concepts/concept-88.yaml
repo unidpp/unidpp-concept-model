@@ -1,0 +1,19 @@
+---
+term: "domain"
+termid: 88
+eng:
+  id: 88
+  term: "domain"
+  definition: "specified area of knowledge, application, or activity within which a unique identifier is used"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "EN18219"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-2"
+  domain_scoped: false

@@ -1,0 +1,19 @@
+---
+term: "item"
+termid: 106
+eng:
+  id: 106
+  term: "item"
+  definition: "single unit of a model ({{model}})"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "EN18220, EN18219"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-2"
+  domain_scoped: false

@@ -1,0 +1,21 @@
+---
+term: "escrowed disclosure"
+termid: 58
+eng:
+  id: 58
+  term: "escrowed disclosure"
+  definition: "edge visibility arrangement in which information concealed by a blind edge (concept dpp-0136) is deposited with a threshold trustee and released only through a disclosure ceremony, namely court, regulator or consent"
+  language_code: eng
+  notes:
+  - "The installation schema records escrow as none or trustee, with declared audiences."
+  - "An escrow envelope under a threshold trustee may optionally accompany a proof of binding (concept dpp-0138), preserving verifiability while full disclosure remains ceremonial."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-15"
+  domain_scoped: false
+related:
+- type: associative
+  target: 57

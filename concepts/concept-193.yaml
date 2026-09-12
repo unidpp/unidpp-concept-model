@@ -1,0 +1,20 @@
+---
+term: "qualifier"
+termid: 193
+eng:
+  id: 193
+  term: "qualifier"
+  definition: "well-defined element associated with a property instance or SubmodelElement, restricting the value statement to a certain period of time or use case"
+  language_code: eng
+  notes:
+  - "Qualifiers can have associated values."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "IEC62569, IDTA01001"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-6"
+  domain_scoped: false

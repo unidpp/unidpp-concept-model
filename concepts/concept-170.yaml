@@ -1,0 +1,19 @@
+---
+term: "technical interoperability"
+termid: 170
+eng:
+  id: 170
+  term: "technical interoperability"
+  definition: "ability that covers the applications and infrastructures linking systems and services"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "EN18223"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-6"
+  domain_scoped: false

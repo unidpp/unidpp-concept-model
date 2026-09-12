@@ -1,0 +1,19 @@
+---
+term: "cyber resilience"
+termid: 157
+eng:
+  id: 157
+  term: "cyber resilience"
+  definition: "ability to maintain business continuity despite adverse conditions, attacks, or compromises on critical data flow and related information systems"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "EN18239"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-5"
+  domain_scoped: false

@@ -1,0 +1,17 @@
+---
+term: "capability class"
+termid: 32
+eng:
+  id: 32
+  term: "capability class"
+  definition: "classification of a subject by its ability to participate in its own record: silent, passive-auth, logged-contact or connected"
+  language_code: eng
+  notes:
+  - "A profile's freshness and verification requirements shall be satisfiable by the capability class of the subject; demanding live freshness from a silent subject is an unsatisfiable profile."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-13"
+  domain_scoped: false

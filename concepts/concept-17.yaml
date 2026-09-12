@@ -1,0 +1,24 @@
+---
+term: "transformation event"
+termid: 17
+eng:
+  id: 17
+  term: "transformation event"
+  definition: "typed event in the provenance directed acyclic graph that records the split of one passport into many, or the combination or transformation of many passports into one"
+  language_code: eng
+  notes:
+  - "The output issuance event carries input references of passport, quantity and as-of state hash, so the new passport hash-links its sources."
+  - "Quantities resulting from a transformation are new measured facts with provenance \"computed by transformation event\", never copies; mass balance is auditable as input minus output equals loss."
+  - "Inputs transition to consumed or transformed status: historical, still verifiable, still needed for as-of queries."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-11"
+  domain_scoped: false
+related:
+- type: has_part
+  target: 18
+- type: has_part
+  target: 19

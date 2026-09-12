@@ -1,0 +1,20 @@
+---
+term: "identifier"
+termid: 108
+eng:
+  id: 108
+  term: "identifier"
+  definition: "identity information that unambiguously distinguishes one entity from another one in a given domain"
+  language_code: eng
+  notes:
+  - "There are specific identifiers, e.g. UUID Universal unique identifier, IEC 15418 (GS1)."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "I40GLOSS, IDTA01001"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-2"
+  domain_scoped: false

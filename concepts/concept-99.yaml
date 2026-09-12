@@ -1,0 +1,20 @@
+---
+term: "barcode"
+termid: 99
+eng:
+  id: 99
+  term: "barcode"
+  definition: "printed data carrier indicating either a reference to a linear or a 2D matrix"
+  language_code: eng
+  notes:
+  - "It excludes RFID data carriers."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "EN18220"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-2"
+  domain_scoped: false

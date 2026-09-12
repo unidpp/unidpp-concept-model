@@ -1,0 +1,20 @@
+---
+term: "claim"
+termid: 162
+eng:
+  id: 162
+  term: "claim"
+  definition: "high-level statement about a characteristic of a product, or about a process or an organization associated with that product (traceable asset). A sustainability claim is a claim that covers one or multiple sustainability dimensions (economic, environmental, social)"
+  language_code: eng
+  notes:
+  - "In this document “sustainability claims” are referred to as just “claims”."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "UNECE46, CWA18291"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-5"
+  domain_scoped: false

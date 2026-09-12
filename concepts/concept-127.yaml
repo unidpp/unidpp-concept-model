@@ -1,0 +1,22 @@
+---
+term: "retailer"
+termid: 127
+eng:
+  id: 127
+  term: "retailer"
+  definition: "company or company function that sells garments to the Consumer. It is a client of Apparel Producer, Knitwear Producer, and Yarn Producer"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "CWA18291"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-3"
+  domain_scoped: false
+related:
+- type: broader
+  target: 114

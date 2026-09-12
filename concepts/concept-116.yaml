@@ -1,0 +1,22 @@
+---
+term: "consumer"
+termid: 116
+eng:
+  id: 116
+  term: "consumer"
+  definition: "individual member of the general public purchasing or using goods, property or services for private purposes"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "ISO14025EN, EN18219, EN18220, CWA18291"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-3"
+  domain_scoped: false
+related:
+- type: broader
+  target: 114

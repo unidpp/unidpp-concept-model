@@ -1,0 +1,19 @@
+---
+term: "type"
+termid: 201
+eng:
+  id: 201
+  term: "type"
+  definition: "hardware or software element which specifies the common attributes shared by all instances of the type"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "IECTR62390, IDTA01001"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-6"
+  domain_scoped: false

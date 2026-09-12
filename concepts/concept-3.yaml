@@ -1,0 +1,16 @@
+---
+term: "provenance class"
+termid: 3
+eng:
+  id: 3
+  term: "provenance class"
+  definition: "declared category of a fact according to how it entered the record: declared at type level, measured at instance level under a stated method and uncertainty, or computed by a stated transform"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-10"
+  domain_scoped: false

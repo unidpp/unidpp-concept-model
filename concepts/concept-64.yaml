@@ -1,0 +1,19 @@
+---
+term: "confidential profile"
+termid: 64
+eng:
+  id: 64
+  term: "confidential profile"
+  definition: "registered profile whose register item is non-public and which carries restricted resolution, edge-visibility and traversal fields, used for defence and sovereignty configurations"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-15"
+  domain_scoped: false
+related:
+- type: narrower_part
+  target: 205

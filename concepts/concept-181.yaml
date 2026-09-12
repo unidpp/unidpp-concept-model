@@ -1,0 +1,19 @@
+---
+term: "class"
+termid: 181
+eng:
+  id: 181
+  term: "class"
+  definition: "description of a set of objects that share the same attributes, operations, methods, relationships, and semantics"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "IECTR62390, IDTA01001"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-6"
+  domain_scoped: false

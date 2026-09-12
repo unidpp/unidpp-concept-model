@@ -1,0 +1,19 @@
+---
+term: "X dimension"
+termid: 104
+eng:
+  id: 104
+  term: "X dimension"
+  definition: "specified width of the narrow in a bar code symbol or the specified width of a single element in a two-dimensional symbol"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "ISOIEC19762, EN18220"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-2"
+  domain_scoped: false

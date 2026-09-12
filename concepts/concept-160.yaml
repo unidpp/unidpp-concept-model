@@ -1,0 +1,19 @@
+---
+term: "object"
+termid: 160
+eng:
+  id: 160
+  term: "object"
+  definition: "entity to which specified requirements apply [example] -- Product, process, service, system, installation, project, data, design, material, claim, person, body or organization, or any combination thereof. --"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "ISOIEC17000, EN18219"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-5"
+  domain_scoped: false

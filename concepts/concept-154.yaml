@@ -1,0 +1,19 @@
+---
+term: "secure communication"
+termid: 154
+eng:
+  id: 154
+  term: "secure communication"
+  definition: "mechanism of transmitting data between systems in a way that ensures its confidentiality, integrity and authenticity"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "EN18216"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-5"
+  domain_scoped: false

@@ -1,0 +1,19 @@
+---
+term: "variable"
+termid: 203
+eng:
+  id: 203
+  term: "variable"
+  definition: "software entity that may take different values, one at a time"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "IEC61499, IDTA01001"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-6"
+  domain_scoped: false

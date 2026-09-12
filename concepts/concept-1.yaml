@@ -1,0 +1,27 @@
+---
+term: "digital product passport"
+termid: 1
+eng:
+  id: 1
+  term: "digital product passport"
+  definition: "concept or technology which enables sharing of product related information that is essential for product sustainability and circularity, including those specified in regulations, across all relevant economic actors"
+  language_code: eng
+  notes:
+  - "Example characteristics include environmental sustainability, environmental impact, and recyclability."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "EN18220, EN18223, EN18216, EN18221, EN18222, EN18239, EN18246, EN18219, AWI25534"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-1"
+  domain_scoped: false
+related:
+- type: broader
+  target: 213
+- type: has_part
+  target: 205
+- type: associative
+  target: 187

@@ -1,0 +1,20 @@
+---
+term: "mass balance accounting"
+termid: 20
+eng:
+  id: 20
+  term: "mass balance accounting"
+  definition: "bookkeeping over transformation events in which inputs and outputs of a specified characteristic are reconciled per period, with losses and taint carried explicitly"
+  language_code: eng
+  notes:
+  - "Mass balance accounting applies a mass balance model (3.7.1) to a set of transformation events."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-11"
+  domain_scoped: false
+related:
+- type: broader
+  target: 204

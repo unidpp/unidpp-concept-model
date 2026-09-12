@@ -1,0 +1,19 @@
+---
+term: "service federation"
+termid: 79
+eng:
+  id: 79
+  term: "service federation"
+  definition: "federation tier in which operators register services under signed descriptors and accept continuity and succession obligations"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-16"
+  domain_scoped: false
+related:
+- type: associative
+  target: 71

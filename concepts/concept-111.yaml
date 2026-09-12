@@ -1,0 +1,22 @@
+---
+term: "main digital product passport service provider"
+termid: 111
+eng:
+  id: 111
+  term: "main digital product passport service provider"
+  definition: "digital product passport service provider ({{digital product passport service provider}}) that is hosting the digital product passport ({{digital product passport}}) on behalf of the economic operator ({{economic operator}}) if the economic operator chooses not to host the digital product passport themselves"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "EN18221"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-3"
+  domain_scoped: false
+related:
+- type: narrower_part
+  target: 110

@@ -1,0 +1,19 @@
+---
+term: "verification mechanism bundle"
+termid: 74
+eng:
+  id: 74
+  term: "verification mechanism bundle"
+  definition: "assembled set of registered items naming the cryptographic suite, trust framework, trust-list endpoints, revocation mechanism and acceptance-policy template under which a client verifies"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-16"
+  domain_scoped: false
+related:
+- type: narrower_part
+  target: 72
