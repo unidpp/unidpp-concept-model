@@ -1,19 +1,25 @@
 ---
-term: "system"
+term: "application programming interface"
 termid: 199
 eng:
   id: 199
-  term: "system"
-  definition: "interacting, interrelated, or interdependent elements forming a complex whole"
+  term: "application programming interface"
+  definition: "set of methods ({{method}}) provided by an application component for use by other application components"
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "IEC63278, IDTA01001"
+    ref: "EN18222"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
   clause_group: "03-6"
   domain_scoped: false
+  informative: false
+related:
+- type: narrower_part
+  target: 198
+- type: has_part
+  target: 200

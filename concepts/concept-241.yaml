@@ -1,0 +1,19 @@
+---
+term: "Tier-A payload"
+termid: 241
+eng:
+  id: 241
+  term: "Tier-A payload"
+  definition: "carrier-embedded minimum viable passport, comprising the product identifier, the resolver URI, the economic operator identifier, the status, the critical safety or recall flag, the validity and multi-suite compressed signatures, sized to the data carrier and verifiable offline against pre-cached trust anchors"
+  language_code: eng
+  notes:
+  - "The three-tier degradation ladder comprises Tier A (carrier-embedded minimum), Tier B (served full passport) and Tier C (archival)."
+  - "Stale or offline data degrades explicitly through freshness verdicts and never passes silently."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-9"
+  domain_scoped: false
+  informative: false

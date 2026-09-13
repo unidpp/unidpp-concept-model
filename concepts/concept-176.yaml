@@ -1,19 +1,20 @@
 ---
-term: "data exchange"
+term: "circular economy"
 termid: 176
 eng:
   id: 176
-  term: "data exchange"
-  definition: "storing, accessing, transferring, and archiving of data"
+  term: "circular economy"
+  definition: "products and materials are designed in such a way that they can be reused, remanufactured, recycled or recovered and thus maintained in the economy for as long as possible, along with the resources of which they are made, and the generation of waste, especially hazardous waste, is avoided or minimized and greenhouse gas emissions are prevented or reduced, can contribute significantly to sustainable consumption and production"
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "ISO15531, EN18216"
+    ref: "AWI25534, UNEPEA4Res1"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-6"
-  domain_scoped: false
+  clause_group: "03-4"
+  domain_scoped: true
+  informative: false

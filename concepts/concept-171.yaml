@@ -1,19 +1,20 @@
 ---
-term: "application programming interface"
+term: "closed loop system"
 termid: 171
 eng:
   id: 171
-  term: "application programming interface"
-  definition: "set of methods ({{method}}) provided by an application component for use by other application components"
+  term: "closed loop system"
+  definition: "system by which products or resources are used and then recovered and turned into new products or recovered resources, without losing their inherent properties"
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "EN18222"
+    ref: "ISO59004, CWA18291"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-6"
+  clause_group: "03-4"
   domain_scoped: false
+  informative: false

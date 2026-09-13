@@ -1,19 +1,21 @@
 ---
-term: "resolution"
+term: "continuous projection"
 termid: 92
 eng:
   id: 92
-  term: "resolution"
-  definition: "process in which an identifier is translated or mapped to another identifier, associated information or metadata about the object it represents"
+  term: "continuous projection"
+  definition: "projection of the state of a twin at the present moment under a freshness contract"
   language_code: eng
-  notes: []
+  notes:
+  - "The freeze operation converts a continuous projection into a point-in-time projection with a verification bundle."
   examples: []
   entry_status: valid
   classification: preferred
-  authoritative_source:
-    ref: "EN18219, ISOIEC18975"
-    clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-2"
+  clause_group: "03-17"
   domain_scoped: false
+  informative: false
+related:
+- type: narrower
+  target: 233

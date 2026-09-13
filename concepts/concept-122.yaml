@@ -1,22 +1,21 @@
 ---
-term: "subcontractor"
+term: "unique economic operator identifier"
 termid: 122
 eng:
   id: 122
-  term: "subcontractor"
-  definition: "company or company function that performs activities as a sub-contractor (for example cutting/sewing operations but also dyeing)"
+  term: "unique economic operator identifier"
+  definition: "unique string of characters for the identification of an actors involved in a product's value chain"
   language_code: eng
-  notes: []
+  notes:
+  - "The source prints “an actors”; the definition is reproduced verbatim."
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "CWA18291"
+    ref: "EN18219"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-3"
+  clause_group: "03-2"
   domain_scoped: false
-related:
-- type: broader
-  target: 114
+  informative: false

@@ -1,22 +1,23 @@
 ---
-term: "self-issuing system"
+term: "frozen view"
 termid: 89
 eng:
   id: 89
-  term: "self-issuing system"
-  definition: "system or mechanism that an organization uses to generate and assign unique identifiers to its objects without the intervention or oversight of an external authority"
+  term: "frozen view"
+  definition: "self-describing projection of an aspect of a digital twin, comprising the payload, the lens metadata with the transform chain and its provenance, the verification bundle and the reader instructions, with every referenced artifact pinned by content digest"
   language_code: eng
-  notes: []
+  notes:
+  - "Any scheme, and an offline verifier, can ingest, re-execute and verify a frozen view without the system of the issuer being reachable."
   examples: []
   entry_status: valid
   classification: preferred
-  authoritative_source:
-    ref: "EN18219"
-    clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-2"
+  clause_group: "03-17"
   domain_scoped: false
+  informative: false
 related:
-- type: associative
-  target: 113
+- type: narrower
+  target: 233
+- type: has_part
+  target: 90

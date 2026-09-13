@@ -1,19 +1,23 @@
 ---
-term: "authentication"
+term: "producer"
 termid: 152
 eng:
   id: 152
-  term: "authentication"
-  definition: "verification that a claimed identity is correct"
+  term: "producer"
+  definition: "company or company function that produces final or non-final fashion products (yarns, fabrics, garments, accessories, footwear, etc.); its industrial process has in input materials and in output components or final fashion goods for the business customers or final customers"
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "IEEE8802-1AR, EN18216"
+    ref: "CWA18291"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-5"
+  clause_group: "03-3"
   domain_scoped: false
+  informative: false
+related:
+- type: broader
+  target: 142

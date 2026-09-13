@@ -1,24 +1,20 @@
 ---
-term: "lens"
+term: "attribute"
 termid: 206
 eng:
   id: 206
-  term: "lens"
-  definition: "profile conceived as a calibrated measuring instrument placed on the digital twin, which selects and transforms without altering the observed scene"
+  term: "attribute"
+  definition: "data element of a property, a relation, or a class in information technology"
   language_code: eng
-  notes:
-  - "The mount, the profile interface on the neutral core, is the standardized element: any registered lens by any maker attaches to it."
-  - "A lens publishes its calibration (version and cited rules), its uncertainty and its decision rules; it is subject to pattern approval at registration and to periodic re-verification through conformance runs."
-  - "Verification path-finds from any render through the lens and its fact chain to an anchor in the verifier's trust bundle."
+  notes: []
   examples: []
   entry_status: valid
   classification: preferred
+  authoritative_source:
+    ref: "IEC63278, IDTA01001"
+    clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-8"
+  clause_group: "03-6"
   domain_scoped: false
-related:
-- type: equivalent
-  target: 205
-- type: associative
-  target: 212
+  informative: false

@@ -1,19 +1,20 @@
 ---
-term: "preservation"
+term: "point-in-time projection"
 termid: 91
 eng:
   id: 91
-  term: "preservation"
-  definition: "activity of ensuring that a unique identifier and its denotation remain stable, valid, and retrievable for as long as required"
+  term: "point-in-time projection"
+  definition: "projection of the state of a twin at a stated time, immutable once notarized and recomputable from the event log alone"
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
   classification: preferred
-  authoritative_source:
-    ref: "EN18219"
-    clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-2"
+  clause_group: "03-17"
   domain_scoped: false
+  informative: false
+related:
+- type: narrower
+  target: 233

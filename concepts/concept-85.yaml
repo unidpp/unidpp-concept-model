@@ -1,19 +1,24 @@
 ---
-term: "digital identifier"
+term: "interop declaration"
 termid: 85
 eng:
   id: 85
-  term: "digital identifier"
-  definition: "sequence of characters associated with digital, non-digital, or abstract entities, such as books, images, reports, metadata records or events"
+  term: "interop declaration"
+  definition: "signed, versioned, registry-published statement of the interoperation posture of a scheme, stating per counterpart and per data class the offered harmonization level, the recognition mode per object class, the transport modes offered and the escalation and reciprocity references"
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
   classification: preferred
-  authoritative_source:
-    ref: "ISO24619, EN18216"
-    clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-2"
+  clause_group: "03-17"
   domain_scoped: false
+  informative: false
+related:
+- type: associative
+  target: 84
+- type: associative
+  target: 86
+- type: part_of
+  target: 71

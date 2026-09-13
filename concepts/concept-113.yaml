@@ -1,22 +1,20 @@
 ---
-term: "issuing agency"
+term: "digital identifier"
 termid: 113
 eng:
   id: 113
-  term: "issuing agency"
-  definition: "organisation entrusted by a Registration Authority (RA) to manage unique identification schemes"
+  term: "digital identifier"
+  definition: "sequence of characters associated with digital, non-digital, or abstract entities, such as books, images, reports, metadata records or events"
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "EN18219"
+    ref: "ISO24619, EN18216"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-3"
+  clause_group: "03-2"
   domain_scoped: false
-related:
-- type: broader
-  target: 114
+  informative: false

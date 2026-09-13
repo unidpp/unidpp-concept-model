@@ -1,19 +1,23 @@
 ---
-term: "concept"
+term: "cyber resilience"
 termid: 185
 eng:
   id: 185
-  term: "concept"
-  definition: "unit of knowledge created by a unique combination of characteristics"
+  term: "cyber resilience"
+  definition: "ability to maintain business continuity despite adverse conditions, attacks, or compromises on critical data flow and related information systems"
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "IEC63278, IDTA01001"
+    ref: "EN18239"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-6"
+  clause_group: "03-5"
   domain_scoped: false
+  informative: false
+related:
+- type: narrower_part
+  target: 183

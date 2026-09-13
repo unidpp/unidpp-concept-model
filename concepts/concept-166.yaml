@@ -1,20 +1,23 @@
 ---
-term: "validation"
+term: "put into service"
 termid: 166
 eng:
   id: 166
-  term: "validation"
-  definition: "confirmation of the plausibility for a specific intended use or application through the provision of objective evidence that specified requirements have been met"
+  term: "put into service"
+  definition: "first use, for its intended purpose, of a product"
   language_code: eng
-  notes:
-  - "Compared with the source: numbers referencing to related sections and the accompanying note have been removed from the definition."
+  notes: []
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "AWI25534, ISOIEC17000"
+    ref: "EN18219"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-5"
-  domain_scoped: false
+  clause_group: "03-4"
+  domain_scoped: true
+  informative: false
+related:
+- type: associative
+  target: 164

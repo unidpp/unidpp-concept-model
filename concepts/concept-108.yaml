@@ -1,20 +1,20 @@
 ---
-term: "identifier"
+term: "segment delegation"
 termid: 108
 eng:
   id: 108
-  term: "identifier"
-  definition: "identity information that unambiguously distinguishes one entity from another one in a given domain"
+  term: "segment delegation"
+  definition: "arrangement under which the segments of a child subject are served through the device digital product passport of the composite"
   language_code: eng
-  notes:
-  - "There are specific identifiers, e.g. UUID Universal unique identifier, IEC 15418 (GS1)."
+  notes: []
   examples: []
   entry_status: valid
   classification: preferred
-  authoritative_source:
-    ref: "I40GLOSS, IDTA01001"
-    clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-2"
+  clause_group: "03-17"
   domain_scoped: false
+  informative: false
+related:
+- type: associative
+  target: 95

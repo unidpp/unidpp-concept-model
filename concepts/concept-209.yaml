@@ -1,19 +1,23 @@
 ---
-term: "sector overlay"
+term: "coded value"
 termid: 209
 eng:
   id: 209
-  term: "sector overlay"
-  definition: "profile that composes with other profiles to add the data points, transforms and rules applicable to an industry sector, such as electronics, textiles, batteries, construction, tyres or packaging"
+  term: "coded value"
+  definition: "value that can be looked up in a dictionary and can be translated"
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
   classification: preferred
+  authoritative_source:
+    ref: "ECLASS, IDTA01001"
+    clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-8"
+  clause_group: "03-6"
   domain_scoped: false
+  informative: false
 related:
-- type: narrower
-  target: 205
+- type: associative
+  target: 214

@@ -1,19 +1,23 @@
 ---
-term: "resolver"
+term: "provenance coverage report"
 termid: 93
 eng:
   id: 93
-  term: "resolver"
-  definition: "system or service that performs resolution ({{resolution}})"
+  term: "provenance coverage report"
+  definition: "report that grades coverage over the ancestry of a subject as verified-direct, attested or gap"
   language_code: eng
-  notes: []
+  notes:
+  - "Coverage composes pessimistically across scheme boundaries: each hop contributes its grades and the aggregate takes the lowest."
   examples: []
   entry_status: valid
   classification: preferred
-  authoritative_source:
-    ref: "EN18219, ISOIEC18975"
-    clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-2"
+  clause_group: "03-17"
   domain_scoped: false
+  informative: false
+related:
+- type: associative
+  target: 70
+- type: associative
+  target: 94

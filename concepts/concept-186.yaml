@@ -1,19 +1,23 @@
 ---
-term: "digital representation"
+term: "recovery point objective"
 termid: 186
 eng:
   id: 186
-  term: "digital representation"
-  definition: "information and services representing an entity from a given viewpoint [example] -- Examples of information are properties (e.g. maximum temperature), actual parameters (e.g. actual velocity), events (e.g. notification of status change), schematics (electrical), and visualization information (2D and 3D drawings). -- [example] -- Examples of services are asset services (for example providing the history of the configuration data or providing the actual velocity) and asset related services (for example providing a simulation). -- [example] -- Examples of viewpoints are mechanical, electrical, or commercial characteristics. --"
+  term: "recovery point objective"
+  definition: "point in time to which data must be recovered after a disruption has occurred"
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "IEC63278, IDTA01001"
+    ref: "ISOIEC27031, EN18239"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-6"
+  clause_group: "03-5"
   domain_scoped: false
+  informative: false
+related:
+- type: associative
+  target: 184

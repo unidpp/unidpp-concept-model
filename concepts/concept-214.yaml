@@ -1,20 +1,23 @@
 ---
-term: "materialized view"
+term: "explicit value"
 termid: 214
 eng:
   id: 214
-  term: "materialized view"
-  definition: "rendered, citable result of a projection, materialized at a point in time for serving and verification"
+  term: "explicit value"
+  definition: "commonly used concept, like numbers (e.g. 109, 25) which do not need lookup in dictionaries"
   language_code: eng
-  notes:
-  - "The digital product passport is the legal materialized view of the digital twin."
+  notes: []
   examples: []
   entry_status: valid
   classification: preferred
+  authoritative_source:
+    ref: "ECLASS, IDTA01001"
+    clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-9"
+  clause_group: "03-6"
   domain_scoped: false
+  informative: false
 related:
-- type: equivalent
-  target: 213
+- type: associative
+  target: 209

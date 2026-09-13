@@ -15,6 +15,7 @@ eng:
 custom:
   clause_group: "03-16"
   domain_scoped: false
+  informative: false
 related:
 - type: associative
-  target: 212
+  target: 232

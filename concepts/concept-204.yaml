@@ -1,23 +1,23 @@
 ---
-term: "mass balance model"
+term: "data exchange"
 termid: 204
 eng:
   id: 204
-  term: "mass balance model"
-  definition: "chain of custody model in which materials or products with a set of specified characteristics are mixed according to defined criteria with materials or products without that set of characteristics"
+  term: "data exchange"
+  definition: "storing, accessing, transferring, and archiving of data"
   language_code: eng
-  notes:
-  - "The proportion of the input with specified characteristics can only match the initial proportions on average and will typically vary across different outputs."
+  notes: []
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "ISO22095, CWA18291"
+    ref: "ISO15531, EN18216"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-7"
+  clause_group: "03-6"
   domain_scoped: false
+  informative: false
 related:
-- type: associative
-  target: 20
+- type: narrower
+  target: 196

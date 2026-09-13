@@ -1,22 +1,24 @@
 ---
-term: "traceability system"
+term: "customer"
 termid: 145
 eng:
   id: 145
-  term: "traceability system"
-  definition: "practical system of processes, procedures and information exchanges that implements traceability"
+  term: "customer"
+  definition: "organization or person that receives a product"
   language_code: eng
-  notes: []
+  notes:
+  - "The customer may be the user or a distributor [SOURCE: ISO 9000]."
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "UNECE46, CWA18291"
+    ref: "ISO9000, CWA18291"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-4"
+  clause_group: "03-3"
   domain_scoped: false
+  informative: false
 related:
-- type: has_part
-  target: 146
+- type: broader
+  target: 142

@@ -1,19 +1,23 @@
 ---
-term: "item"
+term: "productness"
 termid: 106
 eng:
   id: 106
-  term: "item"
-  definition: "single unit of a model ({{model}})"
+  term: "productness"
+  definition: "dated, per-regime predicate that states whether a thing is a product under a given regime"
   language_code: eng
-  notes: []
+  notes:
+  - "Productness is not an attribute of identity: re-entry on the same identity toggles the predicate, while re-entry with a derived identity issues a new passport under the transformation algebra."
   examples: []
   entry_status: valid
   classification: preferred
-  authoritative_source:
-    ref: "EN18220, EN18219"
-    clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-2"
+  clause_group: "03-17"
   domain_scoped: false
+  informative: false
+related:
+- type: associative
+  target: 16
+- type: associative
+  target: 163

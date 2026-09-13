@@ -1,20 +1,23 @@
 ---
-term: "template"
+term: "representational state transfer application programming interface"
 termid: 200
 eng:
   id: 200
-  term: "template"
-  definition: "specification of the common features of an object in sufficient detail that such object can be instantiated using it"
+  term: "representational state transfer application programming interface"
+  definition: "service that allows for interaction with resources via a stateless, client-server architecture, typically using standard HTTP calls like GET, POST, PUT, and DELETE to perform methods ({{method}}) by an application component on these resources"
   language_code: eng
-  notes:
-  - "Object can be anything that has a type."
+  notes: []
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "ISOIEC10746, IDTA01001"
+    ref: "EN18222"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
   clause_group: "03-6"
   domain_scoped: false
+  informative: false
+related:
+- type: narrower_part
+  target: 199

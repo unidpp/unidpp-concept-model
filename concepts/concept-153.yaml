@@ -1,20 +1,23 @@
 ---
-term: "data integrity"
+term: "supplier"
 termid: 153
 eng:
   id: 153
-  term: "data integrity"
-  definition: "property that data has not been altered or destroyed in an unauthorised manner"
+  term: "supplier"
+  definition: "company or company function that produces non final products (accessories, fabrics, yarns…); its industrial process has in input materials and in output components for the business customers"
   language_code: eng
-  notes:
-  - "In the context of secure communication, data integrity ensures that data transmitted between parties remains unaltered and intact from the moment it leaves the sender to the moment it reaches the receiver. This means that the data has not been tampered with, modified, or corrupted during transmission – whether accidentally or through malicious actions."
+  notes: []
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "ISO7498-2, EN18216"
+    ref: "CWA18291"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-5"
+  clause_group: "03-3"
   domain_scoped: false
+  informative: false
+related:
+- type: broader
+  target: 142

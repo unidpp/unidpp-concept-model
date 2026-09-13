@@ -1,19 +1,23 @@
 ---
-term: "PIA"
+term: "traceability platform"
 termid: 161
 eng:
   id: 161
-  term: "PIA"
-  definition: "RFID Privacy Impact Assessment Process"
+  term: "traceability platform"
+  definition: "platform dedicated to traceability services"
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "EN18220"
+    ref: "CWA18291"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-5"
+  clause_group: "03-3"
   domain_scoped: false
+  informative: false
+related:
+- type: associative
+  target: 172

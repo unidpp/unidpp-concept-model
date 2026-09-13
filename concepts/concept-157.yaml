@@ -1,19 +1,23 @@
 ---
-term: "cyber resilience"
+term: "sorter"
 termid: 157
 eng:
   id: 157
-  term: "cyber resilience"
-  definition: "ability to maintain business continuity despite adverse conditions, attacks, or compromises on critical data flow and related information systems"
+  term: "sorter"
+  definition: "person or a system that categorizes discarded textile materials by their fibre composition, color, and condition to determine their potential for reuse, repair, or recycling"
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "EN18239"
+    ref: "CWA18291"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-5"
-  domain_scoped: false
+  clause_group: "03-3"
+  domain_scoped: true
+  informative: false
+related:
+- type: broader
+  target: 142

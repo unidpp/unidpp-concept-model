@@ -15,3 +15,4 @@ eng:
 custom:
   clause_group: "03-13"
   domain_scoped: false
+  informative: false

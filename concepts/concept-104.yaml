@@ -1,19 +1,22 @@
 ---
-term: "X dimension"
+term: "federated interoperability"
 termid: 104
 eng:
   id: 104
-  term: "X dimension"
-  definition: "specified width of the narrow in a bar code symbol or the specified width of a single element in a two-dimensional symbol"
+  term: "federated interoperability"
+  definition: "interoperation between heterogeneous systems joined by registered bridges and translation at defined junctions"
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
   classification: preferred
-  authoritative_source:
-    ref: "ISOIEC19762, EN18220"
-    clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-2"
+  clause_group: "03-17"
   domain_scoped: false
+  informative: false
+related:
+- type: associative
+  target: 85
+- type: associative
+  target: 105

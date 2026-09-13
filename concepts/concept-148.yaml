@@ -1,19 +1,23 @@
 ---
-term: "circular economy"
+term: "exporter"
 termid: 148
 eng:
   id: 148
-  term: "circular economy"
-  definition: "products and materials are designed in such a way that they can be reused, remanufactured, recycled or recovered and thus maintained in the economy for as long as possible, along with the resources of which they are made, and the generation of waste, especially hazardous waste, is avoided or minimized and greenhouse gas emissions are prevented or reduced, can contribute significantly to sustainable consumption and production"
+  term: "exporter"
+  definition: "name and address of the person who makes, or on whose behalf the \"export declaration\" is made, and who is the owner of the goods or has similar right of disposal over them at the time when the declaration is accepted"
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "AWI25534, UNEPEA4Res1"
+    ref: "ISOTS24533, CWA18291"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-4"
-  domain_scoped: true
+  clause_group: "03-3"
+  domain_scoped: false
+  informative: false
+related:
+- type: broader
+  target: 142

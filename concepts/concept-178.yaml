@@ -1,20 +1,24 @@
 ---
-term: "asset"
+term: "value chain"
 termid: 178
 eng:
   id: 178
-  term: "asset"
-  definition: "entity owned by or under the custodial duties of an organization, which has either a perceived or actual value to the organization [example] -- Examples for physical entities are equipment, raw material, parts components and pieces, supplies, consumables, physical products, and waste. -- [example] -- Software is an example of a digital asset. -- [example] -- A software license is an example of an intangible asset. --"
+  term: "value chain"
+  definition: "all activities and stakeholders that provide or receive value from designing, developing, making, distributing, retailing, and consuming a product (or providing the service that a product renders), including the extraction and supply of raw materials, as well as activities involving the product after its useful service life has ended"
   language_code: eng
   notes:
-  - "An asset can be single entity, a collection of entities, an assembly of entities or a composition of entities."
+  - "Compared with the source: the source is framed for the textile sector; the AWI draft reformulates the term in a sector-neutral form."
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "IEC63278, IDTA01001"
+    ref: "AWI25534, UNEPDTI2532"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-6"
+  clause_group: "03-4"
   domain_scoped: false
+  informative: false
+related:
+- type: associative
+  target: 163

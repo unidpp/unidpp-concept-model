@@ -8,7 +8,11 @@ import pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 CON = ROOT / "concepts"
-SRC = pathlib.Path.home() / "src/calconnect/cc-dpp-vocabulary/sources/iso-93333/sections"
+import os
+SRC = pathlib.Path(os.environ.get(
+    "CC_DPP_VOCAB",
+    str(pathlib.Path.home() / "src/calconnect/cc-dpp-vocabulary"),
+)) / "sources/iso-93333/sections"
 
 TYPES = {"broader", "narrower", "part_of", "has_part", "narrower_part",
          "associative", "equivalent"}
@@ -82,7 +86,8 @@ for tid, d in by_id.items():
 
 # Sync with the draft: the term set of the draft equals the term set here.
 draft_terms = set()
-for f in sorted(SRC.glob("03-*.adoc")):
+SOURCES = sorted(SRC.glob("03-*.adoc")) + [SRC.parent / "sections" / "annex-b-aas.adoc"]
+for f in SOURCES:
     for m in re.finditer(r"^=== ([^\n]+)$", f.read_text(), re.M):
         t = re.sub(r"\s+", " ", m.group(1).strip())
         draft_terms.add(t)
@@ -96,7 +101,7 @@ if missing:
 # Domain-scope discipline: the number of domain-scoped flags equals the
 # number of domain-scope notes in the draft.
 draft_domain_notes = 0
-for f in sorted(SRC.glob("03-*.adoc")):
+for f in SOURCES:
     draft_domain_notes += f.read_text().count("NOTE: Domain-scoped entry")
 flagged = sum(1 for d in by_id.values() if d["domain"])
 if draft_domain_notes != flagged:

@@ -20,6 +20,8 @@ GROUP_TITLES = {
     "03-13": "Framework: capability classes and twins",
     "03-14": "Framework: the relationship algebra",
     "03-15": "Framework: visibility", "03-16": "Framework: federation",
+    "03-17": "Framework: the scheme calculus, sovereignty segments and the projection calculus",
+    "annex-b": "Annex B (informative): AAS vocabulary",
 }
 MODEL_TITLES = {
     "identity": "Identity and the identity lattice",
@@ -82,8 +84,10 @@ def load_concepts():
             if m and cur:
                 rels.append((cur, int(m.group(1))))
                 cur = None
+        inf = re.search(r"^  informative: (true|false)$", t, re.M)
         cons[tid] = dict(term=term, definition=definition, group=group,
-                         domain=domain, rels=rels)
+                         domain=domain, rels=rels,
+                         informative=bool(inf and inf.group(1) == "true"))
     return cons
 
 
@@ -146,6 +150,7 @@ def build():
                              for typ, t in c["rels"] if t in cons) or "—"
             cls = " class='dom'" if c["domain"] else ""
             dom = " ▲domain-scoped" if c["domain"] else ""
+            dom += " ▲informative" if c.get("informative") else ""
             rows.append(
                 f"<tr{cls}><td>{tid}</td>"
                 f"<td><b>{esc(c['term'])}</b>{dom}</td>"

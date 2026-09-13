@@ -1,0 +1,20 @@
+---
+term: "projection"
+termid: 233
+eng:
+  id: 233
+  term: "projection"
+  definition: "deterministic, registered and legally cited view of the testimonial record of a governed digital twin, computed under a profile from the event-sourced change log"
+  language_code: eng
+  notes:
+  - "The passport is the legal materialized view of the twin; the twin is the source of truth."
+  - "Notarized snapshots support as-of queries, which answer what was legally true at a given time."
+  - "Any conforming twin can emit the view; the projection is defined representation-neutrally."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-9"
+  domain_scoped: false
+  informative: false

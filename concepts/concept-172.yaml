@@ -1,19 +1,24 @@
 ---
-term: "representational state transfer application programming interface"
+term: "traceability"
 termid: 172
 eng:
   id: 172
-  term: "representational state transfer application programming interface"
-  definition: "service that allows for interaction with resources via a stateless, client-server architecture, typically using standard HTTP calls like GET, POST, PUT, and DELETE to perform methods ({{method}}) by an application component on these resources"
+  term: "traceability"
+  definition: "ability to trace the history, application or location of an object in a value chain"
   language_code: eng
-  notes: []
+  notes:
+  - "Lineage: ISO/AWI 25534-1, 3.5 adopts this definition from ISO 9000:2015, modified by the addition of \"in a value chain\"."
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "EN18222"
+    ref: "UNECE46, AWI25534, CWA18291"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-6"
+  clause_group: "03-4"
   domain_scoped: false
+  informative: false
+related:
+- type: associative
+  target: 173

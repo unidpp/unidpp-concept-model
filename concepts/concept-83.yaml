@@ -1,22 +1,22 @@
 ---
-term: "unique product identifier"
+term: "scheme"
 termid: 83
 eng:
   id: 83
-  term: "unique product identifier"
-  definition: "unique string of characters for the identification of a product that also enables a web link to the digital product passport"
+  term: "scheme"
+  definition: "vertically integrated digital product passport system, comprising an identity space, a data model, profiles and semantics, a trust framework, protocol bindings and a policy regime, operated by an owner"
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
   classification: preferred
-  authoritative_source:
-    ref: "EN18246, EN18219"
-    clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-2"
+  clause_group: "03-17"
   domain_scoped: false
+  informative: false
 related:
-- type: broader
-  target: 84
+- type: associative
+  target: 85
+- type: associative
+  target: 225

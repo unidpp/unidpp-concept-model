@@ -17,6 +17,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Clone the vocabulary draft (public)
+        run: git clone --depth 1 https://github.com/CalConnect/cc-dpp-vocabulary.git /tmp/vocab
       - run: python3 scripts/check-concepts.py
-        if: hashFiles('concepts/concept-1.yaml') != ''
+        env:
+          CC_DPP_VOCAB: /tmp/vocab
       - run: python3 scripts/build-site.py

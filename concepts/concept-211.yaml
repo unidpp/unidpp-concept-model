@@ -1,20 +1,23 @@
 ---
-term: "as-of query"
+term: "concept"
 termid: 211
 eng:
   id: 211
-  term: "as-of query"
-  definition: "query against the event-sourced record of a subject that reconstructs the state that was legally valid at a specified past time"
+  term: "concept"
+  definition: "unit of knowledge created by a unique combination of characteristics"
   language_code: eng
-  notes:
-  - "As-of queries are answered from notarized snapshots, log anchoring and recorded profile-version bindings, for example to establish whether a product was compliant when sold."
+  notes: []
   examples: []
   entry_status: valid
   classification: preferred
+  authoritative_source:
+    ref: "IEC63278, IDTA01001"
+    clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-8"
+  clause_group: "03-6"
   domain_scoped: false
+  informative: false
 related:
 - type: associative
-  target: 218
+  target: 207

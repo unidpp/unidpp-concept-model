@@ -1,19 +1,23 @@
 ---
-term: "method"
+term: "traceability system"
 termid: 173
 eng:
   id: 173
-  term: "method"
-  definition: "particular way used to perform a specific action on a resource [example] -- read a DPP --"
+  term: "traceability system"
+  definition: "practical system of processes, procedures and information exchanges that implements traceability"
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "EN18222"
+    ref: "UNECE46, CWA18291"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-6"
+  clause_group: "03-4"
   domain_scoped: false
+  informative: false
+related:
+- type: has_part
+  target: 174

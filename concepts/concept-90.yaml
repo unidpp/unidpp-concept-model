@@ -1,22 +1,22 @@
 ---
-term: "persistence"
+term: "projection descriptor"
 termid: 90
 eng:
   id: 90
-  term: "persistence"
-  definition: "process to keep a unique identifier associated with an identified object throughout its life cycle"
+  term: "projection descriptor"
+  definition: "machine-readable characterization of a projection on five axes: temporal, content class, derivation, exchange encoding and granularity"
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
   classification: preferred
-  authoritative_source:
-    ref: "EN18219, EN18220"
-    clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-2"
+  clause_group: "03-17"
   domain_scoped: false
+  informative: false
 related:
+- type: part_of
+  target: 89
 - type: associative
-  target: 84
+  target: 233

@@ -1,24 +1,20 @@
 ---
-term: "recycler"
+term: "two-dimensional symbol"
 termid: 131
 eng:
   id: 131
-  term: "recycler"
-  definition: "company or company function that performs activities to obtain recovered resources for use in a process or a product, excluding energy recovery"
+  term: "two-dimensional symbol"
+  definition: "code representing data in machine-readable form by a collection of polygonal or circular cells in a regular pattern which are read optically by scanning"
   language_code: eng
-  notes:
-  - "Activities to obtain resources include activities such as recovery, collection, transport, sorting, cleaning, and re-processing."
-  - "Recycling does not include reuse."
+  notes: []
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "ISO59004, CWA18291"
+    ref: "EN18220"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-3"
+  clause_group: "03-2"
   domain_scoped: false
-related:
-- type: broader
-  target: 114
+  informative: false

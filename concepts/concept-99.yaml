@@ -1,20 +1,20 @@
 ---
-term: "barcode"
+term: "slot key"
 termid: 99
 eng:
   id: 99
-  term: "barcode"
-  definition: "printed data carrier indicating either a reference to a linear or a 2D matrix"
+  term: "slot key"
+  definition: "device key that signs the data of one segment, certified by the authority of that segment"
   language_code: eng
-  notes:
-  - "It excludes RFID data carriers."
+  notes: []
   examples: []
   entry_status: valid
   classification: preferred
-  authoritative_source:
-    ref: "EN18220"
-    clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-2"
+  clause_group: "03-17"
   domain_scoped: false
+  informative: false
+related:
+- type: part_of
+  target: 98

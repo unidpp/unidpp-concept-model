@@ -1,19 +1,23 @@
 ---
-term: "unique facility identifier"
+term: "sovereignty segment"
 termid: 95
 eng:
   id: 95
-  term: "unique facility identifier"
-  definition: "unique string of characters for the identification of location or building involved in a product's value chain or used by actors involved in a product's value chain"
+  term: "sovereignty segment"
+  definition: "parallel, policy-defined partition of a device digital product passport, governed by a segment policy and signed under its own key hierarchy"
   language_code: eng
-  notes: []
+  notes:
+  - "The verification of one segment does not require access to any other segment."
   examples: []
   entry_status: valid
   classification: preferred
-  authoritative_source:
-    ref: "EN18219"
-    clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-2"
+  clause_group: "03-17"
   domain_scoped: false
+  informative: false
+related:
+- type: has_part
+  target: 96
+- type: associative
+  target: 1

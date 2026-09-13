@@ -1,19 +1,21 @@
 ---
-term: "batch"
+term: "base-sharing"
 termid: 105
 eng:
   id: 105
-  term: "batch"
-  definition: "subset of a model ({{model}}) that is grouped by an economic operator based on common characteristics"
+  term: "base-sharing"
+  definition: "arrangement in which every party adopts the same substrate, that is, one scheme, one resolver, one registry or one ontology"
   language_code: eng
-  notes: []
+  notes:
+  - "Base-sharing is not interoperation; harmonization of stacks is neither necessary nor sufficient for interoperation between systems."
   examples: []
   entry_status: valid
   classification: preferred
-  authoritative_source:
-    ref: "EN18220, EN18219"
-    clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-2"
+  clause_group: "03-17"
   domain_scoped: false
+  informative: false
+related:
+- type: associative
+  target: 104

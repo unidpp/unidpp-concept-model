@@ -1,20 +1,23 @@
 ---
-term: "claim"
+term: "sustainability management platform"
 termid: 162
 eng:
   id: 162
-  term: "claim"
-  definition: "high-level statement about a characteristic of a product, or about a process or an organization associated with that product (traceable asset). A sustainability claim is a claim that covers one or multiple sustainability dimensions (economic, environmental, social)"
+  term: "sustainability management platform"
+  definition: "platform dedicated to sustainability data collection, management and reporting"
   language_code: eng
-  notes:
-  - "In this document “sustainability claims” are referred to as just “claims”."
+  notes: []
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "UNECE46, CWA18291"
+    ref: "CWA18291"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-5"
+  clause_group: "03-3"
   domain_scoped: false
+  informative: false
+related:
+- type: associative
+  target: 176

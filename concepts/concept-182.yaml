@@ -1,25 +1,23 @@
 ---
-term: "capability"
+term: "secure communication"
 termid: 182
 eng:
   id: 182
-  term: "capability"
-  definition: "implementation-independent potential of a component to achieve an effect within a domain"
+  term: "secure communication"
+  definition: "mechanism of transmitting data between systems in a way that ensures its confidentiality, integrity and authenticity"
   language_code: eng
-  notes:
-  - "Capabilities can be orchestrated and structured hierarchically."
-  - "Capabilities can be made executable via services."
-  - "The impact manifests itself in a measurable effect within the physical world."
+  notes: []
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "I40GLOSS, IDTA01001"
+    ref: "EN18216"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-6"
+  clause_group: "03-5"
   domain_scoped: false
+  informative: false
 related:
-- type: narrower_part
-  target: 196
+- type: associative
+  target: 181

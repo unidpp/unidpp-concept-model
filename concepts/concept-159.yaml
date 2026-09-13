@@ -1,19 +1,25 @@
 ---
-term: "recovery time objective"
+term: "recycler"
 termid: 159
 eng:
   id: 159
-  term: "recovery time objective"
-  definition: "period of time within which minimum levels of services and/or products and the supporting systems, applications, or functions must be recovered after a disruption has occurred"
+  term: "recycler"
+  definition: "company or company function that performs activities to obtain recovered resources for use in a process or a product, excluding energy recovery"
   language_code: eng
-  notes: []
+  notes:
+  - "Activities to obtain resources include activities such as recovery, collection, transport, sorting, cleaning, and re-processing."
+  - "Recycling does not include reuse."
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "ISOIEC27031, EN18239"
+    ref: "ISO59004, CWA18291"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-5"
+  clause_group: "03-3"
   domain_scoped: false
+  informative: false
+related:
+- type: broader
+  target: 142

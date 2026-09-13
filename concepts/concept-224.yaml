@@ -1,0 +1,24 @@
+---
+term: "mass balance model"
+termid: 224
+eng:
+  id: 224
+  term: "mass balance model"
+  definition: "chain of custody model in which materials or products with a set of specified characteristics are mixed according to defined criteria with materials or products without that set of characteristics"
+  language_code: eng
+  notes:
+  - "The proportion of the input with specified characteristics can only match the initial proportions on average and will typically vary across different outputs."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "ISO22095, CWA18291"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-7"
+  domain_scoped: false
+  informative: false
+related:
+- type: associative
+  target: 20

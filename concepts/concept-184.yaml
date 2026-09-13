@@ -1,19 +1,23 @@
 ---
-term: "component"
+term: "system availability"
 termid: 184
 eng:
   id: 184
-  term: "component"
-  definition: "product used as a constituent in an assembled product, system, or plant"
+  term: "system availability"
+  definition: "property of being accessible and usable on demand by an authorized entity"
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "IEC63278, IDTA01001"
+    ref: "ISOIEC27000, EN18239"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-6"
+  clause_group: "03-5"
   domain_scoped: false
+  informative: false
+related:
+- type: narrower_part
+  target: 183

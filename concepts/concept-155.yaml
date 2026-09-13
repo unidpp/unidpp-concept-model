@@ -1,19 +1,23 @@
 ---
-term: "system resilience"
+term: "retailer"
 termid: 155
 eng:
   id: 155
-  term: "system resilience"
-  definition: "ability to recover from security compromises or attacks"
+  term: "retailer"
+  definition: "company or company function that sells garments to the Consumer. It is a client of Apparel Producer, Knitwear Producer, and Yarn Producer"
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "ISOIEC29180, EN18239"
+    ref: "CWA18291"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-5"
+  clause_group: "03-3"
   domain_scoped: false
+  informative: false
+related:
+- type: broader
+  target: 142

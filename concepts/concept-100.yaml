@@ -1,19 +1,20 @@
 ---
-term: "near field communication"
+term: "sealed data class"
 termid: 100
 eng:
   id: 100
-  term: "near field communication"
-  definition: "subset of HF passive radio-frequency identification with low range"
+  term: "sealed data class"
+  definition: "data class whose reveal policy is origin-sealed, such that it yields commitments and no plaintext outside the reveal policy"
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
   classification: preferred
-  authoritative_source:
-    ref: "EN18220"
-    clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-2"
+  clause_group: "03-17"
   domain_scoped: false
+  informative: false
+related:
+- type: associative
+  target: 101

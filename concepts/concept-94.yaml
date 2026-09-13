@@ -1,20 +1,22 @@
 ---
-term: "unique economic operator identifier"
+term: "verification route"
 termid: 94
 eng:
   id: 94
-  term: "unique economic operator identifier"
-  definition: "unique string of characters for the identification of an actors involved in a product's value chain"
+  term: "verification route"
+  definition: "computed plan of a verifier, comprising resolution, transport, documents, mappings at declared loci and substitutions, whose executed trace is the coverage report"
   language_code: eng
-  notes:
-  - "The source prints “an actors”; the definition is reproduced verbatim."
+  notes: []
   examples: []
   entry_status: valid
   classification: preferred
-  authoritative_source:
-    ref: "EN18219"
-    clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-2"
+  clause_group: "03-17"
   domain_scoped: false
+  informative: false
+related:
+- type: associative
+  target: 93
+- type: associative
+  target: 71

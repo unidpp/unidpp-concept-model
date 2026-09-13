@@ -1,16 +1,23 @@
 ---
-term: "Tier-B payload"
+term: "type"
 termid: 222
 eng:
   id: 222
-  term: "Tier-B payload"
-  definition: "full passport content, served through resolution and hosting services in accordance with the applicable profile"
+  term: "type"
+  definition: "hardware or software element which specifies the common attributes shared by all instances of the type"
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
   classification: preferred
+  authoritative_source:
+    ref: "IECTR62390, IDTA01001"
+    clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-9"
+  clause_group: "03-6"
   domain_scoped: false
+  informative: false
+related:
+- type: associative
+  target: 221

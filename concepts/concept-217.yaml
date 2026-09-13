@@ -1,19 +1,30 @@
 ---
-term: "genealogy"
+term: "property"
 termid: 217
 eng:
   id: 217
-  term: "genealogy"
-  definition: "complete directed ancestry of a passport, traced through transformation and containment events from raw-material and component passports to the present subject"
+  term: "property"
+  definition: "defined characteristic suitable for the description and differentiation of products or components"
   language_code: eng
-  notes: []
+  notes:
+  - "The concept of type and instance applies to properties."
+  - "This definition applies to properties as described in IEC 61360/ ISO 13584-42."
+  - "The property types are defined in dictionaries (like IEC component data dictionary or ECLASS), they do not have a value. The property type is also called data element type in some standards."
+  - "The property instances have a value and are provided by the manufacturers. A property instance is also called property-value pair in certain standards."
+  - "Properties include nominal value, actual value, runtime variables, measurement values, etc."
+  - "A property describes one characteristic of a given object."
+  - "The specification of a property can include predefined choices of values."
   examples: []
   entry_status: valid
   classification: preferred
+  authoritative_source:
+    ref: "I40GLOSS, IDTA01001"
+    clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-9"
+  clause_group: "03-6"
   domain_scoped: false
+  informative: false
 related:
-- type: associative
-  target: 16
+- type: narrower_part
+  target: 249

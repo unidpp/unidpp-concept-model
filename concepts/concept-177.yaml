@@ -1,20 +1,23 @@
 ---
-term: "application"
+term: "product circularity"
 termid: 177
 eng:
   id: 177
-  term: "application"
-  definition: "software functional element specific to the solution of a problem in industrial-process measurement and control"
+  term: "product circularity"
+  definition: "refers to repairing, reusing and remanufacturing equipment, and harvesting and recycling metals indefinitely through product design and collection processes"
   language_code: eng
-  notes:
-  - "An application can be distributed among resources and may communicate with other applications."
+  notes: []
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "IECTR62390, IDTA01001"
+    ref: "AWI25534, UNEPToledano2023"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-6"
-  domain_scoped: false
+  clause_group: "03-4"
+  domain_scoped: true
+  informative: false
+related:
+- type: narrower
+  target: 176

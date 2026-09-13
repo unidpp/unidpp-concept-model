@@ -1,19 +1,22 @@
 ---
-term: "radio-frequency identification"
+term: "attestation substitution"
 termid: 101
 eng:
   id: 101
-  term: "radio-frequency identification"
-  definition: "identification technology that uses electromagnetic fields to automatically identify and track tags attached to objects"
+  term: "attestation substitution"
+  definition: "mechanism under which a sovereign attestation service issues signed, as-of statements about a sealed class, accepted by a foreign verifier under its own anchors"
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
   classification: preferred
-  authoritative_source:
-    ref: "EN18220"
-    clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-2"
+  clause_group: "03-17"
   domain_scoped: false
+  informative: false
+related:
+- type: associative
+  target: 100
+- type: associative
+  target: 102

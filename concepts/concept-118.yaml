@@ -1,22 +1,23 @@
 ---
-term: "expert"
+term: "persistence"
 termid: 118
 eng:
   id: 118
-  term: "expert"
-  definition: "expert in charge of performing a study"
+  term: "persistence"
+  definition: "process to keep a unique identifier associated with an identified object throughout its life cycle"
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "CWA18291"
+    ref: "EN18219, EN18220"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-3"
+  clause_group: "03-2"
   domain_scoped: false
+  informative: false
 related:
-- type: broader
-  target: 114
+- type: associative
+  target: 112

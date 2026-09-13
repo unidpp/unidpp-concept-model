@@ -1,20 +1,22 @@
 ---
-term: "RAIN RFID"
+term: "sovereign attestation service"
 termid: 102
 eng:
   id: 102
-  term: "RAIN RFID"
-  definition: "passive UHF radio-frequency identification ({{radio-frequency identification}})"
+  term: "sovereign attestation service"
+  definition: "accredited in-country attestor that issues statements about sealed data classes, threshold-co-signed for high-stakes classes"
   language_code: eng
-  notes:
-  - "Source entry heading: “RAIN RFID (UHF RFID) per ISO/IEC 18000-63”."
+  notes: []
   examples: []
   entry_status: valid
   classification: preferred
-  authoritative_source:
-    ref: "EN18220"
-    clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-2"
+  clause_group: "03-17"
   domain_scoped: false
+  informative: false
+related:
+- type: broader
+  target: 142
+- type: associative
+  target: 101

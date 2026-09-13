@@ -1,16 +1,20 @@
 ---
-term: "applicable law"
+term: "component"
 termid: 210
 eng:
   id: 210
-  term: "applicable law"
-  definition: "totality of legal rules that apply to a subject placed on a market, represented in the passport system by the corresponding jurisdiction profile and its dated applicability bindings"
+  term: "component"
+  definition: "product used as a constituent in an assembled product, system, or plant"
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
   classification: preferred
+  authoritative_source:
+    ref: "IEC63278, IDTA01001"
+    clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-8"
+  clause_group: "03-6"
   domain_scoped: false
+  informative: false

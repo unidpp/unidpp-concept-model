@@ -16,8 +16,9 @@ eng:
 custom:
   clause_group: "03-12"
   domain_scoped: false
+  informative: false
 related:
 - type: narrower
-  target: 205
+  target: 225
 - type: has_part
   target: 25

@@ -1,0 +1,18 @@
+---
+term: "trust list"
+termid: 232
+eng:
+  id: 232
+  term: "trust list"
+  definition: "signed, registry-deposited list of the trust anchors accredited to act under a given profile or jurisdiction, served with status and revocation information"
+  language_code: eng
+  notes:
+  - "Jurisdictional trust lists relate to one another through a multi-witnessed master list."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-8"
+  domain_scoped: false
+  informative: false

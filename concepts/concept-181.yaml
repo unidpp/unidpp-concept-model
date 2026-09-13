@@ -1,19 +1,26 @@
 ---
-term: "class"
+term: "data integrity"
 termid: 181
 eng:
   id: 181
-  term: "class"
-  definition: "description of a set of objects that share the same attributes, operations, methods, relationships, and semantics"
+  term: "data integrity"
+  definition: "property that data has not been altered or destroyed in an unauthorised manner"
   language_code: eng
-  notes: []
+  notes:
+  - "In the context of secure communication, data integrity ensures that data transmitted between parties remains unaltered and intact from the moment it leaves the sender to the moment it reaches the receiver. This means that the data has not been tampered with, modified, or corrupted during transmission – whether accidentally or through malicious actions."
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "IECTR62390, IDTA01001"
+    ref: "ISO7498-2, EN18216"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-6"
+  clause_group: "03-5"
   domain_scoped: false
+  informative: false
+related:
+- type: associative
+  target: 180
+- type: associative
+  target: 182

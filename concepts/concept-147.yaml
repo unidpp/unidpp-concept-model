@@ -1,24 +1,23 @@
 ---
-term: "textile product"
+term: "reviewer"
 termid: 147
 eng:
   id: 147
-  term: "textile product"
-  definition: "product made mainly of textile fibres, yarns and/or fabrics and intended to be used, as such or in conjunction with other textile or non-textile elements"
+  term: "reviewer"
+  definition: "expert in charge of reviewing a study"
   language_code: eng
-  notes:
-  - "These articles can contain non-textile parts, such as plastics (e.g. buttons and membrane or coatings) or metals."
-  - "Source entry heading: “textile product – product”."
+  notes: []
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "ISO5157, CWA18291"
+    ref: "CWA18291"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-4"
-  domain_scoped: true
+  clause_group: "03-3"
+  domain_scoped: false
+  informative: false
 related:
-- type: narrower
-  target: 136
+- type: broader
+  target: 142

@@ -1,19 +1,24 @@
 ---
-term: "attribute"
+term: "controlled DPP data"
 termid: 179
 eng:
   id: 179
-  term: "attribute"
-  definition: "data element of a property, a relation, or a class in information technology"
+  term: "controlled DPP data"
+  definition: "information on digital product passport whose access is controlled based on the user's access rights"
   language_code: eng
-  notes: []
+  notes:
+  - "User in the sense of a person who interacts with a system, product or service."
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "IEC63278, IDTA01001"
+    ref: "EN18239, EN18216"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-6"
+  clause_group: "03-5"
   domain_scoped: false
+  informative: false
+related:
+- type: part_of
+  target: 1

@@ -1,0 +1,26 @@
+---
+term: "asset"
+termid: 244
+eng:
+  id: 244
+  term: "asset"
+  definition: "entity owned by or under the custodial duties of an organization, which has either a perceived or actual value to the organization [example] -- Examples for physical entities are equipment, raw material, parts components and pieces, supplies, consumables, physical products, and waste. -- [example] -- Software is an example of a digital asset. -- [example] -- A software license is an example of an intangible asset. --"
+  language_code: eng
+  notes:
+  - "An asset can be single entity, a collection of entities, an assembly of entities or a composition of entities."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "IEC63278, IDTA01001"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "annex-b"
+  domain_scoped: false
+  informative: true
+related:
+- type: has_part
+  target: 250
+- type: has_part
+  target: 251

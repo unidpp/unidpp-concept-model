@@ -1,22 +1,25 @@
 ---
-term: "Submodel template element"
+term: "technical interoperability"
 termid: 198
 eng:
   id: 198
-  term: "Submodel template element"
-  definition: "element of a Submodel template"
+  term: "technical interoperability"
+  definition: "ability that covers the applications and infrastructures linking systems and services"
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "IEC63278, IDTA01001"
+    ref: "EN18223"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
   clause_group: "03-6"
   domain_scoped: false
+  informative: false
 related:
 - type: narrower_part
-  target: 197
+  target: 196
+- type: has_part
+  target: 199

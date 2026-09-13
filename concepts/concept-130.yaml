@@ -1,24 +1,21 @@
 ---
-term: "textile collector"
+term: "RAIN RFID"
 termid: 130
 eng:
   id: 130
-  term: "textile collector"
-  definition: "actor involved in separate collection of textiles"
+  term: "RAIN RFID"
+  definition: "passive UHF radio-frequency identification ({{radio-frequency identification}})"
   language_code: eng
-  notes: []
+  notes:
+  - "Source entry heading: “RAIN RFID (UHF RFID) per ISO/IEC 18000-63”."
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "ISO5157, CWA18291"
+    ref: "EN18220"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-3"
-  domain_scoped: true
-related:
-- type: broader
-  target: 114
-- type: associative
-  target: 147
+  clause_group: "03-2"
+  domain_scoped: false
+  informative: false

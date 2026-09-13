@@ -1,24 +1,20 @@
 ---
-term: "apparel producer"
+term: "near field communication"
 termid: 128
 eng:
   id: 128
-  term: "apparel producer"
-  definition: "company or company function that organizes manufacturing and material supplying to obtain finished garments from fabrics. It is a client of Fabric Producer and partially of Yarn Producer"
+  term: "near field communication"
+  definition: "subset of HF passive radio-frequency identification with low range"
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "CWA18291"
+    ref: "EN18220"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-3"
-  domain_scoped: true
-related:
-- type: broader
-  target: 114
-- type: associative
-  target: 147
+  clause_group: "03-2"
+  domain_scoped: false
+  informative: false

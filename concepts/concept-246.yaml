@@ -1,0 +1,25 @@
+---
+term: "Submodel"
+termid: 246
+eng:
+  id: 246
+  term: "Submodel"
+  definition: "representation of an aspect of an asset"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "IEC63278, IDTA01001"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "annex-b"
+  domain_scoped: false
+  informative: true
+related:
+- type: has_part
+  target: 249
+- type: narrower_part
+  target: 245

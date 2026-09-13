@@ -1,19 +1,23 @@
 ---
-term: "closed loop system"
+term: "notified actor"
 termid: 143
 eng:
   id: 143
-  term: "closed loop system"
-  definition: "system by which products or resources are used and then recovered and turned into new products or recovered resources, without losing their inherent properties"
+  term: "notified actor"
+  definition: "organization or individual entitled by an authorized accrediting body or authority, that fulfils a role in the DPP lifecycle"
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "ISO59004, CWA18291"
+    ref: "EN18239"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-4"
+  clause_group: "03-3"
   domain_scoped: false
+  informative: false
+related:
+- type: broader
+  target: 142

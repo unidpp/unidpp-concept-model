@@ -1,19 +1,21 @@
 ---
-term: "service"
+term: "validation"
 termid: 194
 eng:
   id: 194
-  term: "service"
-  definition: "distinct part of the functionality that is provided by an entity through interfaces"
+  term: "validation"
+  definition: "confirmation of the plausibility for a specific intended use or application through the provision of objective evidence that specified requirements have been met"
   language_code: eng
-  notes: []
+  notes:
+  - "Compared with the source: numbers referencing to related sections and the accompanying note have been removed from the definition."
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "IEC63278, IDTA01001"
+    ref: "AWI25534, ISOIEC17000"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-6"
+  clause_group: "03-5"
   domain_scoped: false
+  informative: false

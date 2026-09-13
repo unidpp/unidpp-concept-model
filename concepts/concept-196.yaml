@@ -1,24 +1,25 @@
 ---
-term: "SubmodelElement"
+term: "interoperability"
 termid: 196
 eng:
   id: 196
-  term: "SubmodelElement"
-  definition: "element of a Submodel"
+  term: "interoperability"
+  definition: "ability of two or more systems or applications to exchange information and to mutually use the information that has been exchanged"
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "IEC63278, IDTA01001"
+    ref: "ISOIEC22123, EN18223, ISO18435, EN18219"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
   clause_group: "03-6"
   domain_scoped: false
+  informative: false
 related:
-- type: narrower_part
-  target: 195
 - type: has_part
-  target: 192
+  target: 197
+- type: has_part
+  target: 198

@@ -1,23 +1,23 @@
 ---
-term: "end-of-life"
+term: "issuing agency"
 termid: 141
 eng:
   id: 141
-  term: "end-of-life"
-  definition: "point in time during the life cycle at which a product or resource is taken out of use and is disposed"
+  term: "issuing agency"
+  definition: "organisation entrusted by a Registration Authority (RA) to manage unique identification schemes"
   language_code: eng
-  notes:
-  - "Disposal could be in the form of incineration, deposit to landfill, or composting."
+  notes: []
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "ISO59004, CWA18291"
+    ref: "EN18219"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-4"
+  clause_group: "03-3"
   domain_scoped: false
+  informative: false
 related:
-- type: part_of
-  target: 135
+- type: broader
+  target: 142

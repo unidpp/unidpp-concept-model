@@ -1,19 +1,23 @@
 ---
-term: "object"
+term: "eService platform"
 termid: 160
 eng:
   id: 160
-  term: "object"
-  definition: "entity to which specified requirements apply [example] -- Product, process, service, system, installation, project, data, design, material, claim, person, body or organization, or any combination thereof. --"
+  term: "eService platform"
+  definition: "platform for eBusiness centralized services"
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "ISOIEC17000, EN18219"
+    ref: "CWA18291"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-5"
+  clause_group: "03-3"
   domain_scoped: false
+  informative: false
+related:
+- type: associative
+  target: 142

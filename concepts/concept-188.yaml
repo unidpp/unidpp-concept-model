@@ -1,19 +1,20 @@
 ---
-term: "explicit value"
+term: "object"
 termid: 188
 eng:
   id: 188
-  term: "explicit value"
-  definition: "commonly used concept, like numbers (e.g. 109, 25) which do not need lookup in dictionaries"
+  term: "object"
+  definition: "entity to which specified requirements apply [example] -- Product, process, service, system, installation, project, data, design, material, claim, person, body or organization, or any combination thereof. --"
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "ECLASS, IDTA01001"
+    ref: "ISOIEC17000, EN18219"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-6"
+  clause_group: "03-5"
   domain_scoped: false
+  informative: false

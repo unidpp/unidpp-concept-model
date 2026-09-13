@@ -1,22 +1,23 @@
 ---
-term: "back-up digital product passport service provider"
+term: "unique identifier"
 termid: 112
 eng:
   id: 112
-  term: "back-up digital product passport service provider"
-  definition: "digital product passport service provider ({{digital product passport service provider}}) that is hosting the back-up copy of the digital product passport ({{digital product passport}})"
+  term: "unique identifier"
+  definition: "identifier which is guaranteed to be unique among all identifiers used for those objects and for a specific purpose"
   language_code: eng
-  notes: []
+  notes:
+  - "A unique identifier refers to unique product identifier ({{unique product identifier}}), unique economic operator identifier ({{unique economic operator identifier}}), and unique facility identifier ({{unique facility identifier}})."
+  - "For more information, see ISO/IEC 15459-1."
+  - "Recorded variance: EN 18219:2026 modification: Note 1 to entry removed and a new Note 1 to entry added. EN 18220:2026 modification: “identifier” replaced by “string of characters”, Note 1 to entry removed and a new Note 1 to entry added."
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "EN18221"
+    ref: "ISO29404, EN18219, EN18220, CWA18291, ISOIEC15459-1"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-3"
+  clause_group: "03-2"
   domain_scoped: false
-related:
-- type: narrower_part
-  target: 110
+  informative: false

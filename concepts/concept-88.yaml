@@ -1,19 +1,21 @@
 ---
-term: "domain"
+term: "translation hub"
 termid: 88
 eng:
   id: 88
-  term: "domain"
-  definition: "specified area of knowledge, application, or activity within which a unique identifier is used"
+  term: "translation hub"
+  definition: "registered operator that relays between willing schemes that do not share a protocol or data structures, translating messages between their formats and signing each translation, retaining no data"
   language_code: eng
-  notes: []
+  notes:
+  - "A hub serves a gap in capability, never a gap in willingness; a scheme whose published policy declines interoperation is not brokered."
   examples: []
   entry_status: valid
   classification: preferred
-  authoritative_source:
-    ref: "EN18219"
-    clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-2"
+  clause_group: "03-17"
   domain_scoped: false
+  informative: false
+related:
+- type: associative
+  target: 71

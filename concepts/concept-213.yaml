@@ -1,19 +1,24 @@
 ---
-term: "projection"
+term: "digital twin"
 termid: 213
 eng:
   id: 213
-  term: "projection"
-  definition: "deterministic, registered and legally cited view of the testimonial record of a governed digital twin, computed under a profile from the event-sourced change log"
+  term: "digital twin"
+  definition: "digital representation, sufficient to meet the requirements of a set of use cases"
   language_code: eng
   notes:
-  - "The passport is the legal materialized view of the twin; the twin is the source of truth."
-  - "Notarized snapshots support as-of queries, which answer what was legally true at a given time."
-  - "Any conforming twin can emit the view; the projection is defined representation-neutrally."
+  - "In this context, the entity in the definition of digital representation is typically an asset."
   examples: []
   entry_status: valid
   classification: preferred
+  authoritative_source:
+    ref: "IDTA01001"
+    clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-9"
+  clause_group: "03-6"
   domain_scoped: false
+  informative: false
+related:
+- type: broader
+  target: 212

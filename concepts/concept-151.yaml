@@ -1,23 +1,23 @@
 ---
-term: "controlled DPP data"
+term: "buyer"
 termid: 151
 eng:
   id: 151
-  term: "controlled DPP data"
-  definition: "information on digital product passport whose access is controlled based on the user's access rights"
+  term: "buyer"
+  definition: "individual or entity purchasing goods or services"
   language_code: eng
-  notes:
-  - "User in the sense of a person who interacts with a system, product or service."
+  notes: []
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "EN18239, EN18216"
+    ref: "ISO24533-2, CWA18291"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-5"
+  clause_group: "03-3"
   domain_scoped: false
+  informative: false
 related:
-- type: part_of
-  target: 1
+- type: broader
+  target: 142

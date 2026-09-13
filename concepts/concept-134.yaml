@@ -1,22 +1,20 @@
 ---
-term: "sustainability management platform"
+term: "item"
 termid: 134
 eng:
   id: 134
-  term: "sustainability management platform"
-  definition: "platform dedicated to sustainability data collection, management and reporting"
+  term: "item"
+  definition: "single unit of a model ({{model}})"
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "CWA18291"
+    ref: "EN18220, EN18219"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-3"
+  clause_group: "03-2"
   domain_scoped: false
-related:
-- type: associative
-  target: 148
+  informative: false

@@ -1,0 +1,25 @@
+---
+term: "SubmodelElement"
+termid: 249
+eng:
+  id: 249
+  term: "SubmodelElement"
+  definition: "element of a Submodel"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "IEC63278, IDTA01001"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "annex-b"
+  domain_scoped: false
+  informative: true
+related:
+- type: narrower_part
+  target: 246
+- type: has_part
+  target: 217

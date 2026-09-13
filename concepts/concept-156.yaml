@@ -1,19 +1,25 @@
 ---
-term: "system availability"
+term: "apparel producer"
 termid: 156
 eng:
   id: 156
-  term: "system availability"
-  definition: "property of being accessible and usable on demand by an authorized entity"
+  term: "apparel producer"
+  definition: "company or company function that organizes manufacturing and material supplying to obtain finished garments from fabrics. It is a client of Fabric Producer and partially of Yarn Producer"
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "ISOIEC27000, EN18239"
+    ref: "CWA18291"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-5"
-  domain_scoped: false
+  clause_group: "03-3"
+  domain_scoped: true
+  informative: false
+related:
+- type: broader
+  target: 142
+- type: associative
+  target: 175

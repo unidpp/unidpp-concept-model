@@ -1,16 +1,23 @@
 ---
-term: "Tier-C archive"
+term: "variable"
 termid: 223
 eng:
   id: 223
-  term: "Tier-C archive"
-  definition: "notarized archival form of the passport record, retained for persistence beyond the operational lifetime of any single provider"
+  term: "variable"
+  definition: "software entity that may take different values, one at a time"
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
   classification: preferred
+  authoritative_source:
+    ref: "IEC61499, IDTA01001"
+    clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-9"
+  clause_group: "03-6"
   domain_scoped: false
+  informative: false
+related:
+- type: associative
+  target: 202

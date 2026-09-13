@@ -21,9 +21,10 @@ def clean(t):
 
 
 entries, order = {}, []
-for f in sorted(SRC.glob("03-*.adoc")):
-    stem = f.stem.split("-")
-    group = stem[0] + "-" + stem[1]
+SOURCES = sorted(SRC.glob("03-*.adoc")) + \
+    [SRC.parent / "sections" / "annex-b-aas.adoc"] if SRC.name == "sections" else sorted(SRC.glob("03-*.adoc"))
+for f in SOURCES:
+    group = "annex-b" if f.stem.startswith("annex-b") else f.stem.split("-")[0] + "-" + f.stem.split("-")[1]
     text = f.read_text()
     for m in re.finditer(
         r'(?:\[\[[^\]]*\]\]\n\n?)?=== ([^\n]+)\n(.*?)(?=\n(?:\[\[[^\]]*\]\]\n\n?)?=== |\Z)',
@@ -58,6 +59,7 @@ for f in sorted(SRC.glob("03-*.adoc")):
             alts=alts,
             group=group,
             domain=domain,
+            informative=group == "annex-b",
         )
         if term not in entries:
             entries[term] = entry
@@ -194,6 +196,72 @@ R = {
  "trust federation": [("associative", "discovery registry")],
  "seed bundle": [("associative", "onboarding ceremony")],
  "registry pinning": [("associative", "seed bundle")],
+ "scheme": [("associative", "interop declaration"), ("associative", "profile")],
+ "scheme owner": [("broader", "actor")],
+ "interop declaration": [("associative", "scheme owner"), ("associative", "harmonization ladder"), ("part_of", "discovery registry")],
+ "harmonization ladder": [("associative", "interop declaration"), ("associative", "federated interoperability")],
+ "recognition lattice": [("associative", "trust list"), ("associative", "master list")],
+ "translation hub": [("associative", "discovery registry")],
+ "frozen view": [("narrower", "projection"), ("has_part", "projection descriptor")],
+ "projection descriptor": [("part_of", "frozen view"), ("associative", "projection")],
+ "point-in-time projection": [("narrower", "projection")],
+ "continuous projection": [("narrower", "projection")],
+ "provenance coverage report": [("associative", "coverage report"), ("associative", "verification route")],
+ "verification route": [("associative", "provenance coverage report"), ("associative", "discovery registry")],
+ "sovereignty segment": [("has_part", "segment policy"), ("associative", "digital product passport")],
+ "segment policy": [("part_of", "sovereignty segment")],
+ "cross-segment commitment spine": [("associative", "sovereignty segment"), ("associative", "device commitment")],
+ "device credential": [("has_part", "slot key")],
+ "slot key": [("part_of", "device credential")],
+ "sealed data class": [("associative", "attestation substitution")],
+ "attestation substitution": [("associative", "sealed data class"), ("associative", "sovereign attestation service")],
+ "sovereign attestation service": [("broader", "actor"), ("associative", "attestation substitution")],
+ "coverage class": [("narrower_part", "coverage report")],
+ "federated interoperability": [("associative", "interop declaration"), ("associative", "base-sharing")],
+ "base-sharing": [("associative", "federated interoperability")],
+ "productness": [("associative", "derived passport"), ("associative", "life cycle")],
+ "provenance segment": [("narrower_part", "sovereignty segment")],
+ "segment delegation": [("associative", "sovereignty segment")],
+ "structural term": [("associative", "domain-scoped predicate")],
+ "domain-scoped predicate": [("associative", "structural term")],
+ "interoperability": [("has_part", "semantic interoperability"), ("has_part", "technical interoperability")],
+ "semantic interoperability": [("narrower_part", "interoperability")],
+ "technical interoperability": [("narrower_part", "interoperability"), ("has_part", "application programming interface")],
+ "application programming interface": [("narrower_part", "technical interoperability"), ("has_part", "representational state transfer application programming interface")],
+ "representational state transfer application programming interface": [("narrower_part", "application programming interface")],
+ "data exchange": [("narrower", "interoperability")],
+ "concept": [("associative", "class")],
+ "class": [("associative", "instance"), ("associative", "concept")],
+ "instance": [("associative", "class")],
+ "type": [("associative", "template")],
+ "template": [("associative", "type")],
+ "variable": [("associative", "parameter")],
+ "parameter": [("associative", "variable"), ("associative", "method")],
+ "method": [("associative", "parameter"), ("associative", "result")],
+ "result": [("associative", "method")],
+ "application": [("associative", "system"), ("associative", "service")],
+ "service": [("associative", "application")],
+ "system": [("associative", "application")],
+ "coded value": [("associative", "explicit value")],
+ "explicit value": [("associative", "coded value")],
+ "qualifier": [("associative", "property")],
+ "system resilience": [("has_part", "system availability"), ("has_part", "cyber resilience")],
+ "system availability": [("narrower_part", "system resilience")],
+ "cyber resilience": [("narrower_part", "system resilience")],
+ "recovery point objective": [("associative", "system availability")],
+ "recovery time objective": [("associative", "system availability")],
+ "access control": [("associative", "controlled DPP data"), ("associative", "state-of-the-art"), ("associative", "PIA")],
+ "state-of-the-art": [("associative", "access control")],
+ "PIA": [("associative", "access control")],
+ "electronically signed data construct": [("associative", "trust marker")],
+ "authentication": [("associative", "data integrity")],
+ "data integrity": [("associative", "authentication"), ("associative", "secure communication")],
+ "secure communication": [("associative", "data integrity")],
+ "traceability": [("associative", "traceability system")],
+ "placed on the market": [("associative", "product")],
+ "put into service": [("associative", "product")],
+ "asset": [("has_part", "type asset"), ("has_part", "instance asset")],
+ "Asset Administration Shell": [("has_part", "Submodel")],
 }
 
 missing = [t for t in R if t not in entries]
@@ -238,6 +306,7 @@ for t in order:
         "custom:",
         f"  clause_group: {q(e['group'])}",
         f"  domain_scoped: {str(e['domain']).lower()}",
+        f"  informative: {str(e['informative']).lower()}",
     ]
     rels = R.get(t, [])
     if rels:

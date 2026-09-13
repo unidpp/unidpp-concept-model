@@ -1,20 +1,23 @@
 ---
-term: "traceability"
+term: "consumer"
 termid: 144
 eng:
   id: 144
-  term: "traceability"
-  definition: "ability to trace the history, application or location of an object in a value chain"
+  term: "consumer"
+  definition: "individual member of the general public purchasing or using goods, property or services for private purposes"
   language_code: eng
-  notes:
-  - "Lineage: ISO/AWI 25534-1, 3.5 adopts this definition from ISO 9000:2015, modified by the addition of \"in a value chain\"."
+  notes: []
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "UNECE46, AWI25534, CWA18291"
+    ref: "ISO14025EN, EN18219, EN18220, CWA18291"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-4"
+  clause_group: "03-3"
   domain_scoped: false
+  informative: false
+related:
+- type: broader
+  target: 142

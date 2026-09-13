@@ -1,0 +1,24 @@
+---
+term: "type asset"
+termid: 250
+eng:
+  id: 250
+  term: "type asset"
+  definition: "(abstract) representation of a set of instance assets with common characteristics and features [example] -- Examples of type assets are type of material, a product type, a type of a part, a device type, a machine type, a type of software, a type of control system, a type of production system. --"
+  language_code: eng
+  notes:
+  - "The set of instance assets may exist or may not exist."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "IEC63278, IDTA01001"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "annex-b"
+  domain_scoped: false
+  informative: true
+related:
+- type: broader
+  target: 244

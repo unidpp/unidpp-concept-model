@@ -1,0 +1,21 @@
+---
+term: "child passport"
+termid: 235
+eng:
+  id: 235
+  term: "child passport"
+  definition: "passport of a component or sub-product that is independently placed on the market or independently regulated, referenced by identity from the passport of the composite product"
+  language_code: eng
+  notes:
+  - "Children join by identity reference, never by data copying; roll-up views are computed from the references."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-9"
+  domain_scoped: false
+  informative: false
+related:
+- type: associative
+  target: 1

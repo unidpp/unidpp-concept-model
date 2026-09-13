@@ -1,22 +1,23 @@
 ---
-term: "identification scheme"
+term: "recognition lattice"
 termid: 87
 eng:
   id: 87
-  term: "identification scheme"
-  definition: "system for allocating identifiers to objects"
+  term: "recognition lattice"
+  definition: "set of modes by which a verifier recognizes the anchors of a foreign scheme: unilaterally under a declared acceptance policy, bilaterally by pairwise anchor exchange, by a club umbrella, or through a multi-witnessed master list"
   language_code: eng
-  notes: []
+  notes:
+  - "Recognition is per object class: the identity space, the attestations and the policies of a scheme are recognized separately."
   examples: []
   entry_status: valid
   classification: preferred
-  authoritative_source:
-    ref: "ISOIEC6523, EN18219"
-    clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-2"
+  clause_group: "03-17"
   domain_scoped: false
+  informative: false
 related:
 - type: associative
-  target: 88
+  target: 232
+- type: associative
+  target: 66

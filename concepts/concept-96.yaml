@@ -1,19 +1,20 @@
 ---
-term: "unique registration identifier"
+term: "segment policy"
 termid: 96
 eng:
   id: 96
-  term: "unique registration identifier"
-  definition: "identifier returned after uploading the unique identifiers and any other data required to the DPP registry [example] -- Unique identifiers can be unique product identifier, unique facility identifier, unique operator identifier of the economic operator etc. --"
+  term: "segment policy"
+  definition: "signed, versioned object that constitutes a segment: its authority, read, write and verify roles, reveal rules, key custody, suites and effective window"
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
   classification: preferred
-  authoritative_source:
-    ref: "EN18222"
-    clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-2"
+  clause_group: "03-17"
   domain_scoped: false
+  informative: false
+related:
+- type: part_of
+  target: 95

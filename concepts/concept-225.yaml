@@ -1,0 +1,23 @@
+---
+term: "profile"
+termid: 225
+eng:
+  id: 225
+  term: "profile"
+  definition: "registered, versioned object that binds a set of data points, transforms, cryptographic suites, trust requirements, access policies, presentation requirements and a trigger predicate to the neutral core passport, constraining and transforming, but never redefining, the single definition of each data point"
+  language_code: eng
+  notes:
+  - "Composition is three-axial: jurisdiction, sector, characteristic."
+  - "Each profile is a projection function, view(twinState, profile, actor), whose projection may transform and not merely select."
+  - "Profiles constrain and transform; inter-profile disagreement is expected and auditable, while intra-class contradiction is an integrity incident (single definition, many constraints)."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-8"
+  domain_scoped: false
+  informative: false
+related:
+- type: equivalent
+  target: 226

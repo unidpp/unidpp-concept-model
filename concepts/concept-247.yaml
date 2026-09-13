@@ -1,0 +1,23 @@
+---
+term: "Submodel template"
+termid: 247
+eng:
+  id: 247
+  term: "Submodel template"
+  definition: "template for the representation of an aspect of an asset"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "IEC63278, IDTA01001"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "annex-b"
+  domain_scoped: false
+  informative: true
+related:
+- type: broader
+  target: 246

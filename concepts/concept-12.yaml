@@ -16,6 +16,7 @@ eng:
 custom:
   clause_group: "03-10"
   domain_scoped: false
+  informative: false
 related:
 - type: narrower
-  target: 84
+  target: 112

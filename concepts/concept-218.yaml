@@ -1,19 +1,24 @@
 ---
-term: "as-of state"
+term: "qualifier"
 termid: 218
 eng:
   id: 218
-  term: "as-of state"
-  definition: "state of a subject reconstructed from its event-sourced record at a specified past time, anchored by a notarized snapshot so that queries can answer what was legally true at that time"
+  term: "qualifier"
+  definition: "well-defined element associated with a property instance or SubmodelElement, restricting the value statement to a certain period of time or use case"
   language_code: eng
   notes:
-  - "The two authoritative query modes are the live view (freshness-labelled) and the notarized as-of snapshot (log-anchored); legal purpose selects the mode."
-  - "Transformation events hash-link their inputs by as-of state hash, and profile-version bindings recorded as lifecycle events make manifest history as-of-reconstructable, answering questions such as whether a product was compliant when sold."
-  - "Mirrors and caches are always as-of stamped; the projection is computed from the record, so as-of queries are reproducible."
+  - "Qualifiers can have associated values."
   examples: []
   entry_status: valid
   classification: preferred
+  authoritative_source:
+    ref: "IEC62569, IDTA01001"
+    clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-9"
+  clause_group: "03-6"
   domain_scoped: false
+  informative: false
+related:
+- type: associative
+  target: 217

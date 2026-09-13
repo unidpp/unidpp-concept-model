@@ -1,19 +1,20 @@
 ---
-term: "life cycle"
+term: "model"
 termid: 135
 eng:
   id: 135
-  term: "life cycle"
-  definition: "consecutive and interlinked stages of a product system, from raw material acquisition or generation from natural resources to final disposal"
+  term: "model"
+  definition: "version of a product of which all units share the same technical characteristics and the same model identifier"
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "ISO14040, AWI25534, EN18219, EN18220"
+    ref: "EN18219, EN18220"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-4"
+  clause_group: "03-2"
   domain_scoped: false
+  informative: false

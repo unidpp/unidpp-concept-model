@@ -81,144 +81,172 @@
 80	trust federation	03-16
 81	seed bundle	03-16
 82	registry pinning	03-16
-83	unique product identifier	03-2
-84	unique identifier	03-2
-85	digital identifier	03-2
-86	identification	03-2
-87	identification scheme	03-2
-88	domain	03-2
-89	self-issuing system	03-2
-90	persistence	03-2
-91	preservation	03-2
-92	resolution	03-2
-93	resolver	03-2
-94	unique economic operator identifier	03-2
-95	unique facility identifier	03-2
-96	unique registration identifier	03-2
-97	data carrier	03-2
-98	additional software	03-2
-99	barcode	03-2
-100	near field communication	03-2
-101	radio-frequency identification	03-2
-102	RAIN RFID	03-2
-103	two-dimensional symbol	03-2
-104	X dimension	03-2
-105	batch	03-2
-106	item	03-2
-107	model	03-2
-108	identifier	03-2
-109	economic operator	03-3
-110	digital product passport service provider	03-3
-111	main digital product passport service provider	03-3
-112	back-up digital product passport service provider	03-3
-113	issuing agency	03-3
-114	actor	03-3
-115	notified actor	03-3
-116	consumer	03-3
-117	customer	03-3
-118	expert	03-3
-119	reviewer	03-3
-120	exporter	03-3
-121	seller	03-3
-122	subcontractor	03-3
-123	buyer	03-3
-124	producer	03-3
-125	supplier	03-3
-126	yarn producer	03-3
-127	retailer	03-3
-128	apparel producer	03-3
-129	sorter	03-3
-130	textile collector	03-3
-131	recycler	03-3
-132	eService platform	03-3
-133	traceability platform	03-3
-134	sustainability management platform	03-3
-135	life cycle	03-4
-136	product	03-4
-137	placed on the market	03-4
-138	put into service	03-4
-139	digital product passport lifetime	03-4
-140	end-of-use	03-4
-141	end-of-life	03-4
-142	collection	03-4
-143	closed loop system	03-4
-144	traceability	03-4
-145	traceability system	03-4
-146	traceable asset	03-4
-147	textile product	03-4
-148	circular economy	03-4
-149	product circularity	03-4
-150	value chain	03-4
-151	controlled DPP data	03-5
-152	authentication	03-5
-153	data integrity	03-5
-154	secure communication	03-5
-155	system resilience	03-5
-156	system availability	03-5
-157	cyber resilience	03-5
-158	recovery point objective	03-5
-159	recovery time objective	03-5
-160	object	03-5
-161	PIA	03-5
-162	claim	03-5
-163	state-of-the-art	03-5
-164	access control	03-5
-165	electronically signed data construct	03-5
-166	validation	03-5
-167	verification	03-5
-168	interoperability	03-6
-169	semantic interoperability	03-6
-170	technical interoperability	03-6
-171	application programming interface	03-6
-172	representational state transfer application programming interface	03-6
-173	method	03-6
-174	parameter	03-6
-175	result	03-6
-176	data exchange	03-6
-177	application	03-6
-178	asset	03-6
-179	attribute	03-6
-180	Asset Administration Shell	03-6
-181	class	03-6
-182	capability	03-6
-183	coded value	03-6
-184	component	03-6
-185	concept	03-6
-186	digital representation	03-6
-187	digital twin	03-6
-188	explicit value	03-6
-189	instance	03-6
-190	instance asset	03-6
-191	operation	03-6
-192	property	03-6
-193	qualifier	03-6
-194	service	03-6
-195	Submodel	03-6
-196	SubmodelElement	03-6
-197	Submodel template	03-6
-198	Submodel template element	03-6
-199	system	03-6
-200	template	03-6
-201	type	03-6
-202	type asset	03-6
-203	variable	03-6
-204	mass balance model	03-7
-205	profile	03-8
-206	lens	03-8
-207	lens mount	03-8
-208	jurisdiction profile	03-8
-209	sector overlay	03-8
-210	applicable law	03-8
-211	as-of query	03-8
-212	trust list	03-8
-213	projection	03-9
-214	materialized view	03-9
-215	child passport	03-9
-216	containment event	03-9
-217	genealogy	03-9
-218	as-of state	03-9
-219	offline minimum	03-9
-220	degradation ladder	03-9
-221	Tier-A payload	03-9
-222	Tier-B payload	03-9
-223	Tier-C archive	03-9
+83	scheme	03-17
+84	scheme owner	03-17
+85	interop declaration	03-17
+86	harmonization ladder	03-17
+87	recognition lattice	03-17
+88	translation hub	03-17
+89	frozen view	03-17
+90	projection descriptor	03-17
+91	point-in-time projection	03-17
+92	continuous projection	03-17
+93	provenance coverage report	03-17
+94	verification route	03-17
+95	sovereignty segment	03-17
+96	segment policy	03-17
+97	cross-segment commitment spine	03-17
+98	device credential	03-17
+99	slot key	03-17
+100	sealed data class	03-17
+101	attestation substitution	03-17
+102	sovereign attestation service	03-17
+103	coverage class	03-17
+104	federated interoperability	03-17
+105	base-sharing	03-17
+106	productness	03-17
+107	provenance segment	03-17
+108	segment delegation	03-17
+109	structural term	03-17
+110	domain-scoped predicate	03-17
+111	unique product identifier	03-2
+112	unique identifier	03-2
+113	digital identifier	03-2
+114	identification	03-2
+115	identification scheme	03-2
+116	domain	03-2
+117	self-issuing system	03-2
+118	persistence	03-2
+119	preservation	03-2
+120	resolution	03-2
+121	resolver	03-2
+122	unique economic operator identifier	03-2
+123	unique facility identifier	03-2
+124	unique registration identifier	03-2
+125	data carrier	03-2
+126	additional software	03-2
+127	barcode	03-2
+128	near field communication	03-2
+129	radio-frequency identification	03-2
+130	RAIN RFID	03-2
+131	two-dimensional symbol	03-2
+132	X dimension	03-2
+133	batch	03-2
+134	item	03-2
+135	model	03-2
+136	identifier	03-2
+137	economic operator	03-3
+138	digital product passport service provider	03-3
+139	main digital product passport service provider	03-3
+140	back-up digital product passport service provider	03-3
+141	issuing agency	03-3
+142	actor	03-3
+143	notified actor	03-3
+144	consumer	03-3
+145	customer	03-3
+146	expert	03-3
+147	reviewer	03-3
+148	exporter	03-3
+149	seller	03-3
+150	subcontractor	03-3
+151	buyer	03-3
+152	producer	03-3
+153	supplier	03-3
+154	yarn producer	03-3
+155	retailer	03-3
+156	apparel producer	03-3
+157	sorter	03-3
+158	textile collector	03-3
+159	recycler	03-3
+160	eService platform	03-3
+161	traceability platform	03-3
+162	sustainability management platform	03-3
+163	life cycle	03-4
+164	product	03-4
+165	placed on the market	03-4
+166	put into service	03-4
+167	digital product passport lifetime	03-4
+168	end-of-use	03-4
+169	end-of-life	03-4
+170	collection	03-4
+171	closed loop system	03-4
+172	traceability	03-4
+173	traceability system	03-4
+174	traceable asset	03-4
+175	textile product	03-4
+176	circular economy	03-4
+177	product circularity	03-4
+178	value chain	03-4
+179	controlled DPP data	03-5
+180	authentication	03-5
+181	data integrity	03-5
+182	secure communication	03-5
+183	system resilience	03-5
+184	system availability	03-5
+185	cyber resilience	03-5
+186	recovery point objective	03-5
+187	recovery time objective	03-5
+188	object	03-5
+189	PIA	03-5
+190	claim	03-5
+191	state-of-the-art	03-5
+192	access control	03-5
+193	electronically signed data construct	03-5
+194	validation	03-5
+195	verification	03-5
+196	interoperability	03-6
+197	semantic interoperability	03-6
+198	technical interoperability	03-6
+199	application programming interface	03-6
+200	representational state transfer application programming interface	03-6
+201	method	03-6
+202	parameter	03-6
+203	result	03-6
+204	data exchange	03-6
+205	application	03-6
+206	attribute	03-6
+207	class	03-6
+208	capability	03-6
+209	coded value	03-6
+210	component	03-6
+211	concept	03-6
+212	digital representation	03-6
+213	digital twin	03-6
+214	explicit value	03-6
+215	instance	03-6
+216	operation	03-6
+217	property	03-6
+218	qualifier	03-6
+219	service	03-6
+220	system	03-6
+221	template	03-6
+222	type	03-6
+223	variable	03-6
+224	mass balance model	03-7
+225	profile	03-8
+226	lens	03-8
+227	lens mount	03-8
+228	jurisdiction profile	03-8
+229	sector overlay	03-8
+230	applicable law	03-8
+231	as-of query	03-8
+232	trust list	03-8
+233	projection	03-9
+234	materialized view	03-9
+235	child passport	03-9
+236	containment event	03-9
+237	genealogy	03-9
+238	as-of state	03-9
+239	offline minimum	03-9
+240	degradation ladder	03-9
+241	Tier-A payload	03-9
+242	Tier-B payload	03-9
+243	Tier-C archive	03-9
+244	asset	annex-b
+245	Asset Administration Shell	annex-b
+246	Submodel	annex-b
+247	Submodel template	annex-b
+248	Submodel template element	annex-b
+249	SubmodelElement	annex-b
+250	type asset	annex-b
+251	instance asset	annex-b

@@ -1,19 +1,25 @@
 ---
-term: "coded value"
+term: "system resilience"
 termid: 183
 eng:
   id: 183
-  term: "coded value"
-  definition: "value that can be looked up in a dictionary and can be translated"
+  term: "system resilience"
+  definition: "ability to recover from security compromises or attacks"
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "ECLASS, IDTA01001"
+    ref: "ISOIEC29180, EN18239"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-6"
+  clause_group: "03-5"
   domain_scoped: false
+  informative: false
+related:
+- type: has_part
+  target: 184
+- type: has_part
+  target: 185

@@ -1,22 +1,23 @@
 ---
-term: "notified actor"
+term: "identification scheme"
 termid: 115
 eng:
   id: 115
-  term: "notified actor"
-  definition: "organization or individual entitled by an authorized accrediting body or authority, that fulfils a role in the DPP lifecycle"
+  term: "identification scheme"
+  definition: "system for allocating identifiers to objects"
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "EN18239"
+    ref: "ISOIEC6523, EN18219"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-3"
+  clause_group: "03-2"
   domain_scoped: false
+  informative: false
 related:
-- type: broader
-  target: 114
+- type: associative
+  target: 116

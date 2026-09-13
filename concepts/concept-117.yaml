@@ -1,23 +1,23 @@
 ---
-term: "customer"
+term: "self-issuing system"
 termid: 117
 eng:
   id: 117
-  term: "customer"
-  definition: "organization or person that receives a product"
+  term: "self-issuing system"
+  definition: "system or mechanism that an organization uses to generate and assign unique identifiers to its objects without the intervention or oversight of an external authority"
   language_code: eng
-  notes:
-  - "The customer may be the user or a distributor [SOURCE: ISO 9000]."
+  notes: []
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "ISO9000, CWA18291"
+    ref: "EN18219"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-3"
+  clause_group: "03-2"
   domain_scoped: false
+  informative: false
 related:
-- type: broader
-  target: 114
+- type: associative
+  target: 141

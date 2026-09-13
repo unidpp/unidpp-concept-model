@@ -1,19 +1,23 @@
 ---
-term: "placed on the market"
+term: "economic operator"
 termid: 137
 eng:
   id: 137
-  term: "placed on the market"
-  definition: "first making available of a product"
+  term: "economic operator"
+  definition: "manufacturer, authorized representative, importer, distributor, dealer or fulfilment service provider"
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "EN18219"
+    ref: "EN18219, EN18220, EN18221"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-4"
-  domain_scoped: true
+  clause_group: "03-3"
+  domain_scoped: false
+  informative: false
+related:
+- type: broader
+  target: 142

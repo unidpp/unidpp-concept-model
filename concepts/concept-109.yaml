@@ -1,22 +1,20 @@
 ---
-term: "economic operator"
+term: "structural term"
 termid: 109
 eng:
   id: 109
-  term: "economic operator"
-  definition: "manufacturer, authorized representative, importer, distributor, dealer or fulfilment service provider"
+  term: "structural term"
+  definition: "term that names a speech act, role or mechanism of the framework, definable globally"
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
   classification: preferred
-  authoritative_source:
-    ref: "EN18219, EN18220, EN18221"
-    clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-3"
+  clause_group: "03-17"
   domain_scoped: false
+  informative: false
 related:
-- type: broader
-  target: 114
+- type: associative
+  target: 110

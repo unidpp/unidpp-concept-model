@@ -1,19 +1,20 @@
 ---
-term: "two-dimensional symbol"
+term: "coverage class"
 termid: 103
 eng:
   id: 103
-  term: "two-dimensional symbol"
-  definition: "code representing data in machine-readable form by a collection of polygonal or circular cells in a regular pattern which are read optically by scanning"
+  term: "coverage class"
+  definition: "grade of a data class within a coverage report: verified-direct, attested-by-authority or explicitly unavailable"
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
   classification: preferred
-  authoritative_source:
-    ref: "EN18220"
-    clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-2"
+  clause_group: "03-17"
   domain_scoped: false
+  informative: false
+related:
+- type: narrower_part
+  target: 70

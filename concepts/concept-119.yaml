@@ -1,22 +1,20 @@
 ---
-term: "reviewer"
+term: "preservation"
 termid: 119
 eng:
   id: 119
-  term: "reviewer"
-  definition: "expert in charge of reviewing a study"
+  term: "preservation"
+  definition: "activity of ensuring that a unique identifier and its denotation remain stable, valid, and retrievable for as long as required"
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "CWA18291"
+    ref: "EN18219"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-3"
+  clause_group: "03-2"
   domain_scoped: false
-related:
-- type: broader
-  target: 114
+  informative: false

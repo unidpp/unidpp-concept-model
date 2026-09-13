@@ -1,0 +1,21 @@
+---
+term: "materialized view"
+termid: 234
+eng:
+  id: 234
+  term: "materialized view"
+  definition: "rendered, citable result of a projection, materialized at a point in time for serving and verification"
+  language_code: eng
+  notes:
+  - "The digital product passport is the legal materialized view of the digital twin."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-9"
+  domain_scoped: false
+  informative: false
+related:
+- type: equivalent
+  target: 233

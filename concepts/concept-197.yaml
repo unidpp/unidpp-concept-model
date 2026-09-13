@@ -1,22 +1,23 @@
 ---
-term: "Submodel template"
+term: "semantic interoperability"
 termid: 197
 eng:
   id: 197
-  term: "Submodel template"
-  definition: "template for the representation of an aspect of an asset"
+  term: "semantic interoperability"
+  definition: "ability for data shared by systems to be understood at the level of fully defined domain concepts"
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "IEC63278, IDTA01001"
+    ref: "ISO18308, EN18223"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
   clause_group: "03-6"
   domain_scoped: false
+  informative: false
 related:
-- type: broader
-  target: 195
+- type: narrower_part
+  target: 196

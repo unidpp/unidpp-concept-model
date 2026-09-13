@@ -1,19 +1,20 @@
 ---
-term: "model"
+term: "provenance segment"
 termid: 107
 eng:
   id: 107
-  term: "model"
-  definition: "version of a product of which all units share the same technical characteristics and the same model identifier"
+  term: "provenance segment"
+  definition: "sealed segment of an output passport that preserves the segment of an input of the transformation"
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
   classification: preferred
-  authoritative_source:
-    ref: "EN18219, EN18220"
-    clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-2"
+  clause_group: "03-17"
   domain_scoped: false
+  informative: false
+related:
+- type: narrower_part
+  target: 95

@@ -1,22 +1,20 @@
 ---
-term: "buyer"
+term: "unique facility identifier"
 termid: 123
 eng:
   id: 123
-  term: "buyer"
-  definition: "individual or entity purchasing goods or services"
+  term: "unique facility identifier"
+  definition: "unique string of characters for the identification of location or building involved in a product's value chain or used by actors involved in a product's value chain"
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "ISO24533-2, CWA18291"
+    ref: "EN18219"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-3"
+  clause_group: "03-2"
   domain_scoped: false
-related:
-- type: broader
-  target: 114
+  informative: false

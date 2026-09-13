@@ -1,22 +1,23 @@
 ---
-term: "end-of-use"
+term: "back-up digital product passport service provider"
 termid: 140
 eng:
   id: 140
-  term: "end-of-use"
-  definition: "point in time during the life cycle at which a product or resource is transferred by the holder to some other holder [example] -- When an organization (e.g., shop or retailer) in possession of the product considers it to be a waste since it hasn't or can't be sold. --"
+  term: "back-up digital product passport service provider"
+  definition: "digital product passport service provider ({{digital product passport service provider}}) that is hosting the back-up copy of the digital product passport ({{digital product passport}})"
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "ISO59004, CWA18291"
+    ref: "EN18221"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-4"
+  clause_group: "03-3"
   domain_scoped: false
+  informative: false
 related:
-- type: part_of
-  target: 135
+- type: narrower_part
+  target: 138

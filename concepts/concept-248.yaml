@@ -1,0 +1,23 @@
+---
+term: "Submodel template element"
+termid: 248
+eng:
+  id: 248
+  term: "Submodel template element"
+  definition: "element of a Submodel template"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  authoritative_source:
+    ref: "IEC63278, IDTA01001"
+    clause: '3'
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "annex-b"
+  domain_scoped: false
+  informative: true
+related:
+- type: narrower_part
+  target: 247

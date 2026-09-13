@@ -1,22 +1,20 @@
 ---
-term: "sorter"
+term: "radio-frequency identification"
 termid: 129
 eng:
   id: 129
-  term: "sorter"
-  definition: "person or a system that categorizes discarded textile materials by their fibre composition, color, and condition to determine their potential for reuse, repair, or recycling"
+  term: "radio-frequency identification"
+  definition: "identification technology that uses electromagnetic fields to automatically identify and track tags attached to objects"
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "CWA18291"
+    ref: "EN18220"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-3"
-  domain_scoped: true
-related:
-- type: broader
-  target: 114
+  clause_group: "03-2"
+  domain_scoped: false
+  informative: false

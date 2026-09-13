@@ -1,19 +1,25 @@
 ---
-term: "recovery point objective"
+term: "textile collector"
 termid: 158
 eng:
   id: 158
-  term: "recovery point objective"
-  definition: "point in time to which data must be recovered after a disruption has occurred"
+  term: "textile collector"
+  definition: "actor involved in separate collection of textiles"
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "ISOIEC27031, EN18239"
+    ref: "ISO5157, CWA18291"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-5"
-  domain_scoped: false
+  clause_group: "03-3"
+  domain_scoped: true
+  informative: false
+related:
+- type: broader
+  target: 142
+- type: associative
+  target: 175

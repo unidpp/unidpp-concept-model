@@ -1,23 +1,23 @@
 ---
-term: "Asset Administration Shell"
+term: "authentication"
 termid: 180
 eng:
   id: 180
-  term: "Asset Administration Shell"
-  definition: "standardized digital representation of an asset"
+  term: "authentication"
+  definition: "verification that a claimed identity is correct"
   language_code: eng
-  notes:
-  - "Asset Administration Shell and Administration Shell are used synonymously."
+  notes: []
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "IEC63278, IDTA01001"
+    ref: "IEEE8802-1AR, EN18216"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-6"
+  clause_group: "03-5"
   domain_scoped: false
+  informative: false
 related:
-- type: has_part
-  target: 195
+- type: associative
+  target: 181

@@ -1,19 +1,22 @@
 ---
-term: "data carrier"
+term: "cross-segment commitment spine"
 termid: 97
 eng:
   id: 97
-  term: "data carrier"
-  definition: "device or medium used to store data as a relay mechanism in an automatic identification and data capture system"
+  term: "cross-segment commitment spine"
+  definition: "root over the state commitments of all segments of one subject, which proves the existence, currency and append-only growth of every segment without opening any segment"
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
   classification: preferred
-  authoritative_source:
-    ref: "EN18220"
-    clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-2"
+  clause_group: "03-17"
   domain_scoped: false
+  informative: false
+related:
+- type: associative
+  target: 95
+- type: associative
+  target: 8

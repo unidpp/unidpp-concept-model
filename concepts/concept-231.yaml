@@ -1,0 +1,21 @@
+---
+term: "as-of query"
+termid: 231
+eng:
+  id: 231
+  term: "as-of query"
+  definition: "query against the event-sourced record of a subject that reconstructs the state that was legally valid at a specified past time"
+  language_code: eng
+  notes:
+  - "As-of queries are answered from notarized snapshots, log anchoring and recorded profile-version bindings, for example to establish whether a product was compliant when sold."
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-8"
+  domain_scoped: false
+  informative: false
+related:
+- type: associative
+  target: 238

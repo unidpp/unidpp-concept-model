@@ -1,19 +1,20 @@
 ---
-term: "state-of-the-art"
+term: "life cycle"
 termid: 163
 eng:
   id: 163
-  term: "state-of-the-art"
-  definition: "developed stage of technical capability at a given time as regards products, processes and services, based on the relevant consolidated findings of science, technology and experience"
+  term: "life cycle"
+  definition: "consecutive and interlinked stages of a product system, from raw material acquisition or generation from natural resources to final disposal"
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "ISOIECGuide2, EN18219"
+    ref: "ISO14040, AWI25534, EN18219, EN18220"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-5"
-  domain_scoped: true
+  clause_group: "03-4"
+  domain_scoped: false
+  informative: false

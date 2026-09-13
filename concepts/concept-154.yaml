@@ -1,19 +1,25 @@
 ---
-term: "secure communication"
+term: "yarn producer"
 termid: 154
 eng:
   id: 154
-  term: "secure communication"
-  definition: "mechanism of transmitting data between systems in a way that ensures its confidentiality, integrity and authenticity"
+  term: "yarn producer"
+  definition: "company or company function that produces yarns from raw material; it has mainly Fabric and Knitwear producers as customers (Apparel Producers sometimes)"
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "EN18216"
+    ref: "CWA18291"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-5"
-  domain_scoped: false
+  clause_group: "03-3"
+  domain_scoped: true
+  informative: false
+related:
+- type: broader
+  target: 142
+- type: associative
+  target: 175

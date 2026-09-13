@@ -1,19 +1,24 @@
 ---
-term: "semantic interoperability"
+term: "end-of-life"
 termid: 169
 eng:
   id: 169
-  term: "semantic interoperability"
-  definition: "ability for data shared by systems to be understood at the level of fully defined domain concepts"
+  term: "end-of-life"
+  definition: "point in time during the life cycle at which a product or resource is taken out of use and is disposed"
   language_code: eng
-  notes: []
+  notes:
+  - "Disposal could be in the form of incineration, deposit to landfill, or composting."
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "ISO18308, EN18223"
+    ref: "ISO59004, CWA18291"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-6"
+  clause_group: "03-4"
   domain_scoped: false
+  informative: false
+related:
+- type: part_of
+  target: 163

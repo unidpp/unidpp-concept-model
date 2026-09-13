@@ -1,24 +1,24 @@
 ---
-term: "Submodel"
+term: "verification"
 termid: 195
 eng:
   id: 195
-  term: "Submodel"
-  definition: "representation of an aspect of an asset"
+  term: "verification"
+  definition: "confirmation of the truthfulness through the provision of objective evidence that specified requirements have been fulfilled"
   language_code: eng
-  notes: []
+  notes:
+  - "Compared with the source: numbers referencing to related sections and the accompanying note have been removed from the definition."
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "IEC63278, IDTA01001"
+    ref: "AWI25534, ISOIEC17000"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-6"
+  clause_group: "03-5"
   domain_scoped: false
+  informative: false
 related:
-- type: has_part
-  target: 196
-- type: narrower_part
-  target: 180
+- type: associative
+  target: 194

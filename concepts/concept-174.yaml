@@ -1,19 +1,20 @@
 ---
-term: "parameter"
+term: "traceable asset"
 termid: 174
 eng:
   id: 174
-  term: "parameter"
-  definition: "data provided by a client, that is needed to perform a method ({{method}}) [example] -- DPP ID for read DPP --"
+  term: "traceable asset"
+  definition: "traceable asset is any product or material (individually, in batches, or in trade units) that needs to be tracked along a value chain"
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "EN18222"
+    ref: "UNECE46, CWA18291"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-6"
+  clause_group: "03-4"
   domain_scoped: false
+  informative: false

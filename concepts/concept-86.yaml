@@ -1,22 +1,23 @@
 ---
-term: "identification"
+term: "harmonization ladder"
 termid: 86
 eng:
   id: 86
-  term: "identification"
-  definition: "process of recognizing an object in a particular domain as distinct from other objects"
+  term: "harmonization ladder"
+  definition: "scale of interoperation levels between two schemes, from coexistence through document recognition, protocol interoperation and structural mapping to shared profile and common core"
   language_code: eng
-  notes: []
+  notes:
+  - "A level applies per pair of schemes and per data class; two data classes of one pair may operate at different levels."
   examples: []
   entry_status: valid
   classification: preferred
-  authoritative_source:
-    ref: "ISOIEC24760, EN18216"
-    clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-2"
+  clause_group: "03-17"
   domain_scoped: false
+  informative: false
 related:
 - type: associative
-  target: 87
+  target: 85
+- type: associative
+  target: 104

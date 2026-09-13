@@ -1,0 +1,20 @@
+---
+term: "sector overlay"
+termid: 229
+eng:
+  id: 229
+  term: "sector overlay"
+  definition: "profile that composes with other profiles to add the data points, transforms and rules applicable to an industry sector, such as electronics, textiles, batteries, construction, tyres or packaging"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-8"
+  domain_scoped: false
+  informative: false
+related:
+- type: narrower
+  target: 225

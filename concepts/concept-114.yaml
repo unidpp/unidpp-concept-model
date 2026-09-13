@@ -1,19 +1,23 @@
 ---
-term: "actor"
+term: "identification"
 termid: 114
 eng:
   id: 114
-  term: "actor"
-  definition: "organization or individual that fulfils a role"
+  term: "identification"
+  definition: "process of recognizing an object in a particular domain as distinct from other objects"
   language_code: eng
   notes: []
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "ISO23234, EN18239"
+    ref: "ISOIEC24760, EN18216"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-3"
+  clause_group: "03-2"
   domain_scoped: false
+  informative: false
+related:
+- type: associative
+  target: 115

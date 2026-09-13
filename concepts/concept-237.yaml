@@ -1,0 +1,20 @@
+---
+term: "genealogy"
+termid: 237
+eng:
+  id: 237
+  term: "genealogy"
+  definition: "complete directed ancestry of a passport, traced through transformation and containment events from raw-material and component passports to the present subject"
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: '2026-09-12'
+custom:
+  clause_group: "03-9"
+  domain_scoped: false
+  informative: false
+related:
+- type: associative
+  target: 16

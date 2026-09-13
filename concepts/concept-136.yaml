@@ -1,19 +1,21 @@
 ---
-term: "product"
+term: "identifier"
 termid: 136
 eng:
   id: 136
-  term: "product"
-  definition: "any physical good that is placed on the market ({{placed on the market}}) or put into service ({{put into service}})"
+  term: "identifier"
+  definition: "identity information that unambiguously distinguishes one entity from another one in a given domain"
   language_code: eng
-  notes: []
+  notes:
+  - "There are specific identifiers, e.g. UUID Universal unique identifier, IEC 15418 (GS1)."
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "EN18220, EN18219"
+    ref: "I40GLOSS, IDTA01001"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-4"
+  clause_group: "03-2"
   domain_scoped: false
+  informative: false

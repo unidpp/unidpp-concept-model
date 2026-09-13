@@ -1,22 +1,26 @@
 ---
-term: "profile"
+term: "application"
 termid: 205
 eng:
   id: 205
-  term: "profile"
-  definition: "registered, versioned object that binds a set of data points, transforms, cryptographic suites, trust requirements, access policies, presentation requirements and a trigger predicate to the neutral core passport, constraining and transforming, but never redefining, the single definition of each data point"
+  term: "application"
+  definition: "software functional element specific to the solution of a problem in industrial-process measurement and control"
   language_code: eng
   notes:
-  - "Composition is three-axial: jurisdiction, sector, characteristic."
-  - "Each profile is a projection function, view(twinState, profile, actor), whose projection may transform and not merely select."
-  - "Profiles constrain and transform; inter-profile disagreement is expected and auditable, while intra-class contradiction is an integrity incident (single definition, many constraints)."
+  - "An application can be distributed among resources and may communicate with other applications."
   examples: []
   entry_status: valid
   classification: preferred
+  authoritative_source:
+    ref: "IECTR62390, IDTA01001"
+    clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-8"
+  clause_group: "03-6"
   domain_scoped: false
+  informative: false
 related:
-- type: equivalent
-  target: 206
+- type: associative
+  target: 220
+- type: associative
+  target: 219

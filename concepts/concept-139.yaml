@@ -1,10 +1,10 @@
 ---
-term: "digital product passport lifetime"
+term: "main digital product passport service provider"
 termid: 139
 eng:
   id: 139
-  term: "digital product passport lifetime"
-  definition: "period during which the digital product passport ({{digital product passport}}) is required by regulation to be available to any operator or natural or legal person with a right to access its data"
+  term: "main digital product passport service provider"
+  definition: "digital product passport service provider ({{digital product passport service provider}}) that is hosting the digital product passport ({{digital product passport}}) on behalf of the economic operator ({{economic operator}}) if the economic operator chooses not to host the digital product passport themselves"
   language_code: eng
   notes: []
   examples: []
@@ -15,5 +15,9 @@ eng:
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-4"
+  clause_group: "03-3"
   domain_scoped: false
+  informative: false
+related:
+- type: narrower_part
+  target: 138

@@ -1,17 +1,25 @@
 ---
-term: "lens mount"
+term: "class"
 termid: 207
 eng:
   id: 207
-  term: "lens mount"
-  definition: "standardized interface of the neutral core through which any registered profile is attached to and operates on the record of the subject, such that profiles from any registering authority compose without proprietary binding"
+  term: "class"
+  definition: "description of a set of objects that share the same attributes, operations, methods, relationships, and semantics"
   language_code: eng
-  notes:
-  - "The mount, not any single profile technology, is the interoperation point; standardizing it precludes lock-in to a proprietary profile mechanism."
+  notes: []
   examples: []
   entry_status: valid
   classification: preferred
+  authoritative_source:
+    ref: "IECTR62390, IDTA01001"
+    clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-8"
+  clause_group: "03-6"
   domain_scoped: false
+  informative: false
+related:
+- type: associative
+  target: 215
+- type: associative
+  target: 211

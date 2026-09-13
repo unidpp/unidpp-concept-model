@@ -1,23 +1,23 @@
 ---
-term: "digital twin"
+term: "recovery time objective"
 termid: 187
 eng:
   id: 187
-  term: "digital twin"
-  definition: "digital representation, sufficient to meet the requirements of a set of use cases"
+  term: "recovery time objective"
+  definition: "period of time within which minimum levels of services and/or products and the supporting systems, applications, or functions must be recovered after a disruption has occurred"
   language_code: eng
-  notes:
-  - "In this context, the entity in the definition of digital representation is typically an asset."
+  notes: []
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "IDTA01001"
+    ref: "ISOIEC27031, EN18239"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-6"
+  clause_group: "03-5"
   domain_scoped: false
+  informative: false
 related:
-- type: broader
-  target: 186
+- type: associative
+  target: 184

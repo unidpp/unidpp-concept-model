@@ -1,23 +1,25 @@
 ---
-term: "type asset"
+term: "parameter"
 termid: 202
 eng:
   id: 202
-  term: "type asset"
-  definition: "(abstract) representation of a set of instance assets with common characteristics and features [example] -- Examples of type assets are type of material, a product type, a type of a part, a device type, a machine type, a type of software, a type of control system, a type of production system. --"
+  term: "parameter"
+  definition: "data provided by a client, that is needed to perform a method ({{method}}) [example] -- DPP ID for read DPP --"
   language_code: eng
-  notes:
-  - "The set of instance assets may exist or may not exist."
+  notes: []
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "IEC63278, IDTA01001"
+    ref: "EN18222"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
   clause_group: "03-6"
   domain_scoped: false
+  informative: false
 related:
-- type: broader
-  target: 178
+- type: associative
+  target: 223
+- type: associative
+  target: 201

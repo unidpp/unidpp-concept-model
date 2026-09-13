@@ -1,22 +1,23 @@
 ---
-term: "electronically signed data construct"
+term: "placed on the market"
 termid: 165
 eng:
   id: 165
-  term: "electronically signed data construct"
-  definition: "structured data set containing the header, payload, signature and optional data fields"
+  term: "placed on the market"
+  definition: "first making available of a product"
   language_code: eng
-  notes:
-  - "The payload type and issuer identity are included in the header."
-  - "An ESDC is a machine-readable code."
-  - "An ESDC can contain non-signed data elements."
+  notes: []
   examples: []
   entry_status: valid
   classification: preferred
   authoritative_source:
-    ref: "EN18246, ISOIEC20248"
+    ref: "EN18219"
     clause: '3'
   date_accepted: '2026-09-12'
 custom:
-  clause_group: "03-5"
-  domain_scoped: false
+  clause_group: "03-4"
+  domain_scoped: true
+  informative: false
+related:
+- type: associative
+  target: 164
