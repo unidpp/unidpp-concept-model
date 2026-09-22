@@ -9,6 +9,8 @@ jobs:
         with:
           ruby-version: "3.3"
           bundler-cache: true
+      - name: Install GraphViz (the PNG engine shells out to dot)
+        run: sudo apt-get update && sudo apt-get install -y graphviz
       - run: make
       - uses: actions/upload-artifact@v4
         with:
